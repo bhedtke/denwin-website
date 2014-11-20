@@ -1,0 +1,4 @@
+Note to self
+
+Delete "C:\WINDOWS\3apps.ini"
+Delete "C:\3apps\*.*"

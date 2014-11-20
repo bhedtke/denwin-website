@@ -1,0 +1,28 @@
+<html>
+<head>
+
+<script type="text/javascript" src="javascript/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/animatedcollapse.js"></script>
+
+<script type="text/javascript">
+animatedcollapse.addDiv("pageinfo", speed="500", group="page", hide=1)
+
+animatedcollapse.ontoggle=function($, divobj, state){ //fires each time a DIV is expanded/contracted
+	//$: Access to jQuery
+	//divobj: DOM reference to DIV being expanded/ collapsed. Use "divobj.id" to get its ID
+	//state: "block" or "none", depending on state
+}
+
+animatedcollapse.init()
+</script>
+</head>
+<body style="background: #FFFFFF;">
+
+<table style="width: 100%; background: #FF0000;"><tr><td align="left">Extra Website information</td><td align="right"><a href="#" rel="toggle[pageinfo]" data-openimage="javascript/collapse.jpg" data-closedimage="javascript/expand.jpg"><img src="javascript/collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="pageinfo" style="width: 100%; background: #DDDDDD;"> 
+Hello World
+</div>
+<iframe src="http://www.smallenginepartswarehouse.com/parts.asp" width=100% height=90% frameborder="0">Your browser does not support iframes.</iframe>
+</body>
+</html>

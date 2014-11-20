@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+ 
+<head> 
+ 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<title>Ace Hardware Links Homepage</title> 
+<style type="text/css" media="screen"> 
+ 
+body {
+	margin:50px 0px; padding:0px; /* Need to set body margin and padding to get consistency between browsers. */
+	text-align:center; /* Hack for IE5/Win */
+	}
+	
+#Content {
+	width:800px;
+	margin:0px auto; /* Right and left margin widths set to "auto" */
+	text-align:left; /* Counteract to IE5/Win Hack */
+	padding:0px;
+	background-color:#eee;
+	}
+ 
+</style> 
+ 
+<script type="text/javascript" src="jquery.min.js"></script> 
+<script type="text/javascript" src="animatedcollapse.js"></script> 
+ 
+ 
+<script type="text/javascript"> 
+ 
+//Link list higher-archy
+ 
+animatedcollapse.addDiv('internal', 'speed=400,group=links, hide=1')
+	animatedcollapse.addDiv('acenet', 'speed=400,group=internal, hide=1')
+	animatedcollapse.addDiv('email', 'speed=400,group=internal, hide=1')
+	animatedcollapse.addDiv('phonelist', 'speed=400,group=internal, hide=1')
+	animatedcollapse.addDiv('otheraces', 'speed=400,group=internal, hide=1')
+animatedcollapse.addDiv('addressbook', 'speed=400,group=links, hide=1')
+	animatedcollapse.addDiv('appliances', 'speed=400,group=addressbook, hide=1')
+		animatedcollapse.addDiv('dey', 'speed=400,group=appliances, hide=1')
+		animatedcollapse.addDiv('a1vac', 'speed=400,group=appliances, hide=1')
+	animatedcollapse.addDiv('electrical', 'speed=400,group=addressbook, hide=1')
+		animatedcollapse.addDiv('vikingelectric', 'speed=400,group=electrical, hide=1')
+	animatedcollapse.addDiv('hardware', 'speed=400,group=addressbook, hide=1')
+		animatedcollapse.addDiv('grainger', 'speed=400,group=hardware, hide=1')
+		animatedcollapse.addDiv('fastenal', 'speed=400,group=hardware, hide=1')
+		animatedcollapse.addDiv('northerntool', 'speed=400,group=hardware, hide=1')
+	animatedcollapse.addDiv('lighting', 'speed=400,group=addressbook, hide=1')
+		animatedcollapse.addDiv('honsa', 'speed=400,group=lighting, hide=1')
+		animatedcollapse.addDiv('southernlights', 'speed=400,group=lighting, hide=1')
+		animatedcollapse.addDiv('fanmanlighting', 'speed=400,group=lighting, hide=1')
+	animatedcollapse.addDiv('locksmith', 'speed=400,group=addressbook, hide=1')
+		animatedcollapse.addDiv('securitysolutions', 'speed=400,group=locksmiths, hide=1')
+		animatedcollapse.addDiv('floyd', 'speed=400,group=locksmiths, hide=1')
+		animatedcollapse.addDiv('tomslock', 'speed=400,group=locksmiths, hide=1')
+	animatedcollapse.addDiv('powerequipment', 'speed=400,group=addressbook, hide=1')
+		animatedcollapse.addDiv('blackanddecker', 'speed=400,group=addressbook, hide=1')
+		animatedcollapse.addDiv('applevalleyrental', 'speed=400,group=addressbook, hide=1')
+	animatedcollapse.addDiv('plumbing', 'speed=400,group=addressbook, hide=1')
+		animatedcollapse.addDiv('park', 'speed=400,group=plumbing, hide=1')
+		animatedcollapse.addDiv('ferguson', 'speed=400,group=plumbing, hide=1')
+	animatedcollapse.addDiv('wood', 'speed=400,group=addressbook, hide=1')
+		animatedcollapse.addDiv('rockler', 'speed=400,group=wood, hide=1')
+		animatedcollapse.addDiv('lamperts', 'speed=400,group=wood, hide=1')
+animatedcollapse.addDiv('smallengine', 'speed=400,group=links, hide=1')
+	animatedcollapse.addDiv('partsbybrand', 'speed=400,group=smallengine, hide=1')
+		animatedcollapse.addDiv('briggs', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('tecumseh', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('toro', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('mtd', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('craftsman', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('murray', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('ariens', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('johndeere', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('homelite', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('ryobi', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('yardman', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('walbro', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('zama', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('echo', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('honda', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('oregon', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('poulan', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('weedeater', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('ayp', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('snapper', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('cubcadet', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('husqvarna', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('troybilt', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('wheelhorse', 'speed=400,group=partsbybrand, hide=1')
+		animatedcollapse.addDiv('kohler', 'speed=400,group=partsbybrand, hide=1')
+	animatedcollapse.addDiv('partsbystore', 'speed=400,group=smallengine, hide=1')
+		animatedcollapse.addDiv('torodealer', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('sepw', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('milaca', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('oscarwilson', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('magnetopower', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('powerportal', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('cpd', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('goldeneagle', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('oregondealer', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('echodealer', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('outdoordistributors', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('greatnorthern', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('husqvarnadealer', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('gardner', 'speed=400,group=partsbystore, hide=1')
+		animatedcollapse.addDiv('tecumsehdealer', 'speed=400,group=partsbystore, hide=1')
+ 
+//End of Links List
+ 
+animatedcollapse.ontoggle=function($, divobj, state){ //fires each time a DIV is expanded/contracted
+	//$: Access to jQuery
+	//divobj: DOM reference to DIV being expanded/ collapsed. Use "divobj.id" to get its ID
+	//state: "block" or "none", depending on state
+}
+ 
+animatedcollapse.init()
+ 
+</script> 
+</head> 
+<body> 
+<center><b><font size="24" color=#CC3300>Ace Hardware and Paint</font></b> 
+ 
+ 
+ 
+<!-- Level 1 Item 1 --> 
+ 
+<table style="width: 100px; background: #999999;"><tr><td align="left">Internal Ace Links</td><td align="right"><a href="#" rel="toggle[internal]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="internal" style="width: 100px; background: #CCCCCC;"> 
+ 
+<!-- Level 2 Item 1 --> 
+<!-- Acenet --> 
+ 
+<table style="width: 100px; background: #AAAAAA;"><tr><td align="left"><a href="http://ww1.acehardware-acenet.com/Default1.asp">ACENET</a></td><td align="right"><a href="#" rel="toggle[acenet]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="acenet" style="width: 100px; background: #DDDDDD;"> 
+<table style="width: 100px;"> 
+<tr> 
+<td>Store Number</td> 
+<td>Username</td> 
+<td>Password</td> 
+</tr> 
+<tr> 
+<td>9594</td> 
+<td>CLERK</td> 
+<td>SALES</td> 
+</tr> 
+</table> 
+</div> 
+ 
+<!-- Level 2 Item 2 --> 
+<!-- EMail --> 
+ 
+<table style="width: 100px; background: #AAAAAA;"><tr><td align="left">eMail Links</td><td align="right"><a href="#" rel="toggle[email]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="email" style="width: 100px; background: #DDDDDD;"> 
+<table style="width: 100px;"> 
+<tr> 
+<td><a href="http://mail.denwinhardware.com">Ace eMail</a></td> 
+<td><a href="http://www.gmail.com">GMail</a></td> 
+<td><a href="http://www.me.com">MobileMe</a></td> 
+</tr> 
+<tr> 
+<td><a href="http://mail.yahoo.com">Yahoo Mail</a></td> 
+<td><a href="http://www.hotmail.com">Hotmail</a></td> 
+<td></td> 
+</tr> 
+</table> 
+</div> 
+ 
+<!-- Level 2 Item 3 --> 
+<!-- Phone List --> 
+
+<table style="width: 100px; background: #AAAAAA;"><tr><td align="left">Phone List</td><td align="right"><a href="#" rel="toggle[phonelist]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="phonelist" style="width: 100px; background: #DDDDDD;"> 
+<iframe src="phonelist.html" width=100px height=400px></iframe>
+
+</div>
+
+
+</div> 
+ 
+ 
+ 
+<table style="width: 800px; background: #999999;"><tr><td align="left">Other recommended places to send people for things we don't carry</td><td align="right"><a href="#" rel="toggle[addressbook]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="addressbook" style="width: 800px; background: #CCCCCC;"> 
+
+<table style="width: 800px; background: #AAAAAA;"><tr><td align="left">Hardware</td><td align="right"><a href="#" rel="toggle[hardware]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="hardware" style="width: 800px; background: #DDDDDD;"> 
+
+
+<table style="width: 800px; background: #BBBBBB;"><tr><td align="left">Grainger Industrial Supply</td><td align="right"><a href="#" rel="toggle[grainger]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="grainger" style="width: 800px; background: #EEEEEE;"> 
+<table align="center", width="800px"> 
+<tr> 
+<td align="left">Plumbing, Electrical, HVAC, Bolts (Their catalog is under service counter)</td> 
+</tr> 
+<tr> 
+<td align="left">612-656-7100</td> 
+<td align="right"><a href="http://maps.google.com/maps?f=d&source=s_d&saddr=14760+Pennock+Avenue,+Apple+Valley,+MN+55124&daddr=7627+Anagram+Drive,+Eden+Prairie,+MN+55344">7627 Anagram Drive Eden Prairie, MN 55344</a></td> 
+</tr> 
+</table> 
+</div> 
+
+</div>
+ 
+<table style="width: 800px; background: #AAAAAA;"><tr><td align="left">Locksmiths</td><td align="right"><a href="#" rel="toggle[locksmith]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="locksmith" style="width: 800px; background: #DDDDDD;"> 
+ 
+<table style="width: 800px; background: #BBBBBB;"><tr><td align="left">Security Solutions</td><td align="right"><a href="#" rel="toggle[securitysolutions]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="securitysolutions" style="width: 800px; background: #EEEEEE;"> 
+<table align="center", width="800px"> 
+<tr> 
+<td align="left">Locksmith</td> 
+</tr> 
+<tr> 
+<td align="left">952-881-0896</td> 
+<td align="right"><a href="http://maps.google.com/maps?f=d&source=s_d&saddr=14760+Pennock+Avenue,+Apple+Valley,+MN+55124&daddr=9905+Lyndale+Avenue+South,+Bloomington,+MN+55420">9905 Lyndale Avenue South, Bloomington, MN 55420</a></td> 
+</tr> 
+</table> 
+</div> 
+ 
+<table style="width: 800px; background: #CCCCCC;"><tr><td align="left">Floyd Lock & Safe Co</td><td align="right"><a href="#" rel="toggle[floyd]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="floyd" style="width: 800px; background: #FFFFFF;"> 
+<table align="center", width="800px"> 
+<tr> 
+<td align="left">Locksmith</td> 
+</tr> 
+<tr> 
+<td align="left">612-861-5625</td> 
+<td align="right"><a href="http://maps.google.com/maps?f=d&source=s_d&saddr=14760+Pennock+Avenue,+Apple+Valley,+MN+55124&daddr=9036+Grand+Avenue+South,+Minneapolis,+MN+55420">9036 Grand Ave South, Minneapolis, MN 55420</a></td> 
+</tr> 
+</table> 
+</div> 
+ 
+<table style="width: 800px; background: #CCCCCC;"><tr><td align="left">Tom's Mobile Lock Service</td><td align="right"><a href="#" rel="toggle[tomslock]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="tomslock" style="width: 800px; background: #FFFFFF;"> 
+<table align="center", width="800px"> 
+<tr> 
+<td align="left">Mobile Locksmith</td> 
+</tr> 
+<tr> 
+<td align="left">952-435-7804</td> 
+<td align="right">Based in Lakeville</td> 
+</tr> 
+</table> 
+</div> 
+ 
+</div> 
+ 
+ 
+ 
+</div> 
+ 
+<table style="width: 800px; background: #999999;"><tr><td align="left">Parts Lookup</td><td align="right"><a href="#" rel="toggle[smallengine]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="smallengine" style="width: 800px; background: #CCCCCC;"> 
+ 
+<table style="width: 800px; background: #AAAAAA;"><tr><td align="left">Parts by brand</td><td align="right"><a href="#" rel="toggle[partsbybrand]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="partsbybrand" style="width: 800px; background: #DDDDDD;"> 
+ 
+Parts by brand
+ 
+</div> 
+ 
+<table style="width: 800px; background: #AAAAAA;"><tr><td align="left">Parts by store</td><td align="right"><a href="#" rel="toggle[partsbystore]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="partsbystore" style="width: 800px; background: #DDDDDD;"> 
+ 
+Parts by Store
+ 
+</div> 
+ 
+</div>
+</center> 

@@ -1,0 +1,14 @@
+<html>
+<body>
+<?php
+
+$myFile = "./testFile.txt";
+$fh = fopen($myFile, 'w') or die("can't open file");
+$stringData = shell_exec('ls -al');
+fwrite($fh, $stringData);
+fclose($fh);
+shell_exec('lpr ./9594/documents/Documents/"Key Receipts.pdf"');
+echo "Document sent to Printer";
+?>
+</body>
+</html>

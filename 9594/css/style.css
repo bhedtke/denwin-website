@@ -1,0 +1,163 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #E6E6E6;
+}
+table.nostyle
+{
+	border-spacing: 0px;
+	border-style: none;
+	border-width: 0px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+table.blackborder
+{
+	border-color: black;
+	border-style: outset;
+	border-width: 3px;
+	border-spacing: 0px;
+}
+.white
+{
+	background-color: white;
+}
+.dkgrey
+{
+	background-color: #AAAAAA;
+}
+.grey
+{
+	background-color: #DDDDDD;
+}
+.ltblue
+{
+	background-color: #EEEEFF;
+}
+.blue
+{
+	background-color: #CCCCFF;
+}
+.ltred
+{
+	background-color: #FF8888;
+}
+.red
+{
+	background-color: #FF6666;
+}
+td.menu
+{
+	padding: 0px;
+}
+div.content
+{
+	margin: auto;
+	padding: 0px;
+	width: 800px;
+}
+div.contentMainShadow
+{
+	-webkit-box-shadow: 1px 1px 3px #000000;
+	box-shadow: 1px 1px 3px #000000;
+	border-radius: 10px;
+	margin: 20px 0px 20px 0px;
+	background-color: #FFFFFF;
+}
+div.content-header
+{
+	border-radius: 10px 10px 0px 0px;
+}
+div.content-footer
+{
+	height: 15px;
+	background-color: #888888;
+	border-radius: 0px 0px 10px 10px;
+}
+div.menu-shadow
+{
+	-webkit-box-shadow: 1px 1px 3px #000000;
+	box-shadow: 1px 1px 3px #000000;
+	border-radius: 0px 0px 10px 10px;
+	background-color: #FFFFFF;
+}
+div.menuSub
+{
+	cursor: pointer;
+	text-align: center;
+	font-size: 150%;
+	background-color: #999999;
+	background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#999999));
+}
+div.menuSubCurrent
+{
+	cursor: pointer;
+	text-align: center;
+	font-size: 150%;
+	background-color: #888888;
+	background: -webkit-gradient(linear, left top, left bottom, from(#DDDDDD), to(#888888));
+}
+div.menuSubHighlight
+{
+	cursor: pointer;
+	text-align: center;
+	font-size: 150%;
+	color: white;
+	background-color: #666666;
+	background: -webkit-gradient(linear, left top, left bottom, from(#BBBBBB), to(#666666));
+}
+div.menuMain
+{
+	text-align: center;
+	font-size: 200%;
+	color: #505050;
+	background-color: #FF6060;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFE0E0), to(#FF6060));
+}
+div.menuMainCurrent
+{
+	text-align: center;
+	font-size: 200%;
+	color: #000000;
+	background-color: #FF6060;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFE0E0), to(#FF6060));
+}
+div.menuMainHighlight
+{
+	text-align: center;
+	font-size: 200%;
+	color: #FFFFFF;
+	background-color: #FF6060;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFE0E0), to(#FF6060));
+}
+div.roundedImage
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-radius: 10px;
+	margin: 5px;
+	-webkit-box-shadow: 1px 1px 3px #000000;
+}
+a.nostyle:link
+{
+	color: #000000;
+	text-decoration: none;
+}
+a.nostyle:visited
+{
+	color: #000000;
+}
+a.nostyle:hover
+{
+	color: #505050;
+}
+div.alignleft
+{
+	float: left;
+}
+div.alignright
+{
+	float: right;
+}

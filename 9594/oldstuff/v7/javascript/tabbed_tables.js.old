@@ -1,0 +1,35 @@
+function changeTab(current){
+
+if (current == 'general'){
+
+document.getElementById('general').style.display = '';
+document.getElementById('rep').style.display = 'none';
+document.getElementById('phone').style.display = 'none';
+
+document.getElementById('general-tab').setAttribute('class', 'index-menu-current');
+document.getElementById('rep-tab').setAttribute('class', 'index-menu');
+document.getElementById('phone-tab').setAttribute('class', 'index-menu');
+}
+
+else if (current == 'rep'){
+
+document.getElementById('general').style.display = 'none';
+document.getElementById('rep').style.display = '';
+document.getElementById('phone').style.display = 'none';
+
+document.getElementById('general-tab').setAttribute('class', 'index-menu');
+document.getElementById('rep-tab').setAttribute('class', 'index-menu-current');
+document.getElementById('phone-tab').setAttribute('class', 'index-menu');
+}
+
+else if (current == 'phone'){
+
+document.getElementById('general').style.display = 'none';
+document.getElementById('rep').style.display = 'none';
+document.getElementById('phone').style.display = '';
+
+document.getElementById('general-tab').setAttribute('class', 'index-menu');
+document.getElementById('rep-tab').setAttribute('class', 'index-menu');
+document.getElementById('phone-tab').setAttribute('class', 'index-menu-current');
+}
+}

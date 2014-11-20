@@ -1,0 +1,24 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+table
+{
+	border-width: 0px;
+	border-spacing: 0px;
+}
+div.content
+{
+	width: 700px;
+	margin: 0px auto;
+	text-align: left;
+	padding: 15px;
+}
+div.parts
+{
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #FF0000;
+}

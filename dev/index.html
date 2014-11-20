@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ace Internal Site</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/index.css" type="text/css" media="screen" />
+		<script language="javascript" src="js/getWeather.js"></script>
+		<script language="javascript" src="js/json2.js"></script>
+		<script language="javascript" src="js/jQuery.js"></script>
+	</head>
+<body onLoad="getWeather(<?php echo $_GET['storeNumber']; ?>);">
+<?php include("header.html")?>
+
+<div class="content">
+	<div id="currentConditions"></div>
+	<div id="futureConditions1"></div>
+	<div id="futureConditions2"></div>
+	<div id="futureConditions3"></div>
+</div>
+
+<?php include("footer.html")?>
+</body>
+</html>

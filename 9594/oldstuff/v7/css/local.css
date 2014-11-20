@@ -1,0 +1,8 @@
+div.local-map
+{
+	padding: 5px;
+	-webkit-box-shadow: 1px 1px 3px #000000;
+	box-shadow: 1px 1px 3px #000000;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+}

@@ -1,0 +1,257 @@
+<html>
+<head>
+<script type="text/javascript">
+
+// Calculated Variables
+
+var finalPrice	= 0;
+var glassUncutPrice	= 0;
+var glassCutPrice = 0;
+var edgePrice = 0;
+var length	= 0;
+var height	= 0;
+var maxGlassElements=36;
+var maxEdgeElements=9;
+
+function changeGlassType(option, price)
+{
+	var i=0;
+	for (i=1; i < option; i++){window.document.glass_type_form.elements["glass_type_"+i].checked = false;}
+	
+	window.document.glass_type_form.elements["glass_type_"+option].checked = true;
+	window.document.glass_price_form.glass_price.value = price.toFixed(2);
+	
+	for (i=option + 1; i <= maxGlassElements; i++){window.document.glass_type_form.elements["glass_type_"+i].checked = false;}
+	
+	for (i=1; i <= maxEdgeElements; i++){window.document.edge_type_form.elements["edge_type_"+i].disabled = false;}
+	
+	if (option == 1)
+		{
+		for (i=5; i <= 9; i++)
+			{
+			window.document.edge_type_form.elements["edge_type_"+i].disabled = true;
+			if (window.document.edge_type_form.elements["edge_type_"+i].checked == true){changeEdgeType(1);}
+			}
+		}
+	if (option == 2)
+		{
+		for (i=6; i <= 9; i++)
+			{
+			window.document.edge_type_form.elements["edge_type_"+i].disabled = true;
+			if (window.document.edge_type_form.elements["edge_type_"+i].checked == true){changeEdgeType(1);}
+			}
+		}
+	if (option == 3)
+		{
+		for (i=5; i <= 9; i++)
+			{
+			window.document.edge_type_form.elements["edge_type_"+i].disabled = true;
+			if (window.document.edge_type_form.elements["edge_type_"+i].checked == true){changeEdgeType(1);}
+			}
+		}
+	if (option == 13)
+		{
+		for (i=2; i <= 9; i++)
+			{
+			window.document.edge_type_form.elements["edge_type_"+i].disabled = true;
+			if (window.document.edge_type_form.elements["edge_type_"+i].checked == true){changeEdgeType(1);}
+			}
+		}
+	if (option == 14)
+		{
+		for (i=2; i <= 9; i++)
+			{
+			window.document.edge_type_form.elements["edge_type_"+i].disabled = true;
+			if (window.document.edge_type_form.elements["edge_type_"+i].checked == true){changeEdgeType(1);}
+			}
+		}
+	if (option == 15)
+		{
+		for (i=2; i <= 9; i++)
+			{
+			window.document.edge_type_form.elements["edge_type_"+i].disabled = true;
+			if (window.document.edge_type_form.elements["edge_type_"+i].checked == true){changeEdgeType(1);}
+			}
+		}
+	if (option == 16)
+		{
+		for (i=2; i <= 9; i++)
+			{
+			window.document.edge_type_form.elements["edge_type_"+i].disabled = true;
+			if (window.document.edge_type_form.elements["edge_type_"+i].checked == true){changeEdgeType(1);}
+			}
+		}
+	if (option == 18)
+		{
+		for (i=2; i <= 9; i++)
+			{
+			window.document.edge_type_form.elements["edge_type_"+i].disabled = true;
+			if (window.document.edge_type_form.elements["edge_type_"+i].checked == true){changeEdgeType(1);}
+			}
+		}
+}
+function changeEdgeType(option)
+{
+	var i=0;
+	
+	for (i=1; i < option; i++){window.document.edge_type_form.elements["edge_type_"+i].checked = false;}
+	
+	window.document.edge_type_form.elements["edge_type_"+option].checked = true;
+	window.document.edge_price_form.edge_price.value = window.document.edge_type_form.elements["edge_type_"+option].value;
+	
+	for (i=option + 1; i <= maxEdgeElements; i++){window.document.edge_type_form.elements["edge_type_"+i].checked = false;}
+	
+}
+
+function calculatePrice()
+{
+	glassUncutPrice = window.document.glass_price_form.glass_price.value;
+	edgePrice = window.document.edge_price_form.edge_price.value;
+	length = window.document.dimensions_form.lengthInches.value + window.document.dimensions_form.lengthFeet.value * 12;
+	height = window.document.dimensions_form.heightInches.value + window.document.dimensions_form.heightFeet.value * 12;
+	
+	window.document.total_price_form.final_price.value = "1";
+	
+	if (length > 0 && height > 0)
+		{
+		glassCutPrice = (length * height)/144 * glassUncutPrice;
+		if (glassCutPrice < glassUncutPrice){glassCutPrice=glassUncutPrice;}
+		finalPrice = glassCutPrice + (((length * 2) + (height * 2)) * edgePrice);
+		window.document.total_price_form.final_price.value = finalPrice.toFixed(2);
+		}
+	else
+		{
+		window.document.total_price_form.final_price.value = "Illegal Dimensions";
+		}
+	
+}
+</script>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 border=1 width=800>
+	<tr><td bgcolor=#CCCCCC colspan=3><B>Glass Type</B></td></tr>
+	<tr><td valign=top colspan=2 width=70%>
+
+		<form name="glass_type_form">
+		<table cellspacing=0 cellpadding=1 border=0 width=100%>
+		<tr><td>
+		
+		<table cellspacing=0 cellpadding=3 border=0 width=100%>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>Clear Window Glass</b></td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_1" onClick="changeGlassType(1, 3.00);" checked>3/32" (Single Strenght)</td><td align=right>$3.00 ft2</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_2" onClick="changeGlassType(2, 3.50);">1/8" (Double Strenght)</td><td align=right>$3.50 ft2</td></tr>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>Non-Glare Glass</b></td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_3" onClick="changeGlassType(3, 4.65);">3/32" (Single Strenght)</td><td align=right>$4.65 ft2</td></tr>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>Clear Float Glass</b></td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_4" onClick="changeGlassType(4, 5.65);">3/16"</td><td align=right>$5.65 ft2</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_5" onClick="changeGlassType(5, 5.85);">1/4"</td><td align=right>$5.85 ft2</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_6" onClick="changeGlassType(6, 9.15);">3/8"</td><td align=right>$9.15 ft2</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_7" onClick="changeGlassType(7, 13.00);">1/2"</td><td align=right>$13.00 ft2</td></tr>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>Bronze/Grey Float Glass</b></td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_8" onClick="changeGlassType(8, 5.95);">1/8"</td><td align=right>$5.95 ft2</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_9" onClick="changeGlassType(9, 7.40);">3/16"</td><td align=right>$7.40 ft2</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_10" onClick="changeGlassType(10, 7.75);">1/4"</td><td align=right>$7.75 ft2</td></tr>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>Greylite (Black Glass)</b></td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_11" onClick="changeGlassType(11, 10.80);">1/8"</td><td align=right>$10.80 ft2</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_12" onClick="changeGlassType(12, 14.15);">1/4"</td><td align=right>$14.15 ft2</td></tr>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>Acrylic (Plexiglass)</b></td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_13" onClick="changeGlassType(13, 3.50);">.098" Clear (Single Strength)</td><td align=right>$3.50 ft2</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_14" onClick="changeGlassType(14, 4.00);">.118" Clear (Double Strength)</td><td align=right>$4.00 ft2</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_15" onClick="changeGlassType(15, 5.05);">.177" Clear (3/16")</td><td align=right>$5.05 ft2</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_16" onClick="changeGlassType(16, 6.60);">.220" Clear (1/4")</td><td align=right>$6.60 ft2</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_17" onClick="changeGlassType(17, 11.30);">.236" Polycarbonate (Lexan)</td><td align=right>$11.30 ft2</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_18" onClick="changeGlassType(18, 6.00);">.118" Bronze/Grey</td><td align=right>$6.00 ft2</td></tr>
+		</table>
+
+		</td>
+		<td>
+
+		<table cellspacing=0 cellpadding=3 border=0 width=100%>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>Mirror</b></td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_19" onClick="changeGlassType(19, 5.75);">3/32" (Single Strenght)</td><td align=right>$5.75 ft2</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_20" onClick="changeGlassType(20, 6.05);">1/8" (Double Strenght)</td><td align=right>$6.05 ft2</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_21" onClick="changeGlassType(21, 7.45);">3/16" Clear</td><td align=right>$7.45 ft2</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_22" onClick="changeGlassType(22, 7.00);">1/4" Clear</td><td align=right>$7.00 ft2</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_23" onClick="changeGlassType(23, 14.85);">1/4" Bronze/Grey</td><td align=right>$14.85 ft2</td></tr>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>Tempered Glass</b></td></tr>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>3 ft2 minimum price per piece</b></td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_24" onClick="changeGlassType(24, 8.00);">1/8" Clear</td><td align=right>$8.00 ft2</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_25" onClick="changeGlassType(25, 8.50);">3/16" Clear</td><td align=right>$8.50 ft2</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_26" onClick="changeGlassType(26, 9.00);">1/4" Clear</td><td align=right>$9.00 ft2</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_27" onClick="changeGlassType(27, 15.70);">3/8" Clear</td><td align=right>$15.70 ft2</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_28" onClick="changeGlassType(28, 8.00);">1/8" Bronze/Grey</td><td align=right>$8.00 ft2</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_29" onClick="changeGlassType(29, 8.30);">3/16" Bronze/Grey</td><td align=right>$8.30 ft2</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_30" onClick="changeGlassType(30, 8.50);">1/4" Bronze/Grey</td><td align=right>$8.50 ft2</td></tr>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>Pyrex (450 Degrees)</b></td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_31" onClick="changeGlassType(31, 29.35);">1/8"</td><td align=right>$29.35 ft2</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_32" onClick="changeGlassType(32, 63.00);">7/32"</td><td align=right>$63.00 ft2</td></tr>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>Neoceram (1200 Degrees)</b></td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_33" onClick="changeGlassType(33, 80.75);">3/16"</td><td align=right>$80.75 ft2</td></tr>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>Wire Glass</b></td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_34" onClick="changeGlassType(34, 14.10);">1/4" Misco/Baroque</td><td align=right>$14.10 ft2</td></tr>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>Laminated Glass</b></td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="glass_type_35" onClick="changeGlassType(35, 10.60);">1/4" Clear</td><td align=right>$10.60 ft2</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="glass_type_36" onClick="changeGlassType(36, 13.85);">1/4" Bronze/Grey/Green</td><td align=right>$13.85 ft2</td></tr>
+		</table>
+
+		</td>
+		</table>
+
+		</form>
+	</td>
+	<td align=center valign=center bgcolor=#FFFFFF width=30%>
+		Price Per Square Foot<br>
+		<form name="glass_price_form" onSubmit="return false;">
+		$<input type="text" name="glass_price" value="3.50" size=6 style="width:150px">
+		</form>
+	</td>
+	<tr><td bgcolor=#CCCCCC colspan=3><B>Edge Work</B></td></tr>
+	<tr><td valign=top colspan=2>
+
+		<form name="edge_type_form">
+
+		<table cellspacing=0 cellpadding=3 border=0 width=100%>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="edge_type_1" onClick="changeEdgeType(1);" value=0.00 checked>None</td><td align=right>$0.00 in</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="edge_type_2" onClick="changeEdgeType(2);" value=0.04>Seamed Edge</td><td align=right>$0.04 in</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="edge_type_3" onClick="changeEdgeType(3);" value=0.08>Flat Ground</td><td align=right>$0.08 in</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="edge_type_4" onClick="changeEdgeType(4);" value=0.16>Flat Polished</td><td align=right>$0.16 in</td></tr>
+		<tr bgcolor=#CCCCCC><td align=center colspan=2><b>Beveled Edges</b></td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="edge_type_5" onClick="changeEdgeType(5);" value=0.22>1/2"</td><td align=right>$0.22 in</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="edge_type_6" onClick="changeEdgeType(6);" value=0.24>3/4"</td><td align=right>$0.24 in</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="edge_type_7" onClick="changeEdgeType(7);" value=0.26>1"</td><td align=right>$0.26 in</td></tr>
+		<tr bgcolor=#DDEEFF><td align=left><input type="radio" name="edge_type_8" onClick="changeEdgeType(8);" value=0.30>1 1/4"</td><td align=right>$0.30 in</td></tr>
+		<tr bgcolor=#FFFFFF><td align=left><input type="radio" name="edge_type_9" onClick="changeEdgeType(9);" value=0.36>1 1/2"</td><td align=right>$0.36 in</td></tr>
+		</table>
+
+		</form>
+	</td>
+	<td align=center valign=center bgcolor=#FFFFFF width=30%>
+		Price Per Linear Foot<br>
+		<form name="edge_price_form" onSubmit="return false;">
+		$<input type="text" name="edge_price" value="0.00" size=6 style="width:150px">
+		</form>
+	</td>
+	<tr><td bgcolor=#CCCCCC colspan=3><B>Dimensions</B></td></tr>
+	<tr><td valign=top colspan=2>
+
+		<form name="dimensions_form" onSubmit="return false;">
+
+		<table cellspacing=0 cellpadding=3 border=0 width=100%>
+		<tr bgcolor=#FFFFFF><td align=left>Length:</td><td align=right><input type="text" name="lengthFeet" value="0" style="width:100px"> ft. <input type="text" name="lengthInches" value="0" style="width:100px"> in.</td></tr>
+		<tr bgcolor=#DDEEFF><td aligh=left>Height:</td><td align=right><input type="text" name="heightFeet" value="0" style="width:100px"> ft. <input type="text" name="heightInches" value="0" style="width:100px"> in.</td></tr>
+		</table>
+
+		</form>
+	</td>
+	<td align=center valign=center bgcolor=#FFFFFF width=30%>
+	<form>
+	<input type="button" onClick="calculatePrice();" value="Calculate">
+	</form>
+	<form name="total_price_form" onSubmit="return false;">
+	$<input type="text" name="final_price" value="0.00" size=6 style="width:150px">
+	</form>
+	</td>
+</table>
+
+</body>
+</html>

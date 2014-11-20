@@ -1,0 +1,45 @@
+<html>
+<meta>
+
+</meta>
+<head>
+<style type="text/css">
+	@import url("ace-style.css");
+</style>
+
+<script type="text/javascript">
+
+function displayRow(hideRow)
+{
+	var hideRowID = document.getElementById(hideRow);
+	if (hideRowID.style.display == '')  hideRowID.style.display = 'none';
+	else hideRowID.style.display = '';
+}
+
+</script>
+
+</head>
+<title>
+Ace Home Page
+</title>
+<body>
+
+<div class="content">
+
+<div id="oscarwilson" class="parts">
+<table width=100%>
+<tr>
+<td align="left">Oscar Wilson</td><td align="right"><button onclick="displayRow('oscarwilson-r2')">Show/Hide</button></td>
+</tr>
+<tr>
+<td colspan="2" id="oscarwilson-r2" style="display: none;">
+<table><tr><td>Username</td><td>2881A</td></tr><tr><td>Password</td><td>avace</td></tr>
+</table></td>
+</tr>
+</table>
+</div>
+
+</div>
+
+</body>
+</html>

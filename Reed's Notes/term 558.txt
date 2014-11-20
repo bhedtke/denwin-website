@@ -1,0 +1,1816 @@
+ID	SubSystem	Description	Current Value	Message	Kept By	Available Domains	Edit?
+3	PURCHASING	Default receiving posting area format	Standard		Terminal	"System, Store, User, *Terminal"	Yes
+4	PURCHASING	Default grid for Receiving in Eagle for Windows Purchasing	Purchase Order Receiving		Terminal	"System, Store, User, *Terminal"	Yes
+5	PURCHASING	Display Suggested Order Info (RSO thumbnail) in Purchasing?	Yes (Basic Suggested Order Information)		Terminal	"System, Store, User, *Terminal"	Yes
+6	PURCHASING	Default posting area format in Eagle for Windows Purchasing	Standard		Terminal	"System, Store, User, *Terminal"	Yes
+7	PURCHASING	Default PO Maintain Grid View	Purchase Order Default		Terminal	"System, Store, User, *Terminal"	Yes
+8	INET	Store e-mail address			Store	*Store	Yes
+9	SYSTEM	User e-mail address			User	*User	Yes
+10	PURCHASING	Warn if posting an item that is an alternate part number	Yes		System	"*System, Store, User, Terminal"	Yes
+11	A/R	"""Next By"" in Open Item Maintenance"	Customer/Job		Terminal	"System, Store, User, *Terminal"	Yes
+14	SYSTEM	Grids will warn you when they have loaded this many records	200		Terminal	"System, Store, User, *Terminal"	Yes
+16	POS	"In the open order viewer, show the item thumbnail with receipt status"	Yes		Terminal	"System, Store, User, *Terminal"	Yes
+17	PURCHASING	Allow user to change/delete items tied to a POS Special Order	No		Terminal	"System, Store, User, *Terminal"	Yes
+20	POS	Special Order Stocked Type Default for Big Header	Primary Vendor		Store	"System, *Store, User, Terminal"	Yes
+23	INVENTORY	Number of years to keep Promotional History	2		Store	*Store	Yes
+26	A/P	Accounts Payable Posting Closed Day	0		System	*System	Yes
+51	POS	Adv S/O - Default PO# to BUYER to place item on Buyer's List	N=Don't default posting area's PO# to BUYER		Store	*Store	No
+52	PURCHASING	Always enforce ordering multiple in Purchasing?	Prompt		System	"*System, Store"	Yes
+53	PURCHASING	"Smart WinPUR item lookup by Sku, Mfg Part #, Alt Part #"	Yes		System	"*System, Store"	Yes
+57	PURCHASING	Include UPC in WinPUR item lookup?	Yes		System	"*System, Store"	Yes
+59	PURCHASING	Rounding Rule to use for ordering multiple	1=Round up		System	*System	Yes
+62	SYSTEM	Allow setting up store groups	No		System	*System	Yes
+65	TELECOMM	Ace ERP Dated Billing PO Number			System	*System	Yes
+69	SYSTEM	Require password to stop tasks (scheduler and listener)?	Yes		System	"*System, Store, Terminal"	Yes
+75	AOE	"Use ""Point-of-Sale"" or ""Order Entry"" in Ebrowser"	Point-of-Sale		Store	"System, *Store, Terminal"	No
+79	E4WDI	Using Enhanced Forms on System (either standard or custom)	Yes		System	*System	Yes
+81	SYSTEM	True Value Telecomm on System	No		System	*System	Yes
+84	SYSTEM	Member of Do it Best Corp.	No		System	"*System, Store"	Yes
+85	SYSTEM	Ace EagleVision Retailer	No		System	"*System, Store"	Yes
+86	SYSTEM	Ace Telecomm on System	Yes		System	*System	Yes
+88	SYSTEM	Do it Best Telecomm on System	No		System	*System	Yes
+89	SYSTEM	Use the keypad minus sign (-) for the Misc. Menu?	Yes		System	*System	Yes
+92	DEVELOPMENT	Include blank fields in Enhanced Forms XML invoice	No		System	*System	Yes
+93	SYSTEM	"Enable shortcut keys (t,n,p,b,e) in date fields"	No		Terminal	"System, *Terminal"	Yes
+98	DEVELOPMENT	Use down-rev printer routines on level 11.5	No		System	*System	Yes
+99	SYSTEM	Eagle network report printing print mode (Dot matrix printers only!)	Standard (Win 95 or 98 or ME)		System	"*System, Store"	Yes
+100	SYSTEM	"Startup display orientation for reports is ""landscape"" (wide)?"	Yes		Terminal	"System, Store, User, *Terminal, Session"	Yes
+102	SYSTEM	Views - Limit to Lockin Store	No		User	"System, Store, *User"	Yes
+103	SYSTEM	# of days to keep spooled reports	10		System	*System	Yes
+105	SYSTEM	# of days to keep unsent email	14		System	*System	Yes
+107	SYSTEM	# of days to keep usage history for Eagle Functions	35		System	*System	Yes
+108	SYSTEM	Days to keep Voided POS Transactions	120		System	*System	Yes
+110	SYSTEM	Windows Label Printer Name			Terminal	*Terminal	Yes
+115	SYSTEM	Viewers - Maximum records read on a search	20000		System	*System	Yes
+120	POS	Support for Deli Label	No		System	*System	Yes
+135	SYSTEM	Ebrowser applications menu	1=Menu with no submenus		System	"*System, Store, Terminal"	Yes
+137	SYSTEM	Eagle Browser version to use	1=Version 1		System	*System	Yes
+140	SYSTEM	Default Eagle Browser font size	Large Fonts		System	"*System, Store, User, Terminal"	Yes
+150	SYSTEM	Eagle Browser link 1 title	Live Meeting		System	"*System, Store, User, Terminal"	Yes
+151	SYSTEM	Eagle Browser link 1 value	www.livemeeting.com/cc/activant/		System	"*System, Store, User, Terminal"	Yes
+154	SYSTEM	Eagle Browser link 2 title	Activant Support Desk Portal		System	"*System, Store, User, Terminal"	Yes
+155	SYSTEM	Eagle Browser link 2 value	http://supportdesk.activant.com		System	"*System, Store, User, Terminal"	Yes
+158	SYSTEM	Eagle Browser link 3 title			System	"*System, Store, User, Terminal"	Yes
+159	SYSTEM	Eagle Browser link 3 value			System	"*System, Store, User, Terminal"	Yes
+162	SYSTEM	Eagle Browser link 4 title			System	"*System, Store, User, Terminal"	Yes
+163	SYSTEM	Eagle Browser link 4 value			System	"*System, Store, User, Terminal"	Yes
+164	SYSTEM	Eagle Browser Zone 2	None		System	"*System, Store, User, Terminal"	Yes
+165	SYSTEM	Eagle Browser Zone 2 URL			System	"*System, Store, User, Terminal"	Yes
+166	SYSTEM	Eagle Browser Zone 3	None		System	"*System, Store, User, Terminal"	Yes
+167	SYSTEM	Eagle Browser Zone 3 URL			System	"*System, Store, User, Terminal"	Yes
+171	SYSTEM	Use web version of the Training Browser over the Internet?	No		System	"*System, Store, User, Terminal"	Yes
+172	SYSTEM	Custom Training Browser web address (URL) on www.activant.com.			System	"*System, Store, User, Terminal"	No
+185	SYSTEM	Automatically roll the Date Table at the start of a new year	Yes		System	*System	Yes
+200	SYSTEM	Options Default Grid	Options Maintenance		User	"System, Store, *User, Terminal"	Yes
+250	BUSADV	Show Business Advisor viewers in separate windows	Yes		System	*System	Yes
+255	BUSADV	Do transfers from this store update Business Advisor?	No		Store	*Store	Yes
+310	POS	QuickRecall number of years to keep charge customer transactions			System	*System	Yes
+311	SYSTEM	Days to store credit card numbers in Quick Recall	99999		System	*System	Yes
+400	A/P	Create Adv Rcvg vouchers for current period	Yes		System	*System	Yes
+420	A/P	Require vendor reference # on temp voucher	No		System	"*System, Store, User"	Yes
+425	A/P	Accounts Payable transaction full clear	No		System	*System	Yes
+428	A/P	Rewrite user ID on voucher	No		System	*System	Yes
+430	A/P	Validate the AP account number in Vendor Maintenance	No		System	*System	Yes
+496	SYSTEM	Field Sizes - Limit access to legacy functions	Yes		System	"*System, Store, User, Terminal"	No
+520	SYSTEM	Default for reports Large Format field	No		System	*System	Yes
+846	POS	Daily Journal Viewer enabled	Yes		System	*System	Yes
+860	A/R	ROA Multiple Allowances Allowed	Yes		System	*System	Yes
+904	A/R	Print store name on A/R statements tiled invoices	M=Follow MIV - Print invoices with store name flag		System	"*System, Store"	Yes
+905	A/R	Layout to use for A/R statements tiled invoices	Retail Form		System	"*System, Store"	Yes
+907	A/R	Duplex print statements when printing laser statements	No		System	"*System, Store"	Yes
+908	A/R	Duplex print invoices when printing laser statements	No		System	"*System, Store"	Yes
+909	A/R	Duplex printing forces invoices to begin on a new page	No		System	"*System, Store"	Yes
+914	A/P	Use New Canadian Check Format when printing Accounts Payable checks	No		System	"*System, Store"	Yes
+916	A/R	Language used to print laser statements	English		System	*System	Yes
+1059	SYSTEM	Home Hardware E4W Telecomm on System	No		System	*System	Yes
+1092	INVENTORY	Enhanced Price Formulas on System	No		System	*System	Yes
+1098	SYSTEM	NetAccess.net on system	No		System	*System	Yes
+1099	SYSTEM	CHILKAT on System	No		System	*System	Yes
+2000	INVENTORY	Store specific fields to copy to synchronize with other stores (IMU)	E5		System	"*System, Store, User, Terminal"	Yes
+2405	SYSTEM	Custom field label for 'Store' in Eagle for Windows	S t o r e		System	*System	No
+2410	SYSTEM	Custom field labels for 'Clerk' in Eagle for Windows	C l e r k		System	*System	No
+2415	SYSTEM	Custom field labels for 'Class' in Eagle for Windows	C l a s s		System	*System	No
+2420	SYSTEM	Custom field labels for 'Fineline' in Eagle for Windows	F i n e l i n e		System	*System	No
+2425	SYSTEM	Custom field labels for 'Item/SKU' in Eagle for Windows	C=I t e m / S K U		System	*System	No
+2509	SYSTEM	Long SKU - Include Mfg Part # in SKU lookups and typematic searches	Yes		System	*System	Yes
+2511	SYSTEM	Long SKU/Part - Include Alternate Part # in lookups and typematic search	Yes		System	"*System, Local INI"	Yes
+2600	CATALOG	"Smart item lookup by Sku, UPC, Mfg Part #"	Yes		System	*System	Yes
+2602	CATALOG	Catalog 'image set' support for multiple catalogs	Single Image Set and/or Before May 2003		System	*System	Yes
+2604	CATALOG	Alternate part number mapping when looking for images in WinIMU	No Mapping. Use SKU Only		System	*System	Yes
+2606	CATALOG	Update the discontinued flag when adding items from the Catalog	Yes		System	*System	Yes
+2610	CATALOG	Use True Value enhanced image logic?	Y=Use True Value Images (No custom images).		System	*System	Yes
+2800	PURCHASING	True Value - Broken carton charge percent	0		System	"*System, Store"	Yes
+2801	PURCHASING	True Value - Apply broken carton charge to PO's created by RSO	No		System	"*System, Store"	Yes
+2802	PURCHASING	Default next/previous method for WinPUR	PO#		System	"*System, Store, User, Terminal"	Yes
+2804	PURCHASING	WinPUR posting - Default view for Inventory Viewer	*PURCHASING OVERSTOCK		System	"System, Store, User, *Terminal"	Yes
+2806	PURCHASING	Display warning when posting a discontinued item	Yes		System	"*System, Store, User, Terminal"	Yes
+2808	PURCHASING	Display the market download and direct mail viewer in expanded format?	Yes		System	*System	Yes
+2810	PURCHASING	RDI create defective purchase orders	S=Policy A items only.  One PO for each store.		System	"*System, Store"	Yes
+2812	PURCHASING	RDI defective purchase order vendor code	ACE		System	"*System, Store"	Yes
+2814	PURCHASING	RDI defective purchase order affiliate	No Affiliate		System	"*System, Store"	Yes
+2816	POS	Use consolidated format on RDI by department	No		System	*System	Yes
+2817	PURCHASING	RDI - Use Code position to identify items excluded from defective POs			System	*System	Yes
+2818	PURCHASING	RDI - Code value that identifies items excluded from defective POs			System	*System	Yes
+2820	PURCHASING	Display warning if none of the item's vendors match the PO Vendor	Yes		System	"*System, Store, User, Terminal"	Yes
+2823	PURCHASING	Display add/replace/new menu when item already on PO	Yes		System	"*System, Store, User, Terminal"	Yes
+2825	PURCHASING	Allow cost to be marked as a promo/temp cost	No		System	"*System, Store"	Yes
+2830	PURCHASING	Receiving report (RRP) prints cancelled/deleted items	No		System	*System	Yes
+2835	PURCHASING	"Display ""PO Exceptions"" when recalling and displaying a PO"	Yes		System	"*System, Store, User, Terminal"	Yes
+2837	PURCHASING	Put Special Order # in the Generated PO's Alt PO # field	Yes		System	*System	Yes
+2839	POS	Record special ordered stock items as unusual usage	No		System	"*System, Store"	Yes
+2841	PURCHASING	Queued Suggested Order Report (RSO) uses same or new PO#	New		System	"*System, Store"	Yes
+2845	PURCHASING	Print Pay to Vendor information on the P.O.	Yes		System	"*System, Store"	Yes
+2847	AOE	Print Ship Via on Laser Receiver (RRP) for special order items	No		System	*System	Yes
+2849	PURCHASING	Print locations on Laser Receiver (RRP)	Yes		System	*System	Yes
+2900	RF	Receiving printer type	QL320		System	"*System, Store, User, Terminal"	Yes
+2902	RF	Receiving print labels	Prompt		System	"*System, Store, User, Terminal"	Yes
+2904	RF	Receiving label format	Small		System	"*System, Store, User, Terminal"	Yes
+2906	RF	Receiving print price	Yes		System	"*System, Store, User, Terminal"	Yes
+2908	RF	Receiving number of labels	1		System	"*System, Store, User, Terminal"	Yes
+2910	RF	Receiving add SKU to P.O.	Prompt		System	"*System, Store, User, Terminal"	Yes
+2912	RF	Receiving add UPC code	Prompt		System	"*System, Store, User, Terminal"	Yes
+2914	RF	Receiving display committed quantity	Yes		System	"*System, Store, User, Terminal"	Yes
+2915	RF	Receiving display special order information	Yes		System	"*System, Store, User, Terminal"	Yes
+2916	RF	Receiving method	PO#		System	"*System, Store, User, Terminal"	Yes
+2917	RF	Receiving display multiple SKU occurrences on a specific PO	Yes		System	"*System, Store, User, Terminal"	Yes
+2918	RF	When Receiving Method is by SKU return to SKU List after posting	Yes		System	"*System, Store, User, Terminal"	Yes
+2919	RF	Shelf Manager-Default Mode	2=Price Check		System	"*System, Store, User, Terminal"	Yes
+2920	RF	Shelf Manager printer type	QL320		System	"*System, Store, User, Terminal"	Yes
+2922	RF	Shelf Manager print labels	Prompt		System	"*System, Store, User, Terminal"	Yes
+2924	RF	Shelf Manager label format	Small		System	"*System, Store, User, Terminal"	Yes
+2926	RF	Shelf Manager print price	Yes		System	"*System, Store, User, Terminal"	Yes
+2928	RF	Shelf Manager number of labels	1		System	"*System, Store, User, Terminal"	Yes
+2930	RF	Shelf Manager add QOH to PIP	Y=QOH counts are added to PIP		System	"*System, Store, User, Terminal"	Yes
+2932	RF	Shelf Manager add UPC code	Prompt		System	"*System, Store, User, Terminal"	Yes
+2934	RF	Shelf Manager price to display	Retail		System	"*System, Store, User, Terminal"	Yes
+2936	RF	"Shelf Manager increment value for location mode ""I"""	1		System	"*System, Store, User, Terminal"	Yes
+2938	RF	Shelf Manager-Default location(s) in PIP count screen with IMU locations	Yes		System	"*System, Store, User, Terminal"	Yes
+2939	RF	Shelf Manager-Default initial PIP count to 1	Yes		System	"*System, Store, User, Terminal"	Yes
+2940	RF	Network printer number for RF labels	1		System	"*System, Store, Terminal"	Yes
+2942	RF	RF network label format 'L'	Default flex-label 'L' for RF		System	"*System, Store, User, Terminal"	Yes
+2943	RF	RF network label format 'S'	Default flex-label 'S' for RF		System	"*System, Store, User, Terminal"	Yes
+2944	RF	RF network label format 'A'	Default flex-label 'S' for RF		System	"*System, Store, User, Terminal"	Yes
+2945	RF	RF network label format 'B'	Default flex-label 'S' for RF		System	"*System, Store, User, Terminal"	Yes
+2946	RF	RF network label format 'C'	Default flex-label 'S' for RF		System	"*System, Store, User, Terminal"	Yes
+3030	INVENTORY	Allow quantity breaks for non-discountable items	No		System	*System	Yes
+3036	ALERT	Stockout alert threshold	0		System	*System	Yes
+3037	INVENTORY	Allow deleting items in Inventory Maintenance if QOH is not zero	Yes		System	"*System, Store, User"	Yes
+3038	INVENTORY	Give warning if deleting an item that has any quantity > 0	Yes		System	"*System, Store, User"	Yes
+3039	INVENTORY	Adding an item to another store initializes the store specific fields	Yes		System	*System	Yes
+3040	INVENTORY	Display Sku for first store available if not in lockin	No		System	"*System, Store, User, Terminal"	Yes
+3041	INVENTORY	"Smart item lookup by Sku, UPC, Mfg Part #"	Yes		System	*System	Yes
+3042	INVENTORY	WinIMU Go To Menu displays entries that have a hyperlink	Yes		System	"*System, Store, User, Terminal"	Yes
+3044	A/R	WinMCR Go To Menu displays entries that have a hyperlink	Yes		System	"*System, Store, User, Terminal"	Yes
+3046	INVENTORY	Default for Backorder flag when adding vendors	No		System	*System	Yes
+3047	PURCHASING	Use item level PO Backorder flag in Purchasing & Receiving	No follow PO Header's backorder setting		System	"*System, Store"	Yes
+3052	RF	RF Shelf Manager multiple location codes	Yes		System	"*System, Store"	Yes
+3053	RF	Scan bin tags with SKU prefixed with retail price	Yes		System	"*System, Store"	Yes
+3054	RF	Scan Ace bin tags with SKU prefixed with order multiple	No		System	"*System, Store"	Yes
+3055	INVENTORY	"Consider ""Unusual Usage"" (in ITR) in order point calculation"	No		Store	*Store	Yes
+3056	INVENTORY	"Consider ""Lost Sales"" (in ITR) in order point calculation"	No		Store	*Store	Yes
+3057	INVENTORY	"Consider ""Transfers-In"" (in ITR) in order point calculation"	No		Store	*Store	Yes
+3058	INVENTORY	"Percentage of ""Lost Sales"" (in ITR) to use in order point calculation"	100		Store	*Store	Yes
+3059	INVENTORY	"Consider ""Transfers-Out"" (in ITR) in order point calculation"	No		Store	*Store	Yes
+3061	INVENTORY	Create G/L trx's from ITR records for standard inventory adjustments	X=Cannot be made eligible		System	*System	Yes
+3070	INVENTORY	Allow printing bin labels in RBL from the Item Change File?	Yes		System	*System	Yes
+3071	INVENTORY	Purge entries from the Item Change File after how many days	31		System	*System	Yes
+3073	INVENTORY	Number of days to hold ITR adjustments with a zero cost	30		System	"*System, Store"	Yes
+3075	INVENTORY	Physical Inventory - update Last Physical Date for a variance	Yes		System	*System	Yes
+3076	INVENTORY	Update 'Last Physical Inv' date when making QOH changes in Win-IMU	Yes		System	"*System, Store"	Yes
+3077	INVENTORY	"Default for inventory item's ""POS Decimal Quantities"" flag"	Yes		System	*System	Yes
+3078	INVENTORY	Automatically open Add function when WinIPC launched with SKU	No		System	*System	Yes
+3079	INVENTORY	Show catalog retail column in WinIPC	Yes		System	*System	Yes
+3081	INVENTORY	"Default for WinIMU ""Synchronize Prices"" flag"	No		System	*System	Yes
+3082	INVENTORY	"Default for WinIMU ""Synchronize Costs"" flag"	No		System	*System	Yes
+3083	INVENTORY	"Default for WinIMU ""Region Code"""			System	"*System, Store"	No
+3090	INVENTORY	Record Type list to use	1=Hardlines and Lumber		System	*System	Yes
+3091	INVENTORY	"Show ""Record Type"" field in WinIMU?"	Yes		System	"*System, Store"	Yes
+3092	POS	Should change in order quantity be recorded as lost sales?	No		Store	"System, *Store, User, Terminal"	Yes
+3093	POS	Quantity to record as lost sale when order quantity changed	N=Quantity NOT Backordered		Store	"System, *Store, User, Terminal"	Yes
+3094	SYSTEM	Lost sales on system	Yes		System	*System	Yes
+3095	SYSTEM	Lost sale reason codes	Lost sale reason codes		System	*System	Yes
+3096	SYSTEM	Usage adjustment reason codes	Usage adjustment reason codes		System	*System	Yes
+3097	SYSTEM	Unusual usage on system	Yes		System	*System	Yes
+3099	INVENTORY	Number of days to include in Lost Sales	0		System	*System	Yes
+3100	G/L	Writeoff department's identifier	Z is leading character		System	*System	Yes
+3103	G/L	RDJ-Z passoff to GL updates the G/L 'Reference' with the store number	No		System	*System	Yes
+3105	G/L	RDJ G/L departmental passoff is by RDJ run date	Y=G/L trx's are created based on the run date of RDJ opt Z		System	*System	Yes
+3107		Passoff G/L to Jonas Accounting System?	No		System	*System	Yes
+3110	G/L	CIM - create GL passoff transaction types	Regular GL transactions only		System	*System	No
+3112	G/L	EagleVision (CIM) Accounting Integration on System?	No		System	*System	Yes
+3119	E4WDI	Print loading ticket to invoice printer	N=Do not print a loading ticket		System	"*System, Store, Terminal"	Yes
+3120	POS	Note/Text to use for POS Loading Ticket Receipt			System	"*System, Store, User, Terminal"	Yes
+3123	A/R	"Value to use when WinMCR ""Adding Name Allowed"" flag is blank"	Yes		System	*System	Yes
+3125	A/R	Include store name on  faxed statements	No		System	"*System, Store"	Yes
+3200	TELECOMM	Keep mil digit of transmitted member cost for Ace ERP	Yes		System	*System	Yes
+3202	TELECOMM	ERP - Preserve highest retail	No		System	*System	Yes
+3203	TELECOMM	ERP - Use price rounding table to round the retails	Yes		System	*System	Yes
+3204	TELECOMM	Advantage ERP - Include lookup by UPC	No		System	"*System, Store"	Yes
+3210	TELECOMM	ERP/EFM - Use code position to identify margin exception items	A1		System	*System	Yes
+3211	TELECOMM	ERP/EFM - Code value that identifies margin exception items	M		System	*System	Yes
+3212	TELECOMM	ERP - Retail Calc Options for margin exception items			System	*System	Yes
+3215	TELECOMM	ERP/EFM - Use code position to identify price protected items	A1		System	*System	Yes
+3216	TELECOMM	ERP/EFM - Code value that identifies price protected items	D		System	*System	Yes
+3218	TELECOMM	Electronic price changes - Update pre-existing price change records	Yes		System	*System	Yes
+3220	TELECOMM	Ace EFM - add items to all specified stores	No		System	*System	Yes
+3221	TELECOMM	Ace EFM - Allow 'Class / Fineline Updates'	No		System	"*System, Store"	Yes
+3222	TELECOMM	Ace ERP - add non-stocked Bulletin items to target PO and also to WinIMU	Yes		System	*System	Yes
+3223	TELECOMM	True Value ERP cancel items	No		System	*System	Yes
+3225	TELECOMM	Create price change records when ever the price or cost changes?	Yes		System	*System	Yes
+3226	INVENTORY	Use ACESKU logic for assigning new SKUs?	No		System	*System	Yes
+3227	TELECOMM	Allow 'Percent Off' Promotions' with Ace EFM?	Yes		System	*System	Yes
+3230	TELECOMM	Site identification code sent with EDI transmissions			Store	*Store	Yes
+3235	TELECOMM	Update True Value Catalog with EVP	No		System	*System	Yes
+3236	TELECOMM	Transmit price changes from E4W to True Value	No		System	"*System, Store"	Yes
+3237	TELECOMM	Price to use when adding items from True Value catalog	Retail Price		System	*System	Yes
+3240	TELECOMM	Do Telecomm applications update the Primary UPC flag?	No		System	*System	Yes
+3241	TELECOMM	Calculate a new retail even when the cost changes by less than a penny	No		System	*System	Yes
+3243	TELECOMM	Create price change records only for items whose cost has changed	No		System	*System	Yes
+3245	TELECOMM	Add DIB price changes even if UOMs don't match?	No		System	*System	Yes
+3247	TELECOMM	Report all changes when the DIB catalog is updated?	No		System	*System	Yes
+3249	TELECOMM	DIB ERP Merge SKUs with Different Costs	No		System	*System	Yes
+3250	TELECOMM	True Value - Coupon SKUs are added as taxable?	No		System	*System	Yes
+3251	TELECOMM	True Value EFM - Always add TVR coupon SKUs?	No		System	"*System, Store"	Yes
+3253	TELECOMM	True Value EFM - Always add NTL coupon SKUs?	No		System	"*System, Store"	Yes
+3255	TELECOMM	True Value EFM - Always add TDM coupon SKUs?	No		System	"*System, Store"	Yes
+3257	TELECOMM	True Value EFM - Update long descriptions in E4W catalog?	Yes		System	*System	Yes
+3259	TELECOMM	True Value EFM - Update images in E4W catalog?	Yes		System	*System	Yes
+3301	ALERT	Alert from e-mail address			System	"*System, Store"	Yes
+3304	ALERT	Number of days to keep current alerts	5		System	*System	Yes
+3308	ALERT	Allow ACTIVANT to receive your alerts as an email	No		System	*System	Yes
+3314	SYSTEM	Default view for Notifications Viewer	Notification Default		Terminal	"System, Store, User, *Terminal"	Yes
+3315	ALERT	"Record ""Count List Received"" alerts"	No		System	*System	Yes
+3319	ALERT	"Record ""Large % change on Price or Cost "" alerts"	No		System	*System	Yes
+3320	ALERT	"Record ""QOH has gone to zero"" alerts"	No		System	*System	Yes
+3321	ALERT	"Record ""Backordered item not sourced"" alerts"	No		System	*System	Yes
+3322	ALERT	"Record ""QOH has gone negative"" alerts"	No		System	*System	Yes
+3323	ALERT	"Record ""Order on Hold"" alerts"	No		System	*System	Yes
+3324	ALERT	"Record ""Special or Backordered item received"" alerts"	No		System	*System	Yes
+3325	ALERT	"Record ""Item added to Buyer's List"" alerts"	No		System	*System	Yes
+3326	ALERT	"Record ""An iNet Order has been placed"" alerts"	Yes		System	*System	Yes
+3327	ALERT	"Record ""Direct Ship needs to be invoiced"" alerts"	No		System	*System	Yes
+3328	ALERT	"Record ""Telecom transmission failed"" alerts"	Yes		System	*System	Yes
+3329	ALERT	"Record ""Transfer Created via RRP"" alerts"	Yes		System	*System	No
+3330	ALERT	"Record ""Telecom transmission succeeded"" alerts"	No		System	*System	Yes
+3331	ALERT	"True Value - Record ""Order Deadline Warning"" alerts"	No		System	*System	Yes
+3332	ALERT	"Record ""Offline POS Transactions exist"" alerts"	Yes		System	*System	Yes
+3334	ALERT	"Record ""Offline Database Refresh failed"" alerts"	Yes		System	*System	Yes
+3335	ALERT	"Record ""AVS override performed"" alerts"	No		System	*System	Yes
+3336	ALERT	"Record ""Gift card activation"" alerts"	Yes		System	*System	Yes
+3337	ALERT	"True Value - Record ""PO Upload Success"" alerts"	No		System	*System	Yes
+3338	ALERT	"Record ""Allow user-defined reminders"" alerts"	No		System	*System	Yes
+3339	ALERT	"Record ""Kit could not be updated by RKR"" alerts"	Yes		System	*System	Yes
+3340	ALERT	"Record ""Buyers signature missing"" alerts"	No		System	*System	Yes
+3341	ALERT	"Record ""Promotion Pricing Date Change Needed"" alerts"	Yes		System	*System	Yes
+3342	ALERT	"Record ""New customer added"" alerts"	No		System	*System	Yes
+3343	ALERT	"Record ""TPW/IWS Order Sent"" alerts"	No		System	*System	Yes
+3344	ALERT	"Record ""POS Training Mode started"" alerts"	No		System	*System	Yes
+3345	ALERT	"Record ""Centralized Distribution PO"" in receipt alerts"	No		System	*System	No
+3346	ALERT	"Record ""POS Training Mode ended"" alerts"	No		System	*System	Yes
+3347	ALERT	"True Value - Record ""PO Upload Failed"" alerts"	No		System	*System	Yes
+3348	ALERT	"Record ""FAX failure"" alerts"	Yes		System	*System	Yes
+3349	ALERT	"Record ""Error updating item from FIL"" alerts"	Yes		System	*System	Yes
+3352	E4WDI	Display electronic signature in E4W POS signature capture window	Yes		System	"*System, Store, User, Terminal"	Yes
+3354	E4WDI	Print electronic signature on the POS receipt printer	Yes		System	"*System, Store, User, Terminal"	Yes
+3356	E4WDI	Print electronic signature on the POS invoice printer	Yes		System	"*System, Store, User, Terminal"	Yes
+3358	E4WDI	Print electronic signature on Laser Statement invoices	Yes		System	"*System, Store"	Yes
+3360	E4WDI	Capture electronic signatures on orders/special orders	No		System	"*System, Store, User, Terminal"	Yes
+3370	E4WDI	"Print buyer signature on laser printed, faxed or emailed purchase orders"	No		System	*System	Yes
+3372	E4WDI	Require a buyer with a signature in Purchasing & Receiving	No		System	*System	No
+3374	E4WDI	"Default buyer signature when laser printing, faxing or emailing from RPO"			System	*System	No
+3378	POS	Include store name on POS Email documents.	No		System	"*System, Store"	Yes
+3388	E4WDI	Electronic Journal format	Single Roll Layout		Terminal	"System, Store, *Terminal"	Yes
+3400	SYSTEM	Print daily Boot Log to printer 01	Yes		System	*System	Yes
+3405	SYSTEM	Print Async Transmission Log on boot log	No		System	*System	Yes
+3410	SYSTEM	Print Bisync Transmission Log on boot log	No		System	*System	Yes
+3430	SYSTEM	Print iNet Activity Log on boot log	No		System	*System	Yes
+3440	SYSTEM	Print Report Queue Manager Log on boot log	No		System	*System	Yes
+3445	SYSTEM	Print RFShelf Activity Log on boot log	No		System	*System	Yes
+3460	SYSTEM	Print Sierra POS Log on boot log	No		System	*System	Yes
+3465	SYSTEM	Print Special Order Activity Log on boot log	No		System	*System	Yes
+3470	SYSTEM	Print Spooler Directory Maintenance Log on boot log	Yes		System	*System	Yes
+3507	A/R	"Cash (*) accounts display Running Balance, Acct Highest Balance, & Aging"	Yes		System	*System	Yes
+3511	POS	"Print Customer Sku line on Estimate, Order, Special Order"	N=Do not print customer SKU line		System	"*System, Store, User, Terminal"	No
+3512	POS	Print Customer Sku line on Sales/Credits	N=Do not print customer SKU line		System	"*System, Store, User, Terminal"	No
+3513	POS	Check for customer's open orders at start of new transaction	No do not check		Store	"System, *Store, User, Terminal"	Yes
+3515	POS	Include address line one in customer lookup list	No		System	*System	Yes
+3516	A/R	Include lookup by email address in Customer	No		System	*System	Yes
+3517	A/R	Allow enhanced name(;) and phone number(-) lookup in the Customer or Job	Yes		System	"*System, Store, User, Terminal"	Yes
+3520	A/R	Dot Document Lookups - Display list when document in multiple stores	No		System	*System	Yes
+3522	A/R	"Print statements in ""apply to"" order"	No		System	*System	Yes
+3523	A/R	A/R statements (RSM) print past detail for open item accounts	Yes		System	*System	Yes
+3524	A/R	Number of months of invoices to print on collated statements	1		System	*System	Yes
+3525	A/R	RSM includes scanned or remote signature capture documents with invoices	No Scanned or Remote Signature Capture Documents		System	*System	Yes
+3530	A/R	Customer Loyalty - Use code position to identify non-asterisk accounts	4		Store	*Store	Yes
+3531	A/R	Customer Loyalty - Code value that identifies non-asterisk accounts	H		Store	*Store	Yes
+3533	A/R	Include the loyalty number in the alternate customer ID lookup (=)?	No		System	*System	Yes
+3540	A/R	iNet default value for Windows MCR e-mail customer statements flag	No Statements		System	*System	Yes
+3542	A/R	iNet default value for Windows MCR e-mail statements format	A=HTML attachment		System	*System	Yes
+3550	A/R	"Multiple Open Quotes for main account, and Open Quote sharing allowed"	No		System	*System	Yes
+3556	POS	Calculate due dates on unapplied credits same as invoices	No		System	*System	Yes
+3565	A/R	Keep customer credit cards on system	N=Customer credit cards not kept on system		System	"*System, Store"	Yes
+3573	POS	Post item(s) as non-taxable when item level tax code's rate is 0%?	Yes		System	*System	Yes
+3575	A/R	Delete both documents of a Transaction Reversal	No		System	*System	Yes
+3577	A/R	Statement discount calculation always includes credit documents	Yes		System	*System	Yes
+3578	A/R	Print payment summary on A/R Statements (RSM)?	No		System	*System	Yes
+3579	A/R	A/R Statement (RSM) remit-to store			System	*System	Yes
+3580	A/R	WinROA - Balance Forward accounts display all jobs when job=ALL	No		System	*System	Yes
+3582	A/R	Default for customer's Use Order Balance in Credit Avail flag	No		System	"*System, Store"	Yes
+3584	A/R	Auto-print backoffice ROA receipt after posting payment	N=Do not print automatically		Terminal	"System, Store, User, *Terminal"	Yes
+3585	A/R	Form to use for backoffice received on account (ROA) receipts	Default Backoffice ROA Form		Terminal	*Terminal	Yes
+3586	A/R	"WinROA - Enable ""Amount to Pay"" column for short pay situations"	Yes		System	*System	Yes
+3587	A/R	ROA - Posting order when applying a payment across all jobs	Job Number		System	*System	Yes
+3588	A/R	ROA - allow selection of multiple unapplied documents	Multiples		System	*System	Yes
+3602	A/R	Default Customer Activity Note Type when entering new cust act. notes			User	"System, Store, *User, Terminal"	Yes
+3604	A/R	Default Customer Activity Note Priority when entering new cust act. note	1		System	"*System, Store, User, Terminal"	Yes
+3606	A/R	Customer Activity Note Types that are hidden			User	"*User, Terminal"	Yes
+3608	A/R	Display Customer detail when entering new customer activity notes			System	"*System, Store, User, Terminal"	Yes
+3847	REPORTS	APP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+3850	REPORTS	APPC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+3900	REPORTS	BDI default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+3911	REPORTS	BPO default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+3915	REPORTS	CLEANANX default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+3917	REPORTS	COPYFIELDS default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+3918	REPORTS	COPYRECS default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+3920	REPORTS	COR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4001	REPORTS	EDM default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4002	REPORTS	EFMA default report view (Ace EFM)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4003	REPORTS	EFMD default report view (Do it Best EFM)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4004	REPORTS	EFM default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4005	REPORTS	ELR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4006	REPORTS	EFMG default report view (Generic EFM)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4007	REPORTS	EMD default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4008	REPORTS	EFMH default report view (Home Hardware EFM)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4009	REPORTS	EUUH default report view (Home Hardware EUU)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4010	REPORTS	EPIP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4013	REPORTS	EPM default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4016	REPORTS	EPO default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4017	REPORTS	EPOA default report view (Ace EPO)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4018	REPORTS	EPOD default report view (Do it Best EPO)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4020	REPORTS	EPOG default report view (Generic EPO)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4021	REPORTS	EPOH default report view (Home Hardware  EPO)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4022	REPORTS	ERDC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4023	REPORTS	ERDCD default report view (Do it Best ERDC)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4024	REPORTS	ERDCG default report view (Generic ERDC)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4025	REPORTS	ERF default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4028	REPORTS	ERP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4029	REPORTS	ERPA default report view (Ace ERP)	AV ELECTRONIC INVOICE		Store	"System, *Store, User, Terminal"	Yes
+4030	REPORTS	ERPD default report view (Do it Best ERP)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4031	REPORTS	EUU default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4032	REPORTS	ERPG default report view (Generic ERP)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4033	REPORTS	ERPH default report view (Home Hardware ERP)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4034	REPORTS	EVP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4035	REPORTS	EVPT default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4036	REPORTS	GLP default report view	DEFAULT		Store	"System, *Store, User, Terminal"	Yes
+4038	REPORTS	PCHECK default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4040	REPORTS	QRPRINT default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4043	REPORTS	RA99 default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4046	REPORTS	RAAC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4049	REPORTS	RAAJ default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4052	REPORTS	RAAL default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4055	REPORTS	RAAN default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4058	REPORTS	RAAU default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4061	REPORTS	RABC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4064	REPORTS	RAC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4067	REPORTS	RACH default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4070	REPORTS	RACK default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4073	REPORTS	RACR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4076	REPORTS	RADS default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4079	REPORTS	RAG default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4082	REPORTS	RAGL default report view	DEFAULT		Store	"System, *Store, User, Terminal"	Yes
+4085	REPORTS	RAID default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4088	REPORTS	RAJ default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4091	REPORTS	RAJB default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4094	REPORTS	RAJD default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4097	REPORTS	RAMP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4100	REPORTS	RAOI default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4103	REPORTS	RAP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4104	REPORTS	RAP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4106	REPORTS	RAPC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4109	REPORTS	RAPU default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4112	REPORTS	RARV default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4115	REPORTS	RATC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4118	REPORTS	RATJ default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4121	REPORTS	RATL default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4124	REPORTS	RAUC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4127	REPORTS	RAVA default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4130	REPORTS	RAVC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4133	REPORTS	RAVH default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4136	REPORTS	RAVM default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4137	REPORTS	RBL Promotion default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4138	REPORTS	RBL Inventory default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4139	REPORTS	RBL Price Change default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4140	REPORTS	RBL Purchasing default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4141	REPORTS	RBL Item Change default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4142	REPORTS	RCCU default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4143	REPORTS	RCAT default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4145	REPORTS	RCIN default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4148	REPORTS	RCK default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4151	REPORTS	RCL default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4154	REPORTS	RDE default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4157	REPORTS	RDF default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4160	REPORTS	RDI default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4163	REPORTS	RDJ default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4166	REPORTS	RDM default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4169	REPORTS	RDS default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4171	REPORTS	REPO default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4172	REPORTS	REPM default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4173	REPORTS	RESH default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4175	REPORTS	RFC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4178	REPORTS	RFD default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4181	REPORTS	RFI default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4184	REPORTS	RFL default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4187	REPORTS	RFR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4190	REPORTS	RGBC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4193	REPORTS	RGBU default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4196	REPORTS	RGC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4199	REPORTS	RGEN default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4202	REPORTS	RGFS default report view	Default		Store	"System, *Store, User, Terminal"	Yes
+4205	REPORTS	RGFV default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4208	REPORTS	RGGC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4211	REPORTS	RGGD default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4214	REPORTS	RGGG default report view	Default		Store	"System, *Store, User, Terminal"	Yes
+4217	REPORTS	RGGL default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4220	REPORTS	RGJ default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4223	REPORTS	RGJG default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4226	REPORTS	RGLA default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4229	REPORTS	RGP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4232	REPORTS	RGR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4235	REPORTS	RGRF default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4238	REPORTS	RGSA default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4241	REPORTS	RGST default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4244	REPORTS	RGTR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4247	REPORTS	RGTX default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4250	REPORTS	RGWS default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4253	REPORTS	RIA default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4254	REPORTS	RIB default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4256	REPORTS	RICU default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4259	REPORTS	RIH default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4262	REPORTS	RIM default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4265	REPORTS	RIO default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4268	REPORTS	RIS default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4271	REPORTS	RIU default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4274	REPORTS	RIV default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4277	REPORTS	RKR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4278	REPORTS	RLR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4279	REPORTS	RLA Inventory default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4280	REPORTS	RLA Price Change default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4281	REPORTS	RLA Purchasing default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4282	REPORTS	RLA Transfer default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4283	REPORTS	RMD default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4286	REPORTS	RML default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4289	REPORTS	RMR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4292	REPORTS	ROA default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4295	REPORTS	ROF default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4298	REPORTS	ROI default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4301	REPORTS	ROO default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4304	REPORTS	ROP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4307	REPORTS	ROR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4309	REPORTS	ROV default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4310	REPORTS	RP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4313	REPORTS	RP99 default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4316	REPORTS	RPA default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4319	REPORTS	RPAC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4322	REPORTS	RPAD default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4325	REPORTS	RPAG default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4328	REPORTS	RPAH default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4331	REPORTS	RPAJ default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4334	REPORTS	RPAQ default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4337	REPORTS	RPB default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4340	REPORTS	RPC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4342	REPORTS	RPD Add Promo default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4344	REPORTS	RPD Change Promo Dates default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4346	REPORTS	RPDE default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4349	REPORTS	RPE default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4352	REPORTS	RPEA default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4355	REPORTS	RPEB default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4358	REPORTS	RPEE default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4361	REPORTS	RPEL default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4364	REPORTS	RPEM default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4367	REPORTS	RPEO default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4370	REPORTS	RPET default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4373	REPORTS	RPEU default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4376	REPORTS	RPEW default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4379	REPORTS	RPGL default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4382	REPORTS	RPH default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4385	REPORTS	RPI default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4388	REPORTS	RPM default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4391	REPORTS	RPMSA default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4394	REPORTS	RPO default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4397	REPORTS	RPP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4398	REPORTS	RPPR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4400	REPORTS	RPSB default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4403	REPORTS	RPSD default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4406	REPORTS	RPSG default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4409	REPORTS	RPSJ default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4412	REPORTS	RPTX default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4415	REPORTS	RPVA default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4418	REPORTS	RPVC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4421	REPORTS	RPVM default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4424	REPORTS	RPVT default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4427	REPORTS	RPVX default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4430	REPORTS	RPW2 default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4431	REPORTS	RRA default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4433	REPORTS	RRP default report view	AV DIRECT		Store	"System, *Store, User, Terminal"	Yes
+4435	REPORTS	RRV default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4436	REPORTS	RSA default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4439	REPORTS	RSAL default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4442	REPORTS	RSF default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4445	REPORTS	RSH default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4448	REPORTS	RSL default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4451	REPORTS	RSM default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4454	REPORTS	RSO default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4457	REPORTS	RSP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4458	REPORTS	RSR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4459	REPORTS	RSRO default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4460	REPORTS	RST default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4463	REPORTS	RTE default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4466	REPORTS	RTL default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4469	REPORTS	RTM default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4471	REPORTS	RTR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4472	REPORTS	RTX default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4475	REPORTS	RUP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4478	REPORTS	RUS default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4481	REPORTS	RVE default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4484	REPORTS	RVL default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4486	REPORTS	RVT default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4487	REPORTS	RVU default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4489	REPORTS	SHRINK default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4490	REPORTS	SPLEXP default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4540	REPORTS	UCID default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4560	REPORTS	UCPD default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4600	REPORTS	EIMCSD default report view (Do it Best IMCS Data Collection)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4601	REPORTS	EPDCD default report view (Do it Best POS Data Collection)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4602	REPORTS	EOPO default report view (True Value Open PO)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4603	REPORTS	ESLPO default report view (True Value Ship Later PO)	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4605	REPORTS	RCPR default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4606	REPORTS	RCC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4607	REPORTS	EDIPO default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4608	REPORTS	EDIRPO default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4609	REPORTS	EDIBTC default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4610	REPORTS	EPMG default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4611	REPORTS	EPCG default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4612	REPORTS	TRURPE default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4613	REPORTS	ETVCAT default report view	*** View Not Found ***		Store	"System, *Store, User, Terminal"	Yes
+4700	INET	User interface for e-Store and On-Line Catalog	0=Default		System	"*System, Store"	Yes
+4704	INET	Colors for iNet banner area			System	"*System, Store"	Yes
+4706	INET	Colors for iNet toolbar area			System	"*System, Store"	Yes
+4708	INET	Colors for iNet list on left			System	"*System, Store"	Yes
+4710	INET	Label for optional link 1			System	"*System, Store"	Yes
+4711	INET	URL for optional link 1			System	"*System, Store"	Yes
+4714	INET	Label for optional link 2			System	"*System, Store"	Yes
+4715	INET	URL for optional link 2			System	"*System, Store"	Yes
+4730	INET	Alignment of item extended description	0=Bottom		System	"*System, Store"	Yes
+4900	POS	Signature Capture - Require signature on a bankcard return	Yes		System	"*System, Store"	Yes
+4905	POS	Print a store copy receipt for bankcards or gift card activations	No		System	"*System, Store"	Yes
+4907	POS	Signature Capture - Print a store copy receipt for charge	No		System	"*System, Store"	Yes
+5003	POS	Return to clerk signon after opening the cash drawer	Yes		System	"*System, Store, User, Terminal"	Yes
+5004	POS	Retain signon clerk ID in Point-of-Sale?	Yes		System	"*System, Store, Terminal"	Yes
+5005	POS	Does this store give Quantity Break Prices	Yes		Store	*Store	Yes
+5006	POS	Repricing a transaction checks for price < cost	No		System	*System	Yes
+5007	POS	Reprice credit items when transaction is repriced?	No - credit items are not repriced		System	*System	Yes
+5008	POS	Apply MSU discount to customer best price that is less than retail	No		System	"*System, Store"	Yes
+5009	POS	MSU specific price is always the Best Price	No		System	"*System, Store"	Yes
+5010	POS	Change customer when entering loyalty # at end of transaction	Change customer		System	"*System, Store, User, Terminal"	Yes
+5011	POS	Prompt for loyalty ID at 'end' should display when?	All customers		System	"*System, Store, User, Terminal"	Yes
+5012	POS	"Allow loyalty account in all stores even if ""Cross Store Charges"" = No"	Yes		System	*System	Yes
+5020	POS	Print invoice # on offline invoices	Yes		System	*System	Yes
+5024	POS	Warn user if Offline POS data is more than this many days old	1		Terminal	"System, Store, *Terminal"	Yes
+5026	POS	Clear Offline POS transaction totals after successful upload	Yes		System	"*System, Store, Terminal"	Yes
+5027	POS	Deposit Tracking on System	Yes		System	*System	Yes
+5031	POS	Display Transfer From/To Store window in POS	No		System	"*System, Store"	Yes
+5033	POS	Restrict change of Transfer's status to appropriate store?	No		System	"*System, Store"	Yes
+5035	POS	Allow an item marked as non-returnable to be returned with a M/O	Yes		System	"*System, Store"	Yes
+5036	AOE	Selling Codes can be entered in Quantity field	No		System	"*System, Store, User, Terminal"	No
+5037	AOE	Display tool tip for selling codes available in the quantity field	Yes		User	"System, Store, *User, Terminal"	No
+5040	FAX	POS FAX time			System	"*System, Store"	No
+5041	FAX	Point-of-Sale FAX cover page default selection	Y=Transmit cover page		System	*System	No
+5042	FAX	FAX and batch invoice network printer	0		System	"*System, Store, Terminal"	Yes
+5043	FAX	POS FAX memo file			System	"*System, Store"	No
+5044	FAX	Print one copy when faxing from POS	No		System	"*System, Store"	No
+5045	FAX	Always display POS FAX dialog when faxing	Yes		System	"*System, Store, Terminal"	No
+5046	FAX	Enhanced Fax Setup is Completed	No		System	"*System, Store, Terminal"	No
+5047	FAX	Enhanced Fax - the image of each fax is retained only for the day sent	Yes		System	*System	Yes
+5048	POS	Include store name on POS FAX documents	No		System	"*System, Store"	Yes
+5060	PKPS	Subtract Shipped Quantity from QOH in Physical Inventory	Yes		Store	"System, *Store"	Yes
+5064	AOE	Ship Via - UPS Worldwide PC Path			Store	*Store	Yes
+5065	AOE	Ship Via Table	Shipping Methods		System	"*System, Store"	Yes
+5066	AOE	POS Ship Via to use when customer's is blank			System	"*System, Store"	Yes
+5069	PKPS	Order release days for Order Entry and ROO Option P	1		System	"*System, Store"	Yes
+5070	PKPS	Maximum order dollar amount without automatic order hold	0		System	"*System, Store, User, Terminal"	Yes
+5072	PKPS	Maximum % of credit limit for an order without automatic order hold	0		System	"*System, Store, User, Terminal"	Yes
+5074	PKPS	Hold orders below gross margin	0		System	"*System, Store, User, Terminal"	Yes
+5076	PKPS	Hold orders when account exceeds days past due			System	"*System, Store, User, Terminal"	Yes
+5078	PKPS	Hold orders when account over credit limit	No		System	"*System, Store, User, Terminal"	Yes
+5080	PKPS	Hold orders when transaction salesperson not equal account salesperson	No		System	"*System, Store, User, Terminal"	Yes
+5082	PKPS	Hold orders when transaction tax code does not equal account tax code	No		System	"*System, Store, User, Terminal"	Yes
+5084	PKPS	Hold orders when transaction terms code does not equal account terms	No		System	"*System, Store, User, Terminal"	Yes
+5086	PKPS	Hold orders when account inactivity exceeds	0		System	"*System, Store, User, Terminal"	Yes
+5088	PKPS	Print all items on Warehouse Pick Ticket	Yes		System	"*System, Store, User, Terminal"	Yes
+5090	PKPS	Items to print on Packing List	F=All Items on 1st version only		System	"*System, Store, User, Terminal"	Yes
+5094	AOE	Default freight SKU to use on shipped orders			System	"*System, Store"	Yes
+5100	AOE	Include backordered items in Transaction Total	No		System	*System	No
+5106	AOE	"Use ""Order Balance in Credit Available"" feature"	No		System	*System	No
+5107	AOE	Use Return Merchandise Authorization transaction	No		System	*System	No
+5108	AOE	Allow ability to flag orders for automatic transfer from another store	No		System	"*System, Store"	No
+5109	PKPS	"Can Order be invoiced without doing ""Release for Picking"""	No		System	"*System, Store, User, Terminal"	No
+5110	PKPS	Hold Options govern ability to invoice an order	No		System	"*System, Store"	No
+5111	AOE	Use Ship Via's in Order Entry	No		System	*System	Yes
+5112	PKPS	Items added to a Picked or Shipped status order will be invoiced?	No - Items just added will not be invoiced without doing 'release for picking'		System	"*System, Store, User, Terminal"	No
+5120	POS	Update store order was created in when invoicing from another store	No		System	*System	Yes
+5122	POS	Does the receipt for a Suspended sale print the items?	Yes		System	"*System, Store, User, Terminal"	Yes
+5123	POS	Display Suspended Transactions on POS Signon	No		System	"*System, Store, User"	Yes
+5124	POS	Print sequence for bankcard receipts	2=Customer receipt followed by Signature/Store receipt		System	"*System, Store, Terminal"	Yes
+5126	POS	Use card bin ranges to determine credit/debit/gift card type	Yes		System	"*System, Store"	Yes
+5127	POS	Debit Bin Range Checking on System	No		System	*System	Yes
+5133	POS	Directory that contains third party transaction import files			Terminal	*Terminal	No
+5136	POS	Clear the credit tax amount when Ace Reward subtotal is zero or positive	Yes		System	"*System, Store"	Yes
+5144	POS	Alternate currency exchange rate	0		Store	*Store	Yes
+5146	PKPS	Print warehouse pick ticket direct (from POS)?	Yes		System	*System	Yes
+5148	POS	Invoices printed from report QRPRINT uses an Enhanced Form	No		System	"*System, Store"	Yes
+5152	POS	Backorder Pick Tickets print on the terminal's Order printer	Yes		System	"*System, Store"	Yes
+5154	PKPS	Print 'leading' comments on Pick Tickets	No		System	"*System, Store"	Yes
+5155	PKPS	Print 'leading' comments on Packing List	No		System	"*System, Store"	Yes
+5156	PKPS	Print 'leading' comments on Invoices	No		System	"*System, Store"	Yes
+5157	POS	Prompt clerk to reprice status R transfers when recalled	No		Store	"System, *Store, User, Terminal"	Yes
+5158	AOE	Prompt for backorder when reducing the quantity on order or s/o	Always prompt to backorder the difference		System	"*System, Store, Terminal"	No
+5159	POS	What does security bit 543 = No mean?	1=Clerk can change the cost of any item on a special order transactions		System	"*System, Store"	Yes
+5160	AOE	Automatically place backordered BOM components on Buyer's List	No		System	"*System, Store, User, Terminal"	No
+5162	A/R	Keep Daily Tax Information?	Yes		System	*System	Yes
+5164	AOE	Does Total's <QUOTE> button print or not print?	No		System	"*System, Store, User, Terminal"	Yes
+5165	AOE	Does Total's <ORDER> button print or not print?	No		System	"*System, Store, User, Terminal"	Yes
+5166	AOE	Default for the Print field in the Total's <Save As> dialog?	No		System	"*System, Store, User, Terminal"	No
+5167	POS	Type of prompt given when the clerk presses the Void Transaction button	1=List of reason codes		System	"*System, Store, User, Terminal"	Yes
+5168	POS	What actions does security bits 565/566 control?	1=Actions bit 565/566 control are -  manually typing in price; Ctrl D; Ctrl P; Ctrl O		System	"*System, Store"	Yes
+5350	POS	Department used to track Direct Ship activity			System	*System	Yes
+5352	POS	Department used to track Buyout activity			System	*System	Yes
+5354	POS	Department used to track Agency Sales activity			System	*System	Yes
+5360	POS	Gift/Cash card type	A=Wildcard (including Ace)		System	"*System, Store"	Yes
+5364	POS	Gift/Cash Card activation minimum amount	5		System	"*System, Store, User, Terminal"	Yes
+5366	POS	Gift/Cash Card activation maximum amount	250		System	"*System, Store, User, Terminal"	Yes
+5368	POS	Gift/Cash Card cash-out maximum without M/O	0		System	"*System, Store, User, Terminal"	Yes
+5380	POS	Update finished goods sku date of last receipt	Yes		Store	"System, *Store"	Yes
+5382	POS	Update cost on finished goods sku	N=Do not update any cost		Store	"System, *Store"	Yes
+5384	POS	Update quantity on order for finished goods sku	Yes		Store	"System, *Store"	Yes
+5386	POS	Update BOM component Cur Per Sale on finished goods processing	Yes		Store	"System, *Store"	Yes
+5388	POS	Update BOM component Date of Last Sale on finished goods processing	Yes		Store	"System, *Store"	Yes
+5389	POS	Set BOM Component Print flag to Not Printed when posting a zero quantity	No		System	"*System, Store"	Yes
+5392	POS	Include Special Records in Bill of Material Price Override	Yes		System	"*System, Store"	Yes
+5400	POS	Cash - Maximum amount on a sale without M/O	99999.99		Store	"System, *Store, User, Terminal"	Yes
+5401	POS	Check - Maximum amount on a sale without M/O	5000		Store	"System, *Store, User, Terminal"	Yes
+5402	POS	Bankcard - Maximum amount on a sale without M/O	99999.99		Store	"System, *Store, User, Terminal"	Yes
+5403	POS	Cash Refund - Maximum amount without a M/O	19		Store	"System, *Store, User, Terminal"	Yes
+5404	POS	Maximum amount cash back on debit card (PinPad)	99999.99		Store	"System, *Store, User, Terminal"	Yes
+5412	POS	Minimum amount for issuing a store voucher	10		Store	"System, *Store, User, Terminal"	Yes
+5413	POS	Advanced Rainchecks in POS	Y=Rainchecks tracked & used in suggested ordering		System	"*System, Store"	Yes
+5414	POS	% of Raincheck Quantity to order - used when no item level %	100		System	"*System, Store"	Yes
+5415	POS	Adv Raincheck - have Ctrl P prompt for raincheck	Yes		System	"*System, Store"	Yes
+5416	POS	Default beginning cash for cash drawers	0		System	"*System, Store, User, Terminal"	Yes
+5417	POS	Offline Credit Authorization Upload for Protobase	Yes		System	"System, *Store"	Yes
+5418	POS	Offline Credit Authorization floor limit	99999.99		Store	"System, *Store, User, Terminal"	Yes
+5419	POS	"Accumulate and Print Cash Drawer Totals By Clerk, Terminal, or Store"	Terminal		System	"*System, Store"	Yes
+5420	POS	Reprint invoices from QuickRecall to receipt printer	N=Invoice printer		Terminal	"*System, Store, Terminal"	Yes
+5421	POS	POS timeout (seconds) for automatic return to Clerk	90		System	"*System, Store, Terminal"	Yes
+5422	POS	Number of prior selling prices to show in POS	5		System	"*System, Store, Terminal"	Yes
+5423	POS	Add/change Estimate Use Codes	Estimate Use Codes		System	"*System, Store"	Yes
+5424	POS	Recover abnormally terminated sales or credits when starting POS	Yes		System	"*System, Store, User, Terminal"	Yes
+5425	POS	Apply CPP pricing to Keep Prices = No items	Yes		System	*System	Yes
+5426	POS	Recalculate cost on Keep Prices = No items when price is changed	Yes		System	*System	Yes
+5427	POS	Print cash drawer totals with bankcards broken out by type	Yes		System	"*System, Store, User, Terminal"	Yes
+5428	POS	Prompt for beginning cash for cash drawers	No		System	"*System, Store, User, Terminal"	Yes
+5429	POS	Automatic description lookup from item (Sku) field	Yes		System	"*System, Store, User, Terminal"	Yes
+5430	POS	"Smart POS item lookup by Sku, UPC, Mfg Part #"	M=Lookup item # first by Sku then UPC then Mfg PN		System	"*System, Store, Terminal"	Yes
+5431	POS	Tally 2 component print format	Components		System	"*System, Store, User, Terminal"	Yes
+5432	POS	Allow quick add of customers/jobs in POS	No		System	"*System, Store"	Yes
+5434	POS	Open cash drawer detection enabled on system	No		System	"System, Store, *Terminal"	Yes
+5435	POS	Allow double-click in posting grid to invoke item change?	Yes		System	"*System, Store, User, Terminal"	Yes
+5436	POS	Allow UPC capture on Keep Stock = No SKU's	No		System	*System	Yes
+5437	POS	Format of the invoice's Mfg Part #/UPC line	N=Don't Print		System	"*System, Store, Terminal"	Yes
+5438	POS	Invoice prints Mfg Part#/UPC line on Sales/Credits	N=Do not print on Sales/Credits		System	"*System, Store, Terminal"	Yes
+5439	POS	"Invoice prints Mfg Part#/UPC line on Estimates, Orders, Special Orders"	None		System	"*System, Store, Terminal"	Yes
+5440	POS	Invoice prints Mfg Part#/UPC line on Transfers	Y=Print on Transfers		System	"*System, Store, Terminal"	Yes
+5442	POS	Cash Drawer Balancing typically done at EOD or the following day?	Following Day		System	"*System, Store"	Yes
+5443	POS	Continue Using Open Cash Drawers From Previous Day	No		System	"*System, Store"	Yes
+5447	POS	Check Quantity Insufficient on Special Orders	No		Terminal	*Terminal	Yes
+5449	POS	Estimates - Use 'established' price on subsequent posting of same item	No		System	"*System, Store"	Yes
+5450	POS	Default days for Estimate Expiration Date	1		System	"*System, Store, User, Terminal"	Yes
+5451	POS	Item cost/GP% in WinPOS displays readable	Yes		System	"*System, Store, User, Terminal"	Yes
+5452	POS	Default for Estimate Archive flag	No		System	"*System, Store, User, Terminal"	Yes
+5453	POS	On Suspended accounts allow estimates to be created/modified	No		System	"*System, Store"	Yes
+5456	AOE	Display Source Menu when?	Never		Terminal	"System, Store, User, *Terminal"	No
+5458	AOE	Automatically place backorders on Buyer's List	N=Do not prompt and do not put on Buyer's List		Terminal	"System, Store, User, *Terminal"	No
+5459	AOE	Default Vendor for backorders placed on Buyer's List.	Primary Vendor		Store	"System, *Store, User, Terminal"	No
+5460	POS	Layaway Payment - 1st tier upper limit	0		Store	"System, *Store, User, Terminal"	Yes
+5461	POS	Layaway Payment - 1st tier percentage	0		Store	"System, *Store, User, Terminal"	Yes
+5462	POS	Layaway Payment - 2nd tier upper limit	0		Store	"System, *Store, User, Terminal"	Yes
+5463	POS	Layaway Payment - 2nd tier percentage	0		Store	"System, *Store, User, Terminal"	Yes
+5466	POS	Layaway Payment - final tier percentage	0		Store	"System, *Store, User, Terminal"	Yes
+5468	POS	Layaway Payment - allow payment by bankcard	Yes		Store	"System, *Store, User, Terminal"	Yes
+5469	POS	Layaway Payment - allow payment by charge	Yes		Store	"System, *Store, User, Terminal"	Yes
+5472	POS	Tax Exemption - Applies to which customers?	N=Do Not Use this feature		System	"*System, Store"	Yes
+5479	POS	Print a store copy receipt for debit card	Yes		System	"*System, Store"	Yes
+5481	POS	Print a store copy receipt for returns	Yes		System	"*System, Store"	Yes
+5482	POS	"Default answer for ""Print Invoice"" prompt on cash sale"	Y=Ask and defaults to Yes		Terminal	"*System, Store, Terminal"	Yes
+5483	POS	"Default answer for ""Add S/O Item to Inventory"" Prompt"	N=Ask and defaults to No		System	"*System, Store, Terminal"	Yes
+5484	POS	Page break on location for orders	No page breaks		Store	"System, *Store, Terminal"	Yes
+5485	POS	Calculate terms discount on deposits	N=Do not calculate terms discounts		System	*System	Yes
+5486	POS	Trade discount percentage threshold (line items and entire transaction)	10		System	"*System, Store, User, Terminal"	Yes
+5487	POS	Promo discount percentage threshold	50		System	"*System, Store, User, Terminal"	Yes
+5488	POS	Store Voucher required on a POS Refund	No		System	"*System, Store"	Yes
+5489	POS	Print a separate Store Voucher receipt on a Refund/Re-Issue	S=Voucher and store copy		System	"*System, Store"	Yes
+5490	POS	Print store number next to document # on invoices and receipts	Yes		System	"*System, Store"	Yes
+5491	POS	Print order on N form is Description followed by Sku	No		System	"*System, Store"	Yes
+5492	POS	Print cash account's name on invoice when no address	Yes		System	"*System, Store"	Yes
+5493	POS	When to give price less than cost warning	M=Only when manually entered		System	"*System, Store"	Yes
+5494	POS	Require cash customer information on a return	Yes		System	"*System, Store"	Yes
+5495	POS	Minimum GP% when price and/or cost manually entered	0		System	"*System, Store, User, Terminal"	Yes
+5496	POS	Languages on PinPad	1=English		System	"*System, Store, Terminal"	Yes
+5497	POS	Default PinPad device to debit mode	No		System	"*System, Store, Terminal"	Yes
+5498	POS	Default PinPad to swipe first	Yes		System	"*System, Store, Terminal"	Yes
+5499	POS	Debit allowed on credit / PinPad terminal	No		System	"*System, Store, Terminal"	Yes
+5500	POS	Alternate tender 1 description	In Store Coupon		System	*System	Yes
+5501	POS	Alternate tender 1 open cash drawer?	No		Store	*Store	Yes
+5504	POS	Alternate tender 1 available on Sale transaction?	Yes		Store	*Store	Yes
+5505	POS	Alternate tender 1 enabled?	Yes		Store	"System, *Store, User, Terminal"	Yes
+5506	POS	Alternate tender 1 available on Credit transaction?	Yes		Store	*Store	Yes
+5509	POS	Alternate tender 1 available on ROA transaction?	No		Store	*Store	Yes
+5510	POS	Alternate tender 1 available on Deposits?	No		Store	*Store	Yes
+5512	POS	Alternate tender 1 allow cash back?	No		Store	*Store	Yes
+5514	POS	Alternate tender 1 maximum amount without manager override	250		Store	"System, *Store, User, Terminal"	Yes
+5516	POS	Alternate tender 1 type			Store	*Store	Yes
+5520	POS	Alternate tender 2 description	Mfg Coupon		System	*System	Yes
+5521	POS	Alternate tender 2 open cash drawer?	No		Store	*Store	Yes
+5524	POS	Alternate tender 2 available on Sale transaction?	Yes		Store	*Store	Yes
+5525	POS	Alternate tender 2 enabled?	Yes		Store	"System, *Store, User, Terminal"	Yes
+5526	POS	Alternate tender 2 available on Credit transaction?	Yes		Store	*Store	Yes
+5529	POS	Alternate tender 2 available on ROA transaction?	No		Store	*Store	Yes
+5530	POS	Alternate tender 2 available on Deposits?	No		Store	*Store	Yes
+5532	POS	Alternate tender 2 allow cash back?	No		Store	*Store	Yes
+5534	POS	Alternate tender 2 maximum amount without manager override	250		Store	"System, *Store, User, Terminal"	Yes
+5536	POS	Alternate tender 2 type			Store	*Store	Yes
+5540	POS	Alternate tender 3 description	Gift Certificate		System	*System	Yes
+5541	POS	Alternate tender 3 open cash drawer?	No		Store	*Store	Yes
+5544	POS	Alternate tender 3 available on Sale transaction?	Yes		Store	*Store	Yes
+5545	POS	Alternate tender 3 enabled?	Yes		Store	"System, *Store, User, Terminal"	Yes
+5546	POS	Alternate tender 3 available on Credit transaction?	No		Store	*Store	Yes
+5549	POS	Alternate tender 3 available on ROA transaction?	No		Store	*Store	Yes
+5550	POS	Alternate tender 3 available on Deposits?	No		Store	*Store	Yes
+5552	POS	Alternate tender 3 allow cash back?	No		Store	*Store	Yes
+5554	POS	Alternate tender 3 maximum amount without manager override	250		Store	"System, *Store, User, Terminal"	Yes
+5556	POS	Alternate tender 3 type			Store	*Store	Yes
+5560	POS	Alternate tender 4 description	In Store Voucher		System	*System	Yes
+5561	POS	Alternate tender 4 open cash drawer?	No		Store	*Store	Yes
+5564	POS	Alternate tender 4 available on Sale transaction?	Yes		Store	*Store	Yes
+5565	POS	Alternate tender 4 enabled?	Yes		Store	"System, *Store, User, Terminal"	Yes
+5566	POS	Alternate tender 4 available on Credit transaction?	Yes		Store	*Store	Yes
+5569	POS	Alternate tender 4 available on ROA transaction?	No		Store	*Store	Yes
+5570	POS	Alternate tender 4 available on Deposits?	Yes		Store	*Store	Yes
+5572	POS	Alternate tender 4 allow cash back?	Re-issue for remainder		Store	*Store	Yes
+5574	POS	Alternate tender 4 maximum amount without manager override	300		Store	"System, *Store, User, Terminal"	Yes
+5576	POS	Alternate tender 4 type	In Store Credit		Store	*Store	Yes
+5580	POS	Alternate tender 5 description	Alt Tender 5		System	*System	Yes
+5581	POS	Alternate tender 5 open cash drawer?	No		Store	*Store	Yes
+5584	POS	Alternate tender 5 available on Sale transaction?	No		Store	*Store	Yes
+5585	POS	Alternate tender 5 enabled?	No		Store	"System, *Store, User, Terminal"	Yes
+5586	POS	Alternate tender 5 available on Credit transaction?	No		Store	*Store	Yes
+5589	POS	Alternate tender 5 available on ROA transaction?	No		Store	*Store	Yes
+5590	POS	Alternate tender 5 available on Deposits?	No		Store	*Store	Yes
+5592	POS	Alternate tender 5 allow cash back?	No		Store	*Store	Yes
+5594	POS	Alternate tender 5 maximum amount without manager override	0		Store	"System, *Store, User, Terminal"	Yes
+5596	POS	Alternate tender 5 type			Store	*Store	Yes
+5600	POS	Alternate tender 6 description	ACE GIFT CARD		System	*System	Yes
+5601	POS	Alternate tender 6 open cash drawer?	No		Store	*Store	Yes
+5604	POS	Alternate tender 6 available on Sale transaction?	Yes		Store	*Store	Yes
+5605	POS	Alternate tender 6 enabled?	Yes		Store	"System, *Store, User, Terminal"	Yes
+5606	POS	Alternate tender 6 available on Credit transaction?	No		Store	*Store	Yes
+5609	POS	Alternate tender 6 available on ROA transaction?	No		Store	*Store	Yes
+5610	POS	Alternate tender 6 available on Deposits?	Yes		Store	*Store	Yes
+5612	POS	Alternate tender 6 allow cash back?	No		Store	*Store	Yes
+5614	POS	Alternate tender 6 maximum amount without manager override	250		Store	"System, *Store, User, Terminal"	Yes
+5616	POS	Alternate tender 6 type	Gift Card		Store	*Store	Yes
+5620	POS	Alternate tender 7 description	Alt Tender 7		System	*System	Yes
+5621	POS	Alternate tender 7 open cash drawer?	No		Store	*Store	Yes
+5624	POS	Alternate tender 7 available on Sale transaction?	No		Store	*Store	Yes
+5625	POS	Alternate tender 7 enabled?	No		Store	"System, *Store, User, Terminal"	Yes
+5626	POS	Alternate tender 7 available on Credit transaction?	No		Store	*Store	Yes
+5629	POS	Alternate tender 7 available on ROA transaction?	No		Store	*Store	Yes
+5630	POS	Alternate tender 7 available on Deposits?	No		Store	*Store	Yes
+5632	POS	Alternate tender 7 allow cash back?	No		Store	*Store	Yes
+5634	POS	Alternate tender 7 maximum amount without manager override	0		Store	"System, *Store, User, Terminal"	Yes
+5636	POS	Alternate tender 7 type			Store	*Store	Yes
+5640	POS	Alternate tender 8 description	Alt Tender 8		System	*System	Yes
+5641	POS	Alternate tender 8 open cash drawer?	No		Store	*Store	Yes
+5644	POS	Alternate tender 8 available on Sale transaction?	No		Store	*Store	Yes
+5645	POS	Alternate tender 8 enabled?	No		Store	"System, *Store, User, Terminal"	Yes
+5646	POS	Alternate tender 8 available on Credit transaction?	No		Store	*Store	Yes
+5649	POS	Alternate tender 8 available on ROA transaction?	No		Store	*Store	Yes
+5650	POS	Alternate tender 8 available on Deposits?	No		Store	*Store	Yes
+5652	POS	Alternate tender 8 allow cash back?	No		Store	*Store	Yes
+5654	POS	Alternate tender 8 maximum amount without manager override	0		Store	"System, *Store, User, Terminal"	Yes
+5656	POS	Alternate tender 8 type			Store	*Store	Yes
+5660	POS	Alternate tender 9 description	Alt Tender 9		System	*System	Yes
+5661	POS	Alternate tender 9 open cash drawer?	No		Store	*Store	Yes
+5664	POS	Alternate tender 9 available on Sale transaction?	No		Store	*Store	Yes
+5665	POS	Alternate tender 9 enabled?	No		Store	"System, *Store, User, Terminal"	Yes
+5666	POS	Alternate tender 9 available on Credit transaction?	No		Store	*Store	Yes
+5669	POS	Alternate tender 9 available on ROA transaction?	No		Store	*Store	Yes
+5670	POS	Alternate tender 9 available on Deposits?	No		Store	*Store	Yes
+5672	POS	Alternate tender 9 allow cash back?	No		Store	*Store	Yes
+5674	POS	Alternate tender 9 maximum amount without manager override	0		Store	"System, *Store, User, Terminal"	Yes
+5676	POS	Alternate tender 9 type			Store	*Store	Yes
+5680	POS	Alternate tender 10 description	Alt Tender 10		System	*System	Yes
+5681	POS	Alternate tender 10 open cash drawer?	No		Store	*Store	Yes
+5684	POS	Alternate tender 10 available on Sale transaction?	No		Store	*Store	Yes
+5685	POS	Alternate tender 10 enabled?	No		Store	"System, *Store, User, Terminal"	Yes
+5686	POS	Alternate tender 10 available on Credit transaction?	No		Store	*Store	Yes
+5689	POS	Alternate tender 10 available on ROA transaction?	No		Store	*Store	Yes
+5690	POS	Alternate tender 10 available on Deposits?	No		Store	*Store	Yes
+5692	POS	Alternate tender 10 allow cash back?	No		Store	*Store	Yes
+5694	POS	Alternate tender 10 maximum amount without manager override	0		Store	"System, *Store, User, Terminal"	Yes
+5696	POS	Alternate tender 10 type			Store	*Store	Yes
+5700	INET	Ability for a user to access the Accounts On-Line features	Yes		User	*User	Yes
+5704	INET	Ability for a user to access the Order Pro features	Yes		User	*User	Yes
+5707	INET	"Ability for a user to view item quantities on hand, on order, committed"	Yes		User	"System, *User"	Yes
+5709	INET	Ability for a user to create an Order Pro Estimate	Yes		User	*User	Yes
+5710	INET	Ability for a user to create an Order Pro Order	Yes		User	*User	Yes
+5711	INET	Ability for a user to change an estimate to an order	Yes		User	*User	Yes
+5716	INET	Ability for users to view Catalog On-Line Pricing	No		System	*System	Yes
+5717	INET	Ability for users to view quantities in Catalog On-Line	No		System	*System	Yes
+5718	INET	Allow direct shipment of iNet e-Store orders	Yes		System	*System	Yes
+5719	INET	Compute shipping costs for e-Store orders	Yes		System	*System	Yes
+5720	INET	Contact Us email or link			Store	"System, *Store"	Yes
+5721	INET	Store Address for computing shipping costs			Store	"System, *Store"	Yes
+5725	INET	iNet lockin store			User	*User	Yes
+5726	INET	iNet allow account selection	No		User	*User	Yes
+5730	INET	View thumbnail images in iNet Catalog searches	No		Store	"System, *Store"	Yes
+5731	INET	View National Account images in Catalog	None		Store	"System, *Store"	Yes
+5732	INET	Use MAP for Catalog image lookups	No		Store	"System, *Store"	Yes
+5733	INET	Vendor code for National Account images			Store	"System, *Store"	Yes
+5750	INET	Require credit card on will call orders	No		Store	"System, *Store"	Yes
+5751	INET	Require credit card identification number in e-Store	No		Store	"System, *Store"	No
+5752	INET	Accept Visa cards in e-Store	No		Store	"System, *Store"	Yes
+5753	INET	Accept Mastercard in e-Store	No		Store	"System, *Store"	Yes
+5754	INET	Accept Discover Card in e-Store	No		Store	"System, *Store"	Yes
+5755	INET	Accept American Express in e-Store	No		Store	"System, *Store"	Yes
+5756	INET	Accept Diners card in e-Store	No		Store	"System, *Store"	Yes
+5757	INET	Accept Carte Blanche in e-Store	No		Store	"System, *Store"	Yes
+5758	INET	Accept Private Label cards in e-Store	No		Store	"System, *Store"	Yes
+5760	INET	iNet e-Store freight factor	1		Store	"System, *Store"	Yes
+5769	INET	Replace the OrderPro Reference field label with:			System	*System	Yes
+5770	INET	iNet Order Pro Printer	1		Store	"*Store, User"	Yes
+5771	INET	iNet e-Store Printer	1		Store	*Store	Yes
+5782	INET	From e-mail address for e-Statements	a09572a@acehardware.com		System	"*System, Store"	Yes
+5786	INET	From e-mail address for e-mail invoices	a09572a@acehardware.com		System	"*System, Store"	Yes
+5787	INET	Link on store name			System	"*System, Store"	Yes
+5788	INET	iNet Server and Site Name for Store			System	"*System, Store"	Yes
+5789	INET	Base URL for self-hosted pages on your iNet site			System	"*System, Store"	Yes
+5790	INET	Home page for Order Pro and Accounts On-Line			System	"*System, Store"	Yes
+5791	INET	Policies page for e-Store			System	"*System, Store"	Yes
+5792	INET	Home page for iNet Catalog and e-Store			System	"*System, Store"	Yes
+5794	INET	Signoff page for Order Pro and Accounts On-Line			System	"*System, Store"	Yes
+5796	INET	iNet Menu Bar Background Color			System	"*System, Store"	Yes
+5798	INET	iNet Menu Bar Font Color			System	"*System, Store"	Yes
+5802	INVENTORY	Windows Labels - Allow RQ/CSV labels on this system	No		System	*System	Yes
+5804	INVENTORY	"Use the ""Default MSU bin label format"" when printing MSU items?"	No		System	"*System, Store, User, Terminal"	Yes
+5810	INVENTORY	Default bin label format used for Windows label printing	RF STYLE		System	"*System, Store, User, Terminal"	Yes
+5811	INVENTORY	Default MSU bin label format used for Windows label printing	Template - Comtec Bin. like Triad RF/IST		System	"*System, Store, User, Terminal"	Yes
+5812	INVENTORY	Default price label format used for Windows label printing	PRICE TICKET ED		System	"*System, Store, User, Terminal"	Yes
+5814	INVENTORY	Default promo label format used for Windows Label Printing	PROMO SIGN 4 per PAGE		System	"*System, Store, User, Terminal"	Yes
+5816	INVENTORY	Default 'other' price label format used for Windows label printing	*** View Not Found ***		System	"*System, Store, User, Terminal"	Yes
+5818	INVENTORY	Default price label format used for printing from Serial # Maintenance	*** View Not Found ***		System	"*System, Store, User, Terminal"	Yes
+5820	INVENTORY	Alternate Vendor #1 for printing alternate item #'s in Label Manager			System	"*System, Store"	Yes
+5821	INVENTORY	Alternate Vendor #2 for printing alternate item #'s in Label Manager			System	"*System, Store"	Yes
+5822	INVENTORY	Alternate Vendor #3 for printing alternate item #'s in Label Manager			System	"*System, Store"	Yes
+5823	INVENTORY	Key used in Label Manager for cost coding	BLACKHORSE		System	*System	Yes
+5900	POS	Receipt Top Header Message (Characters 1-32)	THANK YOU FOR SHOPPING AT		Store	"System, *Store, Terminal"	Yes
+5901	POS	Receipt Top Header Message (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+5904	POS	Receipt Header Message - Line 1 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+5905	POS	Receipt Header Message - Line 1 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+5908	POS	Receipt Header Message - Line 2 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+5909	POS	Receipt Header Message - Line 2 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+5912	POS	Receipt Trailer Message - Line 1 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+5913	POS	Receipt Trailer Message - Line 1 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+5916	POS	Receipt Trailer Message - Line 2 (Characters 1-32)	MUST HAVE RECEIPT FOR RETURN		Store	"System, *Store, Terminal"	Yes
+5917	POS	Receipt Trailer Message - Line 2 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+5920	POS	Receipt Coupon Message - Line 1 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+5921	POS	Receipt Coupon Message - Line 1 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+5924	POS	Receipt Coupon Message - Line 2 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+5925	POS	Receipt Coupon Message - Line 2 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+5928	POS	Receipt Coupon Message - Line 3 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+5929	POS	Receipt Coupon Message - Line 3 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+5932	POS	Receipt Coupon Message - Line 4 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+5933	POS	Receipt Coupon Message - Line 4 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+5936	POS	Receipt Coupon Message - Line 5 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+5937	POS	Receipt Coupon Message - Line 5 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+5950	POS	Print Store Address on Receipt	Yes		Store	"System, *Store"	Yes
+5951	POS	Print 'Regular Price' line on POS receipts	No		System	"*System, Store"	Yes
+5953	POS	"Print ""Total Items"" count on customer receipt"	No		System	"*System, Store"	Yes
+5954	POS	Use Code position for skus excluded from receipt's Total Items count			System	*System	Yes
+5955	POS	Use Code value for skus excluded from receipt's Total Items count			System	*System	Yes
+5960	POS	EN-Touch Credit card disclaimer message Line 1 Characters 1-32			System	"*System, Store"	Yes
+5961	POS	EN-Touch Credit card disclaimer message Line 1 Characters 33-39			System	"*System, Store"	Yes
+5964	POS	EN-Touch Credit card disclaimer message Line 2 Characters 1-32			System	"*System, Store"	Yes
+5965	POS	EN-Touch Credit card disclaimer message Line 2 Characters 33-39			System	"*System, Store"	Yes
+5968	POS	EN-Touch Credit card disclaimer message Line 3 Characters 1-32			System	"*System, Store"	Yes
+5969	POS	EN-Touch Credit card disclaimer message Line 3 Characters 33-39			System	"*System, Store"	Yes
+5972	POS	EN-Touch Credit card disclaimer message Line 4 Characters 1-32			System	"*System, Store"	Yes
+5973	POS	EN-Touch Credit card disclaimer message Line 4 Characters 33-39			System	"*System, Store"	Yes
+5980	POS	Force Gift/Cash Card activation	Yes		System	*System	Yes
+5981	POS	Gift/Cash Card - print amount remaining on POS receipts/invoices	Yes		System	"*System, Store"	Yes
+5982	ALERT	"Record ""Gift Card Activation aborted"" alerts"	Yes		System	*System	Yes
+5991	RF	RF POS receipt message 1	Present this ticket to cashier		Store	"System, *Store, Terminal"	Yes
+5992	RF	RF POS receipt message 2			Store	"System, *Store, Terminal"	Yes
+5993	RF	RF POS receipt message 3			Store	"System, *Store, Terminal"	Yes
+6000	POS	User-defined text for Store Voucher - Line 1 (Characters 1-32)	********************************		Store	"System, *Store, Terminal"	Yes
+6001	POS	User-defined text for Store Voucher - Line 1 (Characters 33-40)	********		Store	"System, *Store, Terminal"	Yes
+6004	POS	User-defined text for Store Voucher - Line 2 (Characters 1-32)	**********  INSTORE VOUCHER  ***		Store	"System, *Store, Terminal"	Yes
+6005	POS	User-defined text for Store Voucher - Line 2 (Characters 33-40)	********		Store	"System, *Store, Terminal"	Yes
+6008	POS	User-defined text for Store Voucher - Line 3 (Characters 1-32)	********************************		Store	"System, *Store, Terminal"	Yes
+6009	POS	User-defined text for Store Voucher - Line 3 (Characters 33-40)	********		Store	"System, *Store, Terminal"	Yes
+6012	POS	User-defined text for Store Voucher - Line 4 (Characters 1-32)	***MUST HAVE VOUCHER TO REDEEM		Store	"System, *Store, Terminal"	Yes
+6013	POS	User-defined text for Store Voucher - Line 4 (Characters 33-40)	********		Store	"System, *Store, Terminal"	Yes
+6016	POS	User-defined text for Store Voucher - Line 5 (Characters 1-32)	********************************		Store	"System, *Store, Terminal"	Yes
+6017	POS	User-defined text for Store Voucher - Line 5 (Characters 33-40)	********		Store	"System, *Store, Terminal"	Yes
+6020	POS	User-defined text for Store Voucher - Line 6 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6021	POS	User-defined text for Store Voucher - Line 6 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6024	POS	User-defined text for Store Voucher - Line 7 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6025	POS	User-defined text for Store Voucher - Line 7 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6028	POS	User-defined text for Store Voucher - Line 8 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6029	POS	User-defined text for Store Voucher - Line 8 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6032	POS	User-defined text for Store Voucher - Line 9 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6033	POS	User-defined text for Store Voucher - Line 9 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6036	POS	User-defined text for Store Voucher - Line 10 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6037	POS	User-defined text for Store Voucher - Line 10 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6040	POS	User-defined text for Store Voucher - Line 11 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6041	POS	User-defined text for Store Voucher - Line 11 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6044	POS	User-defined text for Store Voucher - Line 12 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6045	POS	User-defined text for Store Voucher - Line 12 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6048	POS	User-defined text for Store Voucher - Line 13 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6049	POS	User-defined text for Store Voucher - Line 13 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6052	POS	User-defined text for Store Voucher - Line 14 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6053	POS	User-defined text for Store Voucher - Line 14 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6056	POS	User-defined text for Store Voucher - Line 15 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6057	POS	User-defined text for Store Voucher - Line 15 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6060	POS	User-defined text for Store Voucher - Line 16 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6061	POS	User-defined text for Store Voucher - Line 16 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6064	POS	User-defined text for Store Voucher - Line 17 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6065	POS	User-defined text for Store Voucher - Line 17 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6068	POS	User-defined text for Store Voucher - Line 18 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6069	POS	User-defined text for Store Voucher - Line 18 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6072	POS	User-defined text for Store Voucher - Line 19 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6073	POS	User-defined text for Store Voucher - Line 19 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6076	POS	User-defined text for Store Voucher - Line 20 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6077	POS	User-defined text for Store Voucher - Line 20 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6080	POS	User-defined text for Store Voucher - Line 21 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6081	POS	User-defined text for Store Voucher - Line 21 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6084	POS	User-defined text for Store Voucher - Line 22 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6085	POS	User-defined text for Store Voucher - Line 22 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6200	POS	Text for store copy of item return/voucher - Line 1 (Characters 1-32)	X-------------------------------		Store	"System, *Store, Terminal"	Yes
+6201	POS	Text for store copy of item return/voucher - Line 1 (Characters 33-40)	--------		Store	"System, *Store, Terminal"	Yes
+6204	POS	Text for store copy of item return/voucher - Line 2 (Characters 1-32)	MANAGER SIGNATURE		Store	"System, *Store, Terminal"	Yes
+6205	POS	Text for store copy of item return/voucher - Line 2 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6208	POS	Text for store copy of item return/voucher - Line 3 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6209	POS	Text for store copy of item return/voucher - Line 3 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6212	POS	Text for store copy of item return/voucher - Line 4 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6213	POS	Text for store copy of item return/voucher - Line 4 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6216	POS	Text for store copy of item return/voucher - Line 5 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6217	POS	Text for store copy of item return/voucher - Line 5 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6220	POS	Text for store copy of item return/voucher - Line 6 (Characters 1-32)			Store	"System, *Store, Terminal"	Yes
+6221	POS	Text for store copy of item return/voucher - Line 6 (Characters 33-40)			Store	"System, *Store, Terminal"	Yes
+6240	POS	ECC - Receipt/Invoice text line 1  (Characters  1-32)	ALL RETURNS MUST		System	"*System, Store"	Yes
+6241	POS	ECC - Receipt/Invoice text line 1  (Characters 33-40)			System	"*System, Store"	Yes
+6242	POS	ECC - Receipt/Invoice text line 2 (Characters  1-32)	BE MADE WITH IN 30 DAYS		System	"*System, Store"	Yes
+6243	POS	ECC - Receipt/Invoice text line 2  (Characters 33-40)			System	"*System, Store"	Yes
+6244	POS	ECC - Receipt/Invoice text line 3 (Characters  1-32)			System	"*System, Store"	Yes
+6245	POS	ECC - Receipt/Invoice text line 3  (Characters 33-40)			System	"*System, Store"	Yes
+6246	POS	ECC - Receipt/Invoice text line 4 (Characters  1-32)			System	"*System, Store"	Yes
+6247	POS	ECC - Receipt/Invoice text line 4  (Characters 33-40)			System	"*System, Store"	Yes
+6248	POS	ECC - Receipt/Invoice text line 5 (Characters  1-32)			System	"*System, Store"	Yes
+6249	POS	ECC - Receipt/Invoice text line 5  (Characters 33-40)			System	"*System, Store"	Yes
+6250	POS	ECC - Receipt/Invoice text line 6 (Characters  1-32)			System	"*System, Store"	Yes
+6251	POS	ECC - Receipt/Invoice text line 6  (Characters 33-40)			System	"*System, Store"	Yes
+6252	POS	ECC - Receipt/Invoice text line 7 (Characters  1-32)			System	"*System, Store"	Yes
+6253	POS	ECC - Receipt/Invoice text line 7  (Characters 33-40)			System	"*System, Store"	Yes
+6254	POS	ECC - Receipt/Invoice text line 8 (Characters  1-32)			System	"*System, Store"	Yes
+6255	POS	ECC - Receipt/Invoice text line 8  (Characters 33-40)			System	"*System, Store"	Yes
+6256	POS	ECC - Receipt/Invoice text line 9 (Characters  1-32)			System	"*System, Store"	Yes
+6257	POS	ECC - Receipt/Invoice text line 9  (Characters 33-40)			System	"*System, Store"	Yes
+6258	POS	ECC - Receipt/Invoice text line 10 (Characters  1-32)			System	"*System, Store"	Yes
+6259	POS	ECC - Receipt/Invoice text line 10 (Characters 33-40)			System	"*System, Store"	Yes
+6300	POS	Acceptable approval message for gift card processing (1)	DEClINED		System	*System	Yes
+6302	POS	Acceptable approval message for gift card processing (2)			System	*System	Yes
+6304	POS	Acceptable approval message for gift card processing (3)			System	*System	Yes
+6306	POS	Acceptable approval message for gift card processing (4)			System	*System	Yes
+6308	POS	Acceptable approval message for gift card processing (5)			System	*System	Yes
+6310	POS	Acceptable approval message for gift card processing (6)			System	*System	Yes
+6312	POS	Acceptable approval message for gift card processing (7)			System	*System	Yes
+6314	POS	Acceptable approval message for gift card processing (8)			System	*System	Yes
+6316	POS	Acceptable approval message for gift card processing (9)			System	*System	Yes
+6318	POS	Acceptable approval message for gift card processing (10)			System	*System	Yes
+6349	POS	Special Instructions Line 2 contents for QuickRecall	1=Contains Special Instructions Line 2		System	*System	Yes
+6350	POS	Estimate - Default Special Instructions line 1			System	"*System, Store, User, Terminal"	Yes
+6351	POS	Estimate - Default Special Instructions line 2			System	"*System, Store, User, Terminal"	Yes
+6355	POS	Layaway - Default Special Instructions line 1			System	"*System, Store, User, Terminal"	Yes
+6356	POS	Layaway - Default Special Instructions line 2			System	"*System, Store, User, Terminal"	Yes
+6360	POS	Special Order - Default Special Instructions line 1			System	"*System, Store, User, Terminal"	Yes
+6361	POS	Special Order - Default Special Instructions line 2			System	"*System, Store, User, Terminal"	Yes
+6365	POS	Order - Default Special Instructions line 1	Repairs must be picked up in 7		System	"*System, Store, User, Terminal"	Yes
+6366	POS	Order - Default Special Instructions line 2	days or a storage fee charged		System	"*System, Store, User, Terminal"	Yes
+6900	POS	Private Card Allow Protobase to Determine Card Type	Yes		System	*System	Yes
+6910	POS	Private Card 1 Enabled	Yes		System	*System	Yes
+6912	POS	Private Card 1 Short Description from Processor	PL		System	*System	Yes
+6914	POS	Private Card 1 Long Description from Processor	GECS_PLC1		System	*System	Yes
+6916	POS	Private Card 1 Default Promo Code from Processor	000		System	*System	Yes
+6918	POS	Private Card 1 Level 1 Promo Code from Processor	001		System	*System	Yes
+6922	POS	Private Card 1 Level 2 Promo Code from Processor	090		System	*System	Yes
+6926	POS	Private Card 1 Level 3 Promo Code from Processor	180		System	*System	Yes
+6940	POS	Private Card 2 Enabled	Yes		System	*System	Yes
+6942	POS	Private Card 2 Short Description from Processor	PL		System	*System	Yes
+6944	POS	Private Card 2 Long Description from Processor	GECS_PLC2		System	*System	Yes
+6946	POS	Private Card 2 Default Promo Code from Processor	000		System	*System	Yes
+6948	POS	Private Card 2 Level 1 Promo Code from Processor	002		System	*System	Yes
+6952	POS	Private Card 2 Level 2 Promo Code from Processor	092		System	*System	Yes
+6956	POS	Private Card 2 Level 3 Promo Code from Processor	092		System	*System	Yes
+6970	POS	Private Card 3 Enabled	Yes		System	*System	Yes
+6972	POS	Private Card 3 Short Description from Processor	PL		System	*System	Yes
+6974	POS	Private Card 3 Long Description from Processor	GECS_PLC3		System	*System	Yes
+6976	POS	Private Card 3 Default Promo Code from Processor	000		System	*System	Yes
+6978	POS	Private Card 3 Level 1 Promo Code from Processor	030		System	*System	Yes
+6982	POS	Private Card 3 Level 2 Promo Code from Processor	060		System	*System	Yes
+6986	POS	Private Card 3 Level 3 Promo Code from Processor	060		System	*System	Yes
+7198	SYSTEM	Archive Manager Maintenance is active on this system	Yes		System	*System	Yes
+7200	ARCHIVE	Day of the week to run Archive Manager Maintenance	3=Wednesday		System	*System	Yes
+7201	ARCHIVE	Week of the month to run Archive Manager Maintenance	2		System	*System	Yes
+7202	ARCHIVE	Number of hours after which to delay Archive Manager Maintenance	16		System	*System	Yes
+7234	ARCHIVE	Days to keep Deposit Tracking record archive files.	999		System	*System	Yes
+7260	ARCHIVE	Days to keep Customer Returns (SOF/ADR) records	999		System	*System	Yes
+7263	ARCHIVE	Days to keep Delivery Manifest (SIF1/MDH) records	999		System	*System	Yes
+7266	ARCHIVE	Days to keep Daily Tax Totals (SRF/TCZ) records	999		System	*System	Yes
+7290	ARCHIVE	Global Purged Archive Directory (PAD) Folder	C:\3apps\data\pad		System	"*System, Store"	Yes
+7292	ARCHIVE	Local Terminal Purged Archive Directory (PAD) Folder	C:\3apps\data\pad		Terminal	"System, *Terminal"	Yes
+7294	ARCHIVE	Purged Archive Directory (PAD) download terminal	556		System	*System	Yes
+7299	ARCHIVE	Days to keep Notification Archive (ARC/NOT)	180		System	*System	Yes
+7302	ARCHIVE	Days to keep completed In-Store gift card records	999		System	"*System, Store"	Yes
+7305	ARCHIVE	Days to keep True Value catalog image update files	190		System	"*System, Store"	Yes
+7308	ARCHIVE	Days to keep Cash Drawer Balancing Viewer information.	999		System	*System	Yes
+7311	ARCHIVE	Days to keep transaction notes	999		System	*System	Yes
+7499	E4WDI	Allow all windows fonts in Enhanced Forms and Flex-Labels	No		System	*System	Yes
+7503	E4WDI	Enhanced Form for estimate documents	+ Laser Std Invoice like X		System	"*System, Store, Terminal"	Yes
+7505	E4WDI	Enhanced Form sort order for estimate documents	N=Line Number		System	"*System, Store, Terminal"	Yes
+7506	E4WDI	Enhanced Form location/suggested column for estimate documents	Suggested Price		System	"*System, Store, Terminal"	Yes
+7507	E4WDI	Enhanced Form barcode prints for estimate documents	No		System	"*System, Store, Terminal"	Yes
+7523	E4WDI	Enhanced Form for order documents	+ Laser Std Invoice like X		System	"*System, Store, Terminal"	Yes
+7525	E4WDI	Enhanced Form sort order for order documents	N=Line Number		System	"*System, Store, Terminal"	Yes
+7526	E4WDI	Enhanced Form location/suggested column for order documents	Suggested Price		System	"*System, Store, Terminal"	Yes
+7527	E4WDI	Enhanced Form barcode prints for order documents	No		System	"*System, Store, Terminal"	Yes
+7543	E4WDI	Enhanced Form for invoice documents	+ Laser Std Invoice like X		System	"*System, Store, Terminal"	Yes
+7545	E4WDI	Enhanced Form sort order for invoice documents	N=Line Number		System	"*System, Store, Terminal"	Yes
+7546	E4WDI	Enhanced Form location/suggested column for invoice documents	Suggested Price		System	"*System, Store, Terminal"	Yes
+7547	E4WDI	Enhanced Form barcode prints for invoice documents	No		System	"*System, Store, Terminal"	Yes
+7563	E4WDI	Enhanced Form for credit documents	+ Laser Std Invoice like X		System	"*System, Store, Terminal"	Yes
+7565	E4WDI	Enhanced Form sort order for credit documents	N=Line Number		System	"*System, Store, Terminal"	Yes
+7566	E4WDI	Enhanced Form location/suggested column for credit documents	Suggested Price		System	"*System, Store, Terminal"	Yes
+7567	E4WDI	Enhanced Form barcode prints for credit documents	No		System	"*System, Store, Terminal"	Yes
+7583	E4WDI	Enhanced Form for transfer documents	+ Laser Std Invoice like X		System	"*System, Store, Terminal"	Yes
+7585	E4WDI	Enhanced Form sort order for transfer documents	N=Line Number		System	"*System, Store, Terminal"	Yes
+7587	E4WDI	Enhanced Form barcode prints for transfer documents	No		System	"*System, Store, Terminal"	Yes
+7603	E4WDI	Enhanced Form for received on account documents	Default POS ROA Form		System	"*System, Store, Terminal"	Yes
+7607	E4WDI	Enhanced Form barcode prints for received on account documents	No		System	"*System, Store, Terminal"	Yes
+7643	E4WDI	Enhanced Form for warehouse pick ticket documents	+ Laser Std Invoice like X		System	"*System, Store, Terminal"	No
+7645	E4WDI	Enhanced Form sort order for warehouse pick ticket documents	Location		System	"*System, Store, Terminal"	No
+7646	E4WDI	Enhanced Form location/suggested column for warehouse pick ticket docs	Location		System	"*System, Store, Terminal"	No
+7647	E4WDI	Enhanced Form barcode prints for warehouse pick ticket documents	No		System	"*System, Store, Terminal"	Yes
+7663	E4WDI	Enhanced Form for backorder pick ticket documents	+ Laser Std Invoice like X		System	"*System, Store, Terminal"	Yes
+7665	E4WDI	Enhanced Form sort order for backorder pick ticket documents	N=Line Number		System	"*System, Store, Terminal"	Yes
+7666	E4WDI	Enhanced Form location/suggested column for backorder pick ticket docs	Suggested Price		System	"*System, Store, Terminal"	Yes
+7667	E4WDI	Enhanced Form barcode prints for backorder pick ticket documents	No		System	"*System, Store, Terminal"	Yes
+7687	E4WDI	Enhanced Form barcode prints for transfer from Order Fulfillment docs	No		System	"*System, Store, Terminal"	Yes
+7703	E4WDI	Enhanced Form for loading ticket	+ Laser Std Loading Ticket 1		System	"*System, Store, Terminal"	Yes
+7707	E4WDI	Enhanced Form barcode prints for loading ticket	No		System	"*System, Store, Terminal"	Yes
+7723	E4WDI	Enhanced Form for packing list documents	+ Laser Std Invoice like X		System	"*System, Store, Terminal"	Yes
+7725	E4WDI	Enhanced Form sort order for packing list documents	N=Line Number		System	"*System, Store, Terminal"	Yes
+7726	E4WDI	Enhanced Form location/suggested column for packing list documents	Suggested Price		System	"*System, Store, Terminal"	Yes
+7727	E4WDI	Enhanced Form barcode prints for packing list documents	No		System	"*System, Store, Terminal"	Yes
+7728	E4WDI	Customer code position for multiple copies of Enhanced Forms			System	*System	Yes
+7730	POS	Non-printing (Internal) comment identifier			System	*System	Yes
+7734	E4WDI	Print Delivery Instructions or Custom Printing Plan	*** View Not Found ***		System	"*System, Store, Terminal"	Yes
+7803	POS	Default Flex-Label for POS/Order Entry	Default flex-label for Point-of-Sale		System	"*System, Store, Terminal"	Yes
+7804	POS	Default MPS printer number for POS/Order Entry Flex-Labels	4		System	"*System, Store, Terminal"	Yes
+7862	POS	Automatically print Flex-Labels for special orders/non-stocks	No		System	"*System, Store, Terminal"	Yes
+7863	POS	Flex-Label for special order/non-stock items	Default flex-label for rcvd special ord		System	"*System, Store, Terminal"	Yes
+7864	POS	MPS printer number for special order/non-stock Flex-Labels	0		System	"*System, Store, Terminal"	Yes
+7883	POS	Default Flex-Label for shipping	Default flex-label for shipping		System	"*System, Store, Terminal"	Yes
+7884	POS	Default MPS printer number for shipping Flex-Labels	0		System	"*System, Store, Terminal"	Yes
+7940	POS	Maximum number of Flex-Labels to print for an item	10		System	*System	Yes
+8100	PURCHASING	Default days for Buyers List Cutoff Date	7		System	"*System, Store, User, Terminal"	Yes
+8106	INVENTORY	"When updating Mfg or Alt Vendor cost, also update Replacement cost?"	Prompt		System	*System	Yes
+8109	A/R	Print Postnet barcode on A/R Statements?	Y=Print 9 digit zip code		System	*System	Yes
+8110	A/R	New address alignment on PostNet Statements	No		System	"*System, Store"	Yes
+8111	POS	Print Document Barcode On 40 Column Receipt	Yes		System	"*System, Store"	Yes
+8113		Display all Viewers maximized (full screen)?	Yes		System	"*System, Store, User, Terminal"	Yes
+8115	PURCHASING	Re-order when QOH is less than Order Point	Yes		System	*System	Yes
+8117	PURCHASING	Use Current Committed Quantity in Suggested Order	No		System	"*System, Store"	No
+8119	PURCHASING	Days added to vendor lead time to determine 'current' committed quantity	0		System	"*System, Store"	No
+8121	POS	Use 'current' committed quantity in calculation of Quantity Available?	No		System	"*System, Store"	No
+8123	POS	Number of days before future committed quantity becomes current	0		System	"*System, Store"	No
+8124	POS	Blanket Order Remainder Posting Preference	F=Add remainder to first delivery		System	"*System, Store"	Yes
+8125	SYSTEM	Use High-Capacity grid in viewers?	Default to Standard but allow the user to select High-Capacity		System	"*System, Store, User, Terminal"	Yes
+8127	POS	Eagle PDF File Creation Mode	2=Create PDF files for iNet and PDF Email accounts only.		System	*System	Yes
+8129	A/R	Update Daily Tax Totals Viewer with non-taxable sales for component code	Yes		System	*System	Yes
+8131	SYSTEM	True Value Simplified Ordering	No		System	*System	Yes
+8133	G/L	Allow only numeric sub-accounts in General Ledger	Yes		System	*System	Yes
+8135	INVENTORY	Create G/L trx's from ITR records for Cuts and Mods	X=Cannot be made eligible		System	*System	Yes
+8136	INVENTORY	Allocate unapplied amounts in Cuts and Mods	Distribute unapplied amounts across to SKUs in txn		System	*System	Yes
+8137	INVENTORY	Scrap SKU prefix for Cuts and Mods	SCRAPSKU		System	*System	Yes
+8138	INVENTORY	Default cost update for Cuts and Mods	Average Cost		System	*System	Yes
+8139	INVENTORY	Cuts and Mods Default - Inventory Stock U/M	Board Feet		System	"*System, Store"	Yes
+8192	POS	Default Atrium SKU			System	"*System, Store"	No
+8193	POS	Atruim User Name			System	"*System, Store"	No
+8194	POS	Atrium Password			System	"*System, Store"	No
+8195	POS	Atrium Host IP			System	"*System, Store"	No
+8196	POS	Atrium File Path Name			System	"*System, Store, Terminal"	No
+8197	POS	Atrium Default Branch			Store	"System, *Store, User, Terminal"	No
+8201	INVENTORY	RCIN Batch Conversion Viewer Available	Yes		System	*System	Yes
+8203	AOE	Go to tenders screen when totaling an Order	No		System	"*System, Store, User, Terminal"	No
+8214	INET	From e-mail address for e-mail purchase orders			System	"*System, Store"	Yes
+8219	POS	Dual Use item - Non-Farm Use descriptor 1	This purchaser was not required		System	"*System, Store"	Yes
+8220	POS	Dual Use item - Non-Farm Use descriptor 2	to obtain an Operator Identifi-		System	"*System, Store"	Yes
+8221	POS	Dual Use item - Non-Farm Use descriptor 3	cation Number pursuant to		System	"*System, Store"	Yes
+8222	POS	Dual Use item - Non-Farm Use descriptor 4	section #6622 of the California		System	"*System, Store"	Yes
+8223	POS	Dual Use item - Non-Farm Use descriptor 5	Code of Regulations		System	"*System, Store"	Yes
+8225	POS	Tax Exemption - Applies when?	LNO		System	"*System, Store"	Yes
+8226	POS	Tax Exemption - Specific Tax code			System	"*System, Store"	Yes
+8227	POS	Tax Exemption - Applies to what items?	A=Taxable Items		System	"*System, Store"	Yes
+8228	POS	Tax Exemption - Use Code position to identify what items			System	*System	Yes
+8229	POS	Tax Exemption - Use Code value to identify what items			System	*System	Yes
+8230	POS	Tax Exemption - Always print an invoice?	Yes		System	"*System, Store"	Yes
+8231	POS	Signature Capture - Require signature for Tax Exemption	No		System	"*System, Store"	Yes
+8232	POS	Tax Exemption - Signature Pad text line 1 (1-32)			System	"*System, Store"	Yes
+8233	POS	Tax Exemption - Signature Pad text line 1 (33-39)			System	"*System, Store"	Yes
+8234	POS	Tax Exemption - Signature Pad text line 2 (1-32)			System	"*System, Store"	Yes
+8235	POS	Tax Exemption - Signature Pad text line 2 (33-39)			System	"*System, Store"	Yes
+8236	POS	Tax Exemption - Signature Pad text line 3 (1-32)			System	"*System, Store"	Yes
+8237	POS	Tax Exemption - Signature Pad text line 3 (33-39)			System	"*System, Store"	Yes
+8238	POS	Tax Exemption - Signature Pad text line 4 (1-32)			System	"*System, Store"	Yes
+8239	POS	Tax Exemption - Signature Pad text line 4 (33-39)			System	"*System, Store"	Yes
+8240	POS	Tax Exemption - Receipt/Invoice text line 1 (1-32)			System	"*System, Store"	Yes
+8241	POS	Tax Exemption - Receipt/Invoice text line 1 (33-40)			System	"*System, Store"	Yes
+8242	POS	Tax Exemption - Receipt/Invoice text line 2 (1-32)			System	"*System, Store"	Yes
+8243	POS	Tax Exemption - Receipt/Invoice text line 2 (33-40)			System	"*System, Store"	Yes
+8244	POS	Tax Exemption - Receipt/Invoice text line 3 (1-32)			System	"*System, Store"	Yes
+8245	POS	Tax Exemption - Receipt/Invoice text line 3 (33-40)			System	"*System, Store"	Yes
+8246	POS	Tax Exemption - Receipt/Invoice text line 4 (1-32)			System	"*System, Store"	Yes
+8247	POS	Tax Exemption - Receipt/Invoice text line 4 (33-40)			System	"*System, Store"	Yes
+8248	POS	Tax Exemption - Receipt/Invoice text line 5 (1-32)			System	"*System, Store"	Yes
+8249	POS	Tax Exemption - Receipt/Invoice text line 5 (33-40)			System	"*System, Store"	Yes
+8250	POS	Tax Exemption - Receipt/Invoice text line 6 (1-32)			System	"*System, Store"	Yes
+8251	POS	Tax Exemption - Receipt/Invoice text line 6 (33-40)			System	"*System, Store"	Yes
+8252	POS	Tax Exemption - Receipt/Invoice text line 7 (1-32)			System	"*System, Store"	Yes
+8253	POS	Tax Exemption - Receipt/Invoice text line 7 (33-40)			System	"*System, Store"	Yes
+8254	POS	Tax Exemption - When to capture signature on Orders	Never		System	"*System, Store"	Yes
+8255	POS	Tax Exemption - Use Customer's Tax Code for non-taxable sales			System	*System	Yes
+8257	POS	When to check for required PO on a transaction?	Start		System	*System	Yes
+8258	POS	Default Cash tendered to amount due for cash customer transactions?	No		System	"*System, Store, User, Terminal"	Yes
+8263	INVENTORY	Special Promotion (1) Indicator			System	*System	Yes
+8264	INVENTORY	Special Promotion (2) Indicator			System	*System	Yes
+8266	A/R	GL Department for Prepaid Offset Account			System	*System	Yes
+8267	A/R	Co-op Prepaid Interest Percent	0		System	*System	Yes
+8269	G/L	Last Closed Date in General Ledger	12/31/1999		Store	*Store	No
+8271	G/L	Posting Rules for Closed Periods in General Ledger	1=All periods are still open		Store	*Store	Yes
+8273	SYSTEM	Loyalty collection - Use code position to identify special items	B4		System	*System	Yes
+8274	SYSTEM	Loyalty collection - Code value that identifies special items	S		System	*System	Yes
+8276	POS	Perform 'Bad Check' validation at POS	No		System	"*System, Store, User, Terminal"	Yes
+8277	POS	Print Driver's License in check endorsement?	No		System	*System	Yes
+8278	INVENTORY	Recalculate matrix prices that are based on cost?	No		System	*System	Yes
+8280	INVENTORY	Recalculate Specific Prices for Multiple Selling Units (MSU)?	No		System	*System	Yes
+8281	PAYROLL	Print SSN on Payroll Checks	Yes		System	*System	Yes
+8284	INVENTORY	Default store group for 'Copying store specific fields' in IMU			Store	"System, *Store, User, Terminal"	Yes
+8285	PURCHASING	Display the PO create/maintain posting grid in expanded format?	No		Store	"System, *Store, User, Terminal"	Yes
+8286	POS	Format of the item information's 'simplified' display?	1=Qtys; Price/Cost; Location; Mfg Part #; Vendor/OM; Date Last Sale		Store	"System, *Store, User, Terminal"	Yes
+8287	INVENTORY	Display the Inventory Viewer in expanded format?	Yes		Store	"System, *Store, User, Terminal"	Yes
+8288	INVENTORY	Use the High Performance Inventory Viewer as your default?	No		Terminal	"System, *Store, Terminal"	Yes
+8289	INVENTORY	New Order Quantity > 0 overrides PO Season	Yes		System	"*System, Store"	Yes
+8292	POS	Address Verification in POS	No		System	"*System, Store, User, Terminal"	Yes
+8293	POS	Address Verification Services Response Codes	Address Verification		System	"*System, Store"	Yes
+8294	POS	Card Value Response Codes	Card Verification		System	"*System, Store"	Yes
+8295	POS	Days since last AVS test to allow invoicing	0		System	"*System, Store"	Yes
+8304	INVENTORY	Gap between inventory sequence numbers.	100		System	*System	Yes
+8305	POS	Merchandise Returns Validation on System	Limited - Returns Viewer only		System	*System	Yes
+8307	POS	# of Month's activity to use in Returns Validation	3		System	"*System, Store"	Yes
+8308	POS	Returns Validation Posting Rule	1=Post Oldest Date First		System	"*System, Store"	Yes
+8322	CENTRAL SVCS	ADM-Default Department for Part Adds			System	*System	Yes
+8336	POS	Alternate Item Type that identifies Replacement Parts	0		System	*System	Yes
+8344	POS	Returns validation across stores allowed	No		System	*System	Yes
+8346	SYSTEM	Related Items on System	No		System	*System	Yes
+8347	POS	Display Related Items at POS	Yes		Terminal	"System, Store, User, *Terminal"	Yes
+8348	POS	Display Related Items without Quantity Available	Yes		Terminal	"System, Store, User, *Terminal"	Yes
+8349	SYSTEM	POS Alternate Items on System	No		System	*System	Yes
+8350	POS	Display Alternate Items at Point-Of-Sale?	Yes		Terminal	"System, Store, User, *Terminal"	Yes
+8351	POS	Display Alternate Items without Quantity Available?	Yes		Terminal	"System, Store, User, *Terminal"	Yes
+8352	POS	Allow Selling Customer Excluded Alternate Items at Point-Of-Sale?	Yes		System	"*System, Store"	Yes
+8353	CENTRAL SVCS	CS-Printer	1		System	"*System, Store"	Yes
+8354	CENTRAL SVCS	CS-Print To	Spooler Only		System	"*System, Store"	Yes
+8355	CENTRAL SVCS	CS-Copies	1		System	"*System, Store"	Yes
+8356	CENTRAL SVCS	CS-Channel	91		System	*System	Yes
+8357	CENTRAL SVCS	CS-Print PrePage	Yes		System	"*System, Store"	Yes
+8358	CENTRAL SVCS	CS-Totals Only	No		System	"*System, Store"	Yes
+8359	CENTRAL SVCS	CS-Double Space	No		System	"*System, Store"	Yes
+8361	CENTRAL SVCS	EINVOICE-Process eInvoices Upon Arrival	No		System	"*System, Store"	Yes
+8363	CENTRAL SVCS	EINVOICE-Stock Order eInvoice Posting Option	I=Update PO and Inventory		System	"*System, Store"	Yes
+8364	CENTRAL SVCS	EINVOICE-Warehouse Inquiry eInvoice Posting Option	I=PO & Inventory		System	"*System, Store"	Yes
+8365	CENTRAL SVCS	EINVOICE-Phone Order eInvoice Posting Option	I=Update PO and Inventory		System	"*System, Store"	Yes
+8366	CENTRAL SVCS	EINVOICE-Print Part Description	Yes		System	"*System, Store"	Yes
+8367	CENTRAL SVCS	EINVOICE-Print Line Items Messages	Y=Non-automatic Only		System	"*System, Store"	Yes
+8368	CENTRAL SVCS	EINVOICE-Percent Difference in Cost for Exception	1		System	"*System, Store"	Yes
+8370	CENTRAL SVCS	EINVOICE-Purchase Orders Posting Option	N=Processes each purchase order independently		System	*System	Yes
+8371	A/R	Special Charge #1 Description			System	"*System, Store"	Yes
+8372	A/R	Special Charge #2 Description			System	"*System, Store"	Yes
+8373	A/R	Special Charge #3 Description			System	"*System, Store"	Yes
+8374	POS	Post returns with current or original cost?	Current		System	"*System, Store"	Yes
+8375	POS	Recalculate Average Cost after a return	No		System	"*System, Store"	Yes
+8377	POS	POS Inventory Store Group			Store	*Store	Yes
+8378	POS	POS A/R Store Group			Store	*Store	Yes
+8379	INVENTORY	Cuts and Mods Default - Adjustment Type	Cut		System	*System	Yes
+8380	INVENTORY	Cuts and Mods Default - Update Last Receipt Date?	Yes		System	*System	Yes
+8381	INVENTORY	Cuts and Mods Default - Update Physical Inventory Date?	Yes		System	*System	Yes
+8382	CENTRAL SVCS	ADM/PS-Default Product Code for Part Adds	1		System	*System	Yes
+8383	CENTRAL SVCS	ADM/PS-Default Product Code for Core Adds	1		System	*System	Yes
+8389	POS	Popularity Code schema	1=A thru H		System	*System	Yes
+8390	A/R	Popularity Code Discounts Allowed in CPP	No		System	*System	Yes
+8401	POS	Timeout for clerk signon applies to Customer header?	Yes		System	"*System, Store, User, Terminal"	Yes
+8402	AOE	Default user code to use for item's code 1			System	*System	No
+8403	AOE	Default user code to use for item's code 2			System	*System	No
+8404	AOE	Default user code to use for item's code 3			System	*System	No
+8406	AOE	Add/Change user-defined codes table for code 1	User-Defined Codes - Code 1		System	*System	No
+8407	AOE	Add/Change user-defined codes table for code 2	User-Defined Codes - Code 2		System	*System	No
+8408	AOE	Add/Change user-defined codes table for code 3	User-Defined Codes - Code 3		System	*System	No
+8411	PURCHASING	Post RRV and RRP COGS adjustments via ITR	No		System	*System	Yes
+8412	PURCHASING	Require MRV's AP Voucher entry before processing Adv. Receiving document	No		System	*System	Yes
+8413	PURCHASING	Allow sessions in WinMRV?	No		System	*System	Yes
+8414	POS	Prompt for return reason?	No		System	"*System, Store, User, Terminal"	Yes
+8416	POS	Add/Change user-defined return item reason codes	User-Defined Return Codes		System	*System	Yes
+8451	POS	Pricing Codes can be entered in Price field	No		System	"*System, Store, User, Terminal"	Yes
+8452	POS	Display tool tip for pricing codes available in the price field	Yes		User	"System, Store, *User, Terminal"	No
+8454	INVENTORY	Template used when adding not in file (NIF) items in POS or purchasing			System	*System	Yes
+8461	INVENTORY	Number of breakpoints allowed in the Product Analysis Report (RPA)	4		System	*System	Yes
+8465	POS	Change salesperson when item is returned?	No		System	"*System, Store, User, Terminal"	Yes
+8472	PURCHASING	WinMRV other charges vendor 2 default			System	*System	Yes
+8473	PURCHASING	WinMRV other charges vendor 3 default			System	*System	Yes
+8474	PURCHASING	WinMRV other charges vendor 4 default			System	*System	Yes
+8475	PURCHASING	WinMRV other charges vendor 5 default			System	*System	Yes
+8481	PURCHASING	WinMRV other charges landed cost flag 1 default			System	*System	Yes
+8482	PURCHASING	WinMRV other charges landed cost flag 2 default			System	*System	Yes
+8483	PURCHASING	WinMRV other charges landed cost flag 3 default			System	*System	Yes
+8484	PURCHASING	WinMRV other charges landed cost flag 4 default			System	*System	Yes
+8485	PURCHASING	WinMRV other charges landed cost flag 5 default			System	*System	Yes
+8491	PURCHASING	WinMRV other charges description 1			System	*System	Yes
+8492	PURCHASING	WinMRV other charges description 2			System	*System	Yes
+8493	PURCHASING	WinMRV other charges description 3			System	*System	Yes
+8494	PURCHASING	WinMRV other charges description 4			System	*System	Yes
+8495	PURCHASING	WinMRV other charges description 5			System	*System	Yes
+8551	CENTRAL SVCS	CS-Default File Transmission Option	Q		System	*System	Yes
+8561	CENTRAL SVCS	ADM-Update Popularity Code	Yes		System	*System	Yes
+8563	CENTRAL SVCS	ADM-Alternate Item Code for Alternate Parts	A		System	*System	No
+8581	POS	External invoice and order network printer	1		Store	*Store	Yes
+8583	SYSTEM	AConneX Terminal Number	902		System	*System	Yes
+8611	PURCHASING	MPO - Use Order Multiple when no match on PO's vendor	No		System	*System	Yes
+8612	SYSTEM	Store in QuickRecall defaults to ALL when security bit 6 is Yes	Yes		System	"*System, Store, User, Terminal"	Yes
+8613	POS	Launch QuickRecall with 'Details' defaulted to checked?	Yes		System	"*System, Store, User, Terminal"	Yes
+8615	INVENTORY	Price or Cost % change threshold	25		System	"*System, Store"	Yes
+8617	INVENTORY	Allow Delete in Inventory Viewer?	Yes		System	*System	Yes
+8619	POS	Print Orders and Special Orders to the receipt printer	No		System	*System	Yes
+8621	POS	Rounding rule for prices calculated by POS	3=Carry prices out to the nearest tenth of a cent		System	"*System, Store"	Yes
+8623	POS	"Print MSU items on receipt/invoice with qty, u/m and price based on MSU"	Yes		System	"*System, Store"	Yes
+8625	POS	This store posts 'sells with' that are an environmental fee	No		Store	"System, *Store"	Yes
+8630	PURCHASING	Which Alternate Item Types are purchasing equivalents?			System	*System	No
+8631	POS	Print tax breakdowns on POS documents	No		System	"*System, Store"	Yes
+8633	POS	Display Customer Credit Card List only on Protobase enabled terminals	No		System	"*System, Store"	Yes
+8635	POS	What does security bit 578 = No mean?	1=Clerk can change the description of any item on a special order transaction		System	"*System, Store"	Yes
+8637	POS	Allow 'Bag/Bucket Sale' feature in POS	B=Yes - Typing B in Price is required to begin Bag/Bucket Sale		System	"*System, Store, User, Terminal"	Yes
+8638	POS	Apply 'Bag/Bucket Sale' discount to non-discountable items	No		System	"*System, Store"	Yes
+8639	POS	Default 'Bag/Bucket Sale' Discount	20		System	"*System, Store"	Yes
+8640	POS	Term to use for Bag/Bucket Sale	1=Bag		System	"*System, Store"	Yes
+8642	POS	End Date for the Bag/Bucket Sale	9/25/2011		System	"*System, Store"	Yes
+8668	CENTRAL SVCS	CSLS - A-DIS FOP Code for American Express	15		System	*System	Yes
+8703	POS	Use Open Quote price in Best Pricing?	No		System	*System	Yes
+8705	POS	Allow cash back if loyalty coupon(s) exceed purchases	No		System	"*System, Store, User, Terminal"	Yes
+8707	SYSTEM	Default Email Domain			System	"*System, Store"	Yes
+8711	POS	Treat IMU cost of .001 as .00 when selling item in POS	No		System	"*System, Store"	Yes
+8713	POS	Pass Direct Ship info from sales order to P.O. ?	No		System	"*System, Store"	No
+8715	CATALOG	Ace price to use when adding items from catalog	2=Level 2 Price		System	*System	Yes
+8717	POS	Add mode used when using <Sell> from Catalog			System	"*System, Store, User, Terminal"	No
+8718	POS	Auto generate SKU when adding special order item to inventory from POS?	No		System	"*System, Store"	No
+8719	POS	Prefix to use in the system generated SKU			System	"*System, Store"	No
+8720	POS	Special Order Template SKU for Adding Not in File item from Catalog			System	"*System, Store"	No
+8721	POS	Allow payment by credit cards on non-credit authorization terminals?	Yes		System	"*System, Store, Terminal"	Yes
+8723	PURCHASING	Can each store on a multi-store PO recall the PO?	No		System	"*System, Store"	Yes
+8727	POS	Display Prices on Remote Signature Capture Terminal	No		System	"*System, Store"	Yes
+8781	POS	DDS IP Address Server or Source			System	"*System, Store"	No
+8782	POS	DDS Port User ID or Login			System	"*System, Store"	No
+8783	POS	DDS Database Name			System	"*System, Store"	No
+8784	POS	Delivery System Tablename UUID			System	"*System, Store"	No
+8785	POS	Delivery System Login Password			System	"*System, Store"	No
+8786	POS	Default PDA Name			System	"*System, Store"	No
+8787	POS	Transactions to pass to the Delivery System	None		System	"*System, Store"	No
+8791	INVENTORY	Create and/or update MSU prices from Ace Hotsheets	Yes		System	*System	Yes
+8793	INVENTORY	Add MSU prices when auto-adding Ace SKUs	Yes		System	*System	Yes
+8795	INVENTORY	Create a new MSU if old MSU was not created by Hotsheets	Yes		System	*System	Yes
+8815	CENTRAL SVCS	ADM/PS-OEM Part Cross Reference on System	No		System	*System	Yes
+8817	CENTRAL SVCS	ADM/PS-OEM Part Cross Reference Line Code			System	*System	Yes
+8821	SYSTEM	Use E4W report initiation performance improvement	Yes		System	"*System, Store"	Yes
+8823	POS	Custom field label for foreign currency			System	"*System, Store"	Yes
+8824	POS	Custom field label for local currency			System	"*System, Store"	Yes
+8825	POS	"Automatically display ""Currency Exchange"" window?"	No		Store	"System, *Store, User, Terminal"	Yes
+8826	POS	Display Total Due and Change Due in both currencies?	No		System	"*System, Store"	Yes
+8827	POS	Print transaction totals on receipts in both currencies?	N = Print totals in the local currency only.		System	"*System, Store"	Yes
+8838	ANALYTICS	Task Pooling On System	No		System	*System	Yes
+8839	ANALYTICS	Compass Spooler On System	No		System	*System	Yes
+8843	INET	Item extended description to show in iNet	1=Always show Note Type 8		System	*System	Yes
+8849	INET	Mask Manufacturer Information in Inet Order Pro and eStore	No		System	"*System, Store"	Yes
+8850	INET	Tender allowed in iNet eStore	Yes		System	"*System, Store"	Yes
+8853	INET	Display terms discount amount in Accounts on Line	No		System	"*System, Store, User"	Yes
+8857	PURCHASING	Allow up to a 10 character vendor PO#?	Yes		System	*System	Yes
+8859	INVENTORY	ROP Max Stock Level (Opt C) behavior when calc'd OP > Max	1=Set the Max Stock Level to the new Order Point + 1		System	*System	Yes
+8864	POS	Default SKU for the Windsor Windows Interface			System	"*System, Store"	No
+8866	POS	Default SKU for the MW Windows Interface			System	"*System, Store"	No
+8868	POS	Default SKU for the Kolbe & Kolbe Windows Interface			System	"*System, Store"	No
+8871	POS	Ace Rewards New Member Signup enabled	No		System	"*System, Store"	Yes
+8873	POS	Ace Rewards Customer Profile enabled	No		System	"*System, Store"	Yes
+8875	POS	Ace Customer Engagement enabled	No		System	"*System, Store"	Yes
+8881	POS	Alternate term for 'Cash Only' in the Authorized to Charge window	Cash Only		System	*System	Yes
+8885	PURCHASING	Laser PO and Receiver format for L (lumber) type skus	1=Ord Qty and Unit Cost print based upon RPO's Print Option		System	*System	Yes
+8941	POS	<Change> on an MSU items behaves the old way	No		System	"*System, Store, User, Terminal"	Yes
+8942	POS	Returns Validation - use net return price?	No		System	*System	No
+8943	POS	Use Code position to identify items excluded from Returns Validation			System	*System	Yes
+8944	POS	Code value that identifies items excluded from Returns Validation			System	*System	Yes
+8945	POS	Disallow Transaction Reversal on a transaction over this # of days old	999		System	"*System, Store"	Yes
+8947	INVENTORY	Record 'Last 10 QOH changes and Last 10 Cost changes' for inventory item	Yes		System	"*System, Store"	Yes
+8949	SYSTEM	Allow UPC to be linked to multiple SKUs	No		System	*System	Yes
+8951	POS	Apply 'Bag/Bucket Sale' discount to promotions	No		System	"*System, Store"	Yes
+8953	CENTRAL SVCS	ADM-Channel	91		System	"*System, Store"	Yes
+8955	POS	Timeout (minutes) for release of a transaction stuck in 'printing' state	10		System	"*System, Store, Terminal"	Yes
+8956	POS	"Display ""Document Printing"" message in POS?"	Yes		Store	"System, *Store"	Yes
+8963	A/P	Bank Reconciliation Enabled	No		System	*System	Yes
+8965	POS	Eagle for Windows startup action when trace logging is enabled	Allow logging to trace log.		System	*System	Yes
+8967	TELECOMM	Ace Rev PO - # of days when Drop Ship order is created as Future order	999		System	*System	Yes
+8971	POS	Use POS Adders in Order Entry	No		System	"*System, Store, User, Terminal"	Yes
+8972	POS	POS Adders used by Job Account	Job's adders		System	*System	Yes
+8973	POS	Exclude Special Record items in POS Adder calculation	Yes		System	"*System, Store, User, Terminal"	Yes
+8978	POS	POS Customer Message used by Job Accounts	Job's message		System	*System	Yes
+8979	POS	Authorized to Charge Names used by Job Accounts	Job's names		System	*System	Yes
+8980	POS	Email address used by Job Accounts	Job's email address		System	*System	Yes
+8987	A/R	Print tax summary on A/R Statements (RSM)?	No tax summary on A/R Statement		System	*System	Yes
+8988	POS	Show only the serial #'s for this store when selling a serialized item	Y=Show only the serial #'s for this store		Store	*Store	Yes
+8989	PURCHASING	Allow adding temporary serial #'s during receiving?	No		System	"*System, Store, User, Terminal"	Yes
+8990	POS	Require Store when adding Serial #'s	No		System	*System	Yes
+8991	POS	Blind Quote on System	No		System	*System	Yes
+8995	CENTRAL SVCS	CSEOD-Run part resequencing during Central Services End-of-day	Yes		System	*System	Yes
+8997	CENTRAL SVCS	EINVOICE-PO Receipt Posting (RRP) Options			System	*System	Yes
+9003	A/P	AP Check Currency Conversion Factor	1		System	"*System, Store"	No
+9007	A/P	Require A/P Check Run Approval	No		System	*System	Yes
+9009	A/P	Reduce exclusive use of AP transaction file	No		System	*System	Yes
+9025	G/L	Always print current date on financial statements	No		System	*System	Yes
+9027	G/L	"Require use of the control number assigning ""T-Accounts"" entry in GGMU"	No		System	*System	Yes
+9031	G/L	Create G/L trx's for Cash Drawer Short/Over			System	*System	Yes
+9041	POS	Print name of store order created in when invoicing from another store	No		System	*System	Yes
+9053	A/R	MCR Account code position for printing balance forward style statements			System	*System	Yes
+9054	A/R	MCR Account code value for printing balance forward style statements			System	*System	Yes
+9059	POS	Show expanded customer balances in the Customer Detail dialog	No		System	"*System, Store, User, Terminal"	Yes
+9082	SYSTEM	Terminal for options and security when transfers created outside of POS	900		System	*System	Yes
+9085	POS	Default printer for Central Distribution or Inventory Balancing Transfer	1		Store	*Store	Yes
+9091	POS	Protobase Database location for API field 8002			System	*System	Yes
+9094	POS	"Copy AConneX into ""authorized to charge"" name for AConneX orders"	No		System	*System	Yes
+9095	POS	Invoice eOrders	No		System	"*System, Store"	Yes
+9097	POS	Invoice AConneX Orders	Yes		System	"*System, Store"	Yes
+9099	CENTRAL SVCS	PO-Channel	91		System	*System	Yes
+9101	CENTRAL SVCS	CS-Poll Remote Vendors	No		System	*System	Yes
+9103	CENTRAL SVCS	CS-Check for new / polled files interval	5		System	*System	Yes
+9107	POS	Allow change of customers/jobs in POS Customer QuickAdd	No		System	"*System, Store"	Yes
+9109	PURCHASING	WinPUR- Sku/Part lookup method for Inventory Viewer	Single sku only		System	"*System, Store, User, Terminal"	Yes
+9119	POS	Track data to use for Credit Card Processing	1=Use track 1 for credit card processing		System	"*System, Store"	Yes
+9124	PURCHASING	Thumbnail in Purchasing & Receiving shows Catalog Page or Overstock?	2=Overstock in Other Stores		System	"*System, Store, User, Terminal"	Yes
+9125	INVENTORY	Display Overstock column in 'All Stores' POS Item Display window	Yes		System	"*System, Store, User, Terminal"	Yes
+9126	PURCHASING	Calculate and display Total Overstock in the posting grid?	No		Store	"System, *Store, User, Terminal"	Yes
+9129	POS	Require specific fields when adding account using POS Customer QuickAdd	No		System	"*System, Store"	No
+9130	POS	Additional fields to include in POS Customer QuickAdd			System	"*System, Store, User, Terminal"	No
+9131	POS	Dynamic Promotions (BOGO) preview list's contents	1=Show promo priced item and reason		System	"*System, Store, User, Terminal"	Yes
+9133	SYSTEM	Increment posting quantity by UPC package quantity?	No		System	*System	Yes
+9137	POS	Build reverse sort name in POS Customer QuickAdd	No		System	"*System, Store"	No
+9139	POS	Copy customer name into auth to charge name in POS Customer QuickAdd	No		System	"*System, Store"	No
+9140	POS	Where to place e-mail address from POS Customer QuickAdd			System	"*System, Store"	Yes
+9191	PURCHASING	Blind copy e-mail address for e-mailed Purchase Orders			Store	"System, *Store"	Yes
+9192	A/R	Blind copy e-mail address for e-mailed Statements			System	*System	Yes
+9193	POS	Blind copy e-mail address for e-mailed Invoice & Orders			Store	"System, *Store"	Yes
+9198	POS	Display phone # in POS Customer Details Window	No		System	"*System, Store, User, Terminal"	Yes
+9199	POS	Display e-mail address in POS Customer Details Window	No		System	"*System, Store, User, Terminal"	Yes
+9233	POS	Default for Transfer 'From' Store	Transfer customer's Store Account Opened		System	"*System, Store"	Yes
+9254	A/R	Contents of the Check # field on payments	1=Check # when paid by check otherwise journal # of payment		System	*System	Yes
+9262	POS	Minimum amount for Check Guarantee	0		System	"*System, Store, User, Terminal"	Yes
+9264	SYSTEM	Multiple Time Zones on System	No		System	*System	Yes
+9268	POS	Item information's display cycle includes 'take down'	Yes		System	"*System, Store, User, Terminal"	Yes
+9272	POS	Note to use for POS receipt footer message			System	"*System, Store, User, Terminal"	Yes
+9278	POS	Display Quotes on POS Signon	N		System	"*System, Store, User"	Yes
+9280	POS	Required fields in POS Cash Customer Information window			System	"*System, Store, User, Terminal"	Yes
+9281	POS	Require zip code (or other information) for cash customers			System	"*System, Store, User, Terminal"	Yes
+9282	POS	Use Code position for skus that require opening cash drawer			System	*System	Yes
+9283	POS	Use Code value for skus that require opening cash drawer			System	*System	Yes
+9285	POS	Expired Resale Code/Tax Exempt # Action	Warn and continue with non-taxable transaction		System	"*System, Store, User, Terminal"	Yes
+9286	POS	Grace Period for expired resale code/tax exempt #	0		System	"*System, Store, User, Terminal"	Yes
+9287	POS	Gift/Cash Card Allowed on POS Refund	No		System	"*System, Store"	Yes
+9288	POS	SKU to use for gift/cash card on POS Refunds			System	"*System, Store"	Yes
+9290	POS	URL in POS posting area's 'Additional Information' dialog.			System	"*System, Store, User, Terminal"	Yes
+9291	POS	URL's Title in POS 'Additional Information' dialog			System	"*System, Store, User, Terminal"	Yes
+9294	POS	Printing preference for POS Comments / descriptors	Print and button to not print		System	"*System, Store, User, Terminal"	Yes
+9296	POS	Show Addt'l Info hyperlink in posting area	No		System	"*System, Store, User, Terminal"	Yes
+9297	POS	Fields to display in the Enter Additional Information dialog	123DELMRSTUV		System	"*System, Store, User, Terminal"	Yes
+9298	SYSTEM	Suppress Locked Out users in certain user dropdowns	No		System	"*System, Store"	Yes
+9338	POS	POS Order Viewer - do exact match on Short ID lookup	Yes		System	"*System, Store, User, Terminal"	Yes
+9343	POS	Use Customer Credit Message as Reference in POS	No		System	*System	Yes
+9345	POS	Offline Database Refresh Exclusions			System	*System	Yes
+9347	POS	List Price Cost Formula can be entered in Cost field	No		System	"*System, Store, User, Terminal"	Yes
+9348	POS	Display tool tip for List Price Cost Formula	Yes		System	"*System, Store, User, Terminal"	No
+9350	POS	Print clerk's name on POS receipts			System	*System	Yes
+9351	POS	Print a blank line between items on receipts	No		System	"*System, Store, Terminal"	Yes
+9373	POS	Print backordered amount comment line on orders/invoices?	Yes		System	"*System, Store, User, Terminal"	Yes
+9375	PURCHASING	Default cursor to Stocking Units or Purchase Units	Stocking Units		System	"*System, Store, User, Terminal"	Yes
+9378	A/R	Allow Finance Charge calculation by Customer/Job/Store	No		System	*System	No
+9379	POS	Prompt for price override reason?	No		System	"*System, Store, User, Terminal"	Yes
+9380	POS	Add/Change user-defined price override reason codes	User-Defined Price Override Codes		System	*System	Yes
+9381	INVENTORY	Allow use of 'timed' promotions	No		System	*System	Yes
+9383	INVENTORY	Allow use of 'Maximum Units' promotions	No		System	*System	Yes
+9385	POS	"""Append Special Order Items to specific Purchase Order(s) Now?"" Prompt"	N=Ask and defaults to No		System	"*System, Store, User, Terminal"	Yes
+9386	POS	S/O - Default PO# to RSRV on Special Orders	No		System	"*System, Store, User, Terminal"	Yes
+9412	POS	Minimum Age to purchase type 1 items	0		System	"*System, Store, Terminal"	Yes
+9413	POS	Use Code position to identify Minimum Age type 1 items			System	*System	Yes
+9414	POS	Code value that identifies Minimum Age type 1 items			System	*System	Yes
+9416	POS	Minimum Age to purchase type 2 items	0		System	"*System, Store, Terminal"	Yes
+9417	POS	Use Code position to identify Minimum Age type 2 items			System	*System	Yes
+9418	POS	Code value that identifies Minimum Age type 2 items			System	*System	Yes
+9419	POS	Post minimum age birth date as comment	Internal comment		System	"*System, Store"	Yes
+9420	POS	Post underage comment when minimum age requirement is not met	Internal comment		System	"*System, Store"	Yes
+9435	POS	# of days to allow original form of payment on refunds	0		System	"*System, Store"	No
+9441	POS	Include Customer Name In Title Bar	No		System	"*System, Store, User, Terminal"	Yes
+9453	INVENTORY	Delete extended description/notes when an inventory item is deleted?	Yes		System	*System	Yes
+9455	SYSTEM	Allow Viewing of Cover To Cover Images Outside of LaserCat	No		Terminal	"System, Store, *Terminal"	Yes
+9477	PURCHASING	Store specific fields to copy to synchronize with other stores (MVR)			System	"*System, Store, User, Terminal"	Yes
+9478	PURCHASING	Default store group for 'Copying store specific fields' in MVR			Store	"System, *Store, User, Terminal"	Yes
+9479	PURCHASING	Allow entry of vendor's description in Inventory Maintenance Vendor tab	No		System	"*System, Store"	Yes
+9487	A/R	Use long store name on statements	No		System	*System	Yes
+9488	PURCHASING	Keep vendor contacts the same in all stores?	No		System	*System	Yes
+9489	SYSTEM	Field label for 'Resale' in Eagle for Windows	Resale		System	*System	Yes
+9490	DEVELOPMENT	Use reduced sleep/wait time for REPQM?	No		System	*System	Yes
+9495	INVENTORY	Promotions starting within this number of days are considered upcoming	0		System	"*System, Store"	Yes
+9497	A/R	Clear last pay fields when payment reversed	No		System	*System	Yes
+9499	POS	Print defective return receipt for item returned/exchanged as defective	No		System	"*System, Store"	Yes
+9511	POS	Tax Exemption - Verbiage for Customer Type set to Farmer/Rancher			System	"*System, Store"	Yes
+9512	POS	Tax Exemption - Verbiage for Customer Type set to Government			System	"*System, Store"	Yes
+9513	POS	Tax Exemption - Verbiage for Customer Type set to Not for Profit			System	"*System, Store"	Yes
+9514	POS	Tax Exemption - Verbiage for Customer Type set to Resale			System	"*System, Store"	Yes
+9515	POS	Tax Exemption - Verbiage for Customer Type set to Disabled Veteran			System	"*System, Store"	Yes
+9516	POS	Tax Exemption - Verbiage for Customer Type set to Other tax exempt			System	"*System, Store"	Yes
+9521	POS	Format for tax breakdowns on POS receipts	2={tax code} {tax location} {tax}		System	"*System, Store"	Yes
+9523	POS	Ask if 'Taxable?' when selling normally taxable item to Tax Exempt cust			System	"*System, Store, User, Terminal"	Yes
+9524	POS	Prompt for tax override reason?	No		System	"*System, Store, User, Terminal"	Yes
+9525	POS	Add/Change user-defined tax override reason codes	User-Defined Tax Override Codes		System	*System	Yes
+9527	POS	Returns Validation - Use original sale's tax code on return	Yes		System	*System	No
+9531	POS	Ace Instant Line Access on System	No		System	"*System, Store"	Yes
+9537	POS	Returns Validation with Receipt	Not using this feature		System	*System	No
+9538	POS	Returns Validation with Receipt - choices to show			System	"*System, Store, User, Terminal"	No
+9539	ANALYTICS	Compass tasks available for execution via iNet	No		System	*System	Yes
+9541	POS	Credit Authorization API User Defined Field 1			System	"*System, Store, User, Terminal"	Yes
+9542	POS	Credit Authorization API User Defined Field 2			System	"*System, Store, User, Terminal"	Yes
+9543	POS	Credit Authorization API User Defined Field 3			System	"*System, Store, User, Terminal"	Yes
+9544	POS	Credit Authorization API User Defined Field 4			System	"*System, Store, User, Terminal"	Yes
+9545	POS	Credit Authorization API User Defined Field 5			System	"*System, Store, User, Terminal"	Yes
+9558	POS	Dynamic Promotions - does qualifier keep discounted price?	Posted Price		System	*System	Yes
+9559	POS	Dynamic Promotions - applies to non-discountable items?	No		System	"*System, Store"	Yes
+9560	POS	Dynamic Promotions - applies to sale items?	No		System	"*System, Store"	Yes
+9567	E4WDI	Enhanced Form barcode sizing factor	100		System	*System	Yes
+9570	DEVELOPMENT	Nightly Maintenance Options	DC1		System		Yes
+9571	DEVELOPMENT	Latest Nightly Maintenance File-Check Start Time			System	*System	Yes
+9581	INVENTORY	When RCIN should update items in ACERE batch			System	*System	Yes
+9584	POS	Customer automatic phone search on 10 digits	No		System	"*System, Store, Terminal"	Yes
+9585	INVENTORY	Inventory Item Lists Enabled	No		System	*System	Yes
+101	A/R	Customer Default - Balance Method	Open Item		Store	*Store	No
+102	A/R	Customer Default - Salesperson			Store	*Store	No
+103	A/R	Customer Default - Credit Limit	500		Store	*Store	No
+104	A/R	Customer Default - Tax Code	110		Store	*Store	No
+105	A/R	Customer Default - Terms Code	1		Store	*Store	No
+110	A/R	Customer Default - Print Invoices?	No		Store	*Store	No
+120	A/R	Revolving Charge Round Amount	0		Store	*Store	No
+130	A/R	Revolving Charge Late Fee	0		Store	*Store	No
+140	A/R	Revolving Charge No Late Fee Amount	0		Store	*Store	No
+150	A/R	Revolving Charge Minimum Due	0		Store	*Store	No
+160	A/R	Revolving Charge Minimum Percent	0		Store	*Store	No
+170	A/R	Past Due Periods Kept After Purge Balance Forward	0=Past due compress. Retain current detail		Store	*Store	No
+180	A/R	Past Due Periods Kept After Purge Open Item (0/1)	1=Purge fully paid Open Item invoice dated more than 1 month before purge date.		Store	*Store	No
+190	A/R	Finance Charges - Level 1 %	1.5		Store	*Store	No
+200	A/R	Finance Charges - Level 2 %	0		Store	*Store	No
+210	A/R	Minimum Finance Charge Amount	1		Store	*Store	No
+220	A/R	Call Finance Charges Service Charges	Z=Print *** Finance Charge *** on Statements.		Store	*Store	No
+225	A/R	Finance Charges Calculation Method	Adjusted balance for finance charge calculation		Store	*Store	No
+227	A/R	Finance Charges Level 1 % Cutoff Amount	0		Store	*Store	No
+230	A/R	Finance Charges - No Charge Amount	0		Store	*Store	No
+240	A/R	Finance Charges - Compound Finance Charge	Yes		Store	*Store	No
+250	A/R	Payments Apply To Finance Charges	First apply payment to finance charge then to amount due.		Store	*Store	No
+260	A/R	Print Store Name on Statements	Yes		Store	*Store	No
+270	A/R	Print Prepaids on Statements	No		Store	*Store	No
+275	A/R	Print Due Date on Statements	Yes		Store	*Store	No
+280	A/R	Print Store Name in Reference on Statements	No		Store	*Store	No
+290	A/R	Statements Payment/Adjustment/Credit Reference Priority	A=Print 'apply to' from MOI or ROA unless it's blank then print Reference		Store	*Store	No
+310	A/R	Miscellaneous - Use Check Register Report	Yes		Store	*Store	No
+320	A/R	Balance Forward - Apply Credit	Due date. Apply credit based on the due date of the document.		Store	*Store	No
+330	A/R	Point of Sale Reference Priority	1		Store	*Store	No
+340	A/R	Miscellaneous - Default for Global Credit Limit	No		Store	*Store	No
+350	A/R	Miscellaneous - Months of Financial Summary History	24		Store	*Store	No
+360	A/R	Statement Dunning Message 1-30 part 1	YOUR ACCOUNT IS PAST DUE.		Store	*Store	No
+362	A/R	Statement Dunning Message 1-30 part 2	PLEASE REMIT		Store	*Store	No
+364	A/R	Statement Dunning Message 1-30 part 3			Store	*Store	No
+370	A/R	Statement Dunning Message 31-60 part 1	YOUR ACCOUNT IS ON HOLD		Store	*Store	No
+380	A/R	Statement Dunning Message 31-60 part 2	UNTIL FURTHER PAYMENT IS MADE.		Store	*Store	No
+390	A/R	Statement Dunning Message 31-60 part 3			Store	*Store	No
+400	A/R	Statement Dunning Message 61-90 part 1	PLEASE CONTACT US TO AVOID		Store	*Store	No
+410	A/R	Statement Dunning Message 61-90 part 2	FURTHER COLLECTION		Store	*Store	No
+420	A/R	Statement Dunning Message 61-90 part 3			Store	*Store	No
+430	A/R	Statement Dunning Message OVER 90 part 1	YOUR ACCOUNT IS CLOSED		Store	*Store	No
+440	A/R	Statement Dunning Message OVER 90 part 2	UNTIL PAYMENT IS MADE		Store	*Store	No
+450	A/R	Statement Dunning Message OVER 90 part 3			Store	*Store	No
+460	A/R	Statement Revolving Charge PAST DUE part 1			Store	*Store	No
+470	A/R	Statement Revolving Charge PAST DUE part 2			Store	*Store	No
+480	A/R	Statement Revolving Charge PAST DUE part 3			Store	*Store	No
+490	A/R	Statement Revolving Charge Over Limit Part 1			Store	*Store	No
+500	A/R	Statement Revolving Charge Over Limit Part 2			Store	*Store	No
+510	A/R	Statement Revolving Charge Over Limit Part 3			Store	*Store	No
+520	A/R	Statement Bucket Headings Current			Store	*Store	No
+530	A/R	Statement Bucket Headings 1-30			Store	*Store	No
+540	A/R	Statement Bucket Headings 31-60			Store	*Store	No
+550	A/R	Statement Bucket Headings 61-90			Store	*Store	No
+560	A/R	Statement Bucket Headings OVER 90			Store	*Store	No
+570	A/R	Passoff method	Departmental Passoff		Store	*Store	No
+580	A/R	ROO to G/L Passoff	Yes		Store	*Store	No
+600	A/R	Automated passoff to General Ledger	Yes		Store	*Store	No
+2	SYSTEM	Default Fax priority	M		System	*System	No
+4	SYSTEM	Fax ID printed at the top of the page			System	*System	No
+5	SYSTEM	Send a cover page with the Fax?	N		System	*System	No
+100	POS	Vendor Code	ACE		Store	*Store	Yes
+110	POS	Next Cash Customer Number	*59998		Store	*Store	Yes
+120	POS	Next House Customer Number			Store	*Store	Yes
+130	POS	Coupon SKU	HHC		Store	*Store	Yes
+140	POS	POS Link Window	E=Transaction end		Store	*Store	Yes
+150	POS	Link to Cash Customer	Yes		Store	*Store	Yes
+160	POS	Receive customer hotsheet	Yes		Store	*Store	Yes
+100	INVENTORY	Keep stock information?	Yes		System	*System	No
+102	INVENTORY	Cost Used In Calculations	Average Cost		System	*System	No
+103	INVENTORY	Minimum Gross Profit Percent	35		System	*System	No
+104	INVENTORY	Next SKU Number	1825		System	*System	No
+105	INVENTORY	SKU Number Increment	5		System	*System	No
+106	INVENTORY	Price Printed on Label	Retail		System	*System	No
+107	INVENTORY	Price Label Name			System	*System	No
+108	INVENTORY	Keep Sales Prices?	Yes		System	*System	No
+109	SYSTEM	Print Spooler Prepage	C=Only if comments exist		System	*System	No
+110	INVENTORY	Keep Expanded Sales History	Yes		System	*System	No
+111	INVENTORY	Keep Expanded Promo Data	Yes		System	*System	No
+112	INVENTORY	EISH Total Sales Years	0		System	*System	No
+113	INVENTORY	EISH Promo Sales Years	0		System	*System	No
+114	INVENTORY	EISH Credit Sales Years	0		System	*System	No
+115	INVENTORY	Count Promotional Sales In Sales History?	Yes		System	*System	No
+116	INVENTORY	Count Promotional Sales In RIV Calculations?	Yes		System	*System	No
+117	INVENTORY	Use Customer Backorder in Suggested Order	Yes		System	*System	No
+118	INVENTORY	Keep Prices the Same in All Stores?	Yes		System	*System	No
+119	INVENTORY	Keep MPM the Same in All Stores?	Yes		System	*System	No
+120	INVENTORY	Amount of Purchase History	24		System	*System	No
+121	INVENTORY	Type of Purchase History (Months or Purchases)	Months		System	*System	No
+1	INVENTORY	Audit IMU/LOD QOH change	Yes		System	*System	Yes
+2	INVENTORY	Audit IMU/LOD add & del	Yes		System	*System	Yes
+3	INVENTORY	Include POS defectives	Yes		System	*System	Yes
+4	INVENTORY	Include IMU/LOD QOH change	Yes		System	*System	Yes
+5	INVENTORY	Include PIP QOH variance	Yes		System	*System	Yes
+6	INVENTORY	Always use LOCATION code	Yes		System	*System	Yes
+7	INVENTORY	Def Shrink Type  QOH	I		System	*System	Yes
+8	INVENTORY	Def Shrink Type POS	X		System	*System	Yes
+9	INVENTORY	Def Shrink Type PIP/QPIP	P		System	*System	Yes
+1	INVENTORY	Store	1		Terminal	*Terminal	Yes
+20	INVENTORY	Next by User Code 1			Terminal	*Terminal	Yes
+22	INVENTORY	Next by User Code 2			Terminal	*Terminal	Yes
+24	INVENTORY	Next by User Code 3			Terminal	*Terminal	Yes
+26	INVENTORY	Next by User Code 4			Terminal	*Terminal	Yes
+30	INVENTORY	Next by User Code 1 Exclusion	No		Terminal	*Terminal	Yes
+32	INVENTORY	Next by User Code 2 Exclusion	No		Terminal	*Terminal	Yes
+34	INVENTORY	Next by User Code 3 Exclusion	No		Terminal	*Terminal	Yes
+36	INVENTORY	Next by User Code 4 Exclusion	No		Terminal	*Terminal	Yes
+50	INVENTORY	Popularity Code			Terminal	*Terminal	Yes
+60	INVENTORY	Popularity Code Exclusion	No		Terminal	*Terminal	Yes
+70	INVENTORY	Inventory Key	Department/Class/Sequence number.		Terminal	*Terminal	Yes
+80	INVENTORY	Order Indicator Code from Inventory Maintenance Stocking Tab.			Terminal	*Terminal	Yes
+90	INVENTORY	Order Indicator Exclusion	No		Terminal	*Terminal	Yes
+100	INVENTORY	Iteration Count	500		Terminal	*Terminal	Yes
+110	INVENTORY	Promotional			Terminal	*Terminal	Yes
+120	INVENTORY	Promotional Exclusion	No		Terminal	*Terminal	Yes
+130	INVENTORY	Seasonal			Terminal	*Terminal	Yes
+140	INVENTORY	Seasonal Exclusion	No		Terminal	*Terminal	Yes
+150	INVENTORY	Primary Vendor			Terminal	*Terminal	Yes
+160	INVENTORY	Location			Terminal	*Terminal	Yes
+170	INVENTORY	Location Exclusion position 1	No		Terminal	*Terminal	Yes
+172	INVENTORY	Location Exclusion position 2	No		Terminal	*Terminal	Yes
+174	INVENTORY	Location Exclusion position 3	No		Terminal	*Terminal	Yes
+176	INVENTORY	Location Exclusion position 4	No		Terminal	*Terminal	Yes
+178	INVENTORY	Location Exclusion position 5	No		Terminal	*Terminal	Yes
+180	INVENTORY	Manufacturer Vendor			Terminal	*Terminal	Yes
+100	PURCHASING	Assign PO Numbers Automatically?	S=Yes.  Use store number as the first digit in the PO number.		Store	*Store	Yes
+101	PURCHASING	Next PO Number To Assign	1000006581		Store	*Store	Yes
+102	PURCHASING	Print Store Name on PO?	Yes		Store	*Store	Yes
+103	PURCHASING	PO Bill To Store ID			Store	*Store	Yes
+104	PURCHASING	Number of Days Before Future PO Quantity Becomes Current	14		Store	*Store	Yes
+105	PURCHASING	Use Landed Cost in Receiving?	Z=Based on extended cost; Don't recalculate retail		Store	*Store	Yes
+106	SYSTEM	Distribute Landed Cost to AP/MDE	Yes		System	"*System, Session, Local INI"	Yes
+107	PURCHASING	Create A/P Vouchers?	T=All Vouchers as Temporary		Store	*Store	Yes
+108	PURCHASING	Adv S/O Receiving - Access PO Fields in POS?	No		Store	*Store	No
+109	PURCHASING	Adv S/O Receiving - Suggest PO # in POS?	No		Store	*Store	No
+110	PURCHASING	Adv S/O Receiving - Prompt for Auto-Add of SO Items?	No		Store	*Store	No
+111	PURCHASING	Adv S/O Receiving - Prompt to Print PO?	No		Store	*Store	No
+112	PURCHASING	Adv S/O Receiving - GPO Options to Use	D		Store	*Store	No
+113	PURCHASING	Adv S/O Receiving - Allocate Uncommitted Receipts to BO's	No		Store	*Store	No
+114	PURCHASING	Adv S/O Receiving - Update POS Order Cost	No		Store	*Store	No
+115	PURCHASING	Adv S/O Receiving - Print Receipt Tickets	No		Store	*Store	No
+116	PURCHASING	Adv S/O Receiving - Receipt Ticket Includes	All items		Store	*Store	No
+1	POS	Default Criteria for Purging Cash Customer Transactions	24		System	*System	Yes
+2	POS	Default Criteria for Purging Charge Customer Transactions	36		System	*System	Yes
+3	POS	Default Criteria for Purging Special SKUs	36		System	*System	Yes
+4	POS	Default Criteria for Purging Deleted Customer Transactions	No		System	*System	Yes
+5	POS	Register Daily Activity Separately	Yes		System	*System	Yes
+6	POS	Record All Archive Updates	Yes		System	*System	Yes
+7	POS	Print To	Printer Only		System	*System	Yes
+2	SYSTEM	Short Store Name	ACE HARDWARE & PAINT1		Store	*Store	Yes
+3	SYSTEM	Address Line 1	14760 PENNOCK		Store	*Store	Yes
+4	SYSTEM	Address Line 2	APPLE VALLEY MN  55124		Store	*Store	Yes
+5	SYSTEM	Address Line 3			Store	*Store	Yes
+10	SYSTEM	Store Name Part 1	ACE HARDWARE & PAINT-APPLE VALLE		Store	*Store	Yes
+11	SYSTEM	Store Name Part 2	Y		Store	*Store	Yes
+20	SYSTEM	Which A/P Data Directory	1		Store	*Store	Yes
+21	SYSTEM	Which P/R Data Directory	1		Store	*Store	Yes
+22	SYSTEM	Which G/L Data Directory	1		Store	*Store	Yes
+50	SYSTEM	Your store's phone number	19524321004		Store	*Store	No
+60	SYSTEM	Your store's fax number	9524329427		Store	*Store	No
+100	SYSTEM	Resale Number	3777292		Store	*Store	Yes
+110	SYSTEM	Indicates this store is a warehouse.	No		Store	*Store	Yes
+120	SYSTEM	PST Registration #			Store	*Store	Yes
+130	SYSTEM	GST Registration #			Store	*Store	Yes
+140	SYSTEM	Checking Account Bank Name	ANCHOR BANK		Store	*Store	Yes
+150	SYSTEM	Checking Account Number	0420187		Store	*Store	Yes
+160	SYSTEM	Credit Card Bank Name			Store	*Store	Yes
+170	SYSTEM	Credit Card Account Number			Store	*Store	Yes
+180	SYSTEM	Store's First Affiliate	ACE		Store	*Store	Yes
+190	SYSTEM	Store's Second Affiliate			Store	*Store	Yes
+200	SYSTEM	Store's Country Code	US		Store	*Store	Yes
+1001	SYSTEM	Central Inventory Refresh?	No		Store	*Store	Yes
+1003	SYSTEM	Data Warehouse Inventory Refresh?	No		Store	*Store	Yes
+10	SYSTEM	Lockin Store	1		Terminal	*Terminal	Yes
+101	POS	POS In Training	No		Terminal	*Terminal	Yes
+102	POS	Return to Header Screen After Each POS Transaction	N=Posting		Terminal	*Terminal	Yes
+103	POS	Start with Cursor in Quantity Field	No		Terminal	*Terminal	Yes
+110	POS	Display Backorder Prompt	No		Terminal	*Terminal	Yes
+120	POS	Print Pick Ticket for Backordered Items	No		Terminal	*Terminal	Yes
+130	POS	Check Guarantee Allowed	No Check Guarantee at this terminal		Terminal	*Terminal	Yes
+140	POS	Credit Authorization Allowed	P=Credit Authorization is allowed at this terminal (Protobase)		Terminal	*Terminal	Yes
+150	POS	Print Shop Order with/without Prices	No		Terminal	*Terminal	Yes
+160	POS	Print Loading Receipt	L=Print load items only		Terminal	*Terminal	Yes
+170	POS	POS Display uses NEX attributes	No		Terminal	*Terminal	Yes
+180	POS	Auto Display Due Date Window	No		Terminal	*Terminal	Yes
+190	POS	Display Qty NA Warning Message	Yes		Terminal	*Terminal	Yes
+200	POS	Display Cost on Inquiry	No		Terminal	*Terminal	Yes
+210	POS	Display Matrix Prices	No		Terminal	*Terminal	Yes
+220	POS	Display Running GP%	No		Terminal	*Terminal	Yes
+230	POS	Display Extended Description Prompt Window	No		Terminal	*Terminal	Yes
+300	SYSTEM	Terminal Type	P		Terminal	*Terminal	Yes
+310	POS	Shop Order Printer Number	2		Terminal	*Terminal	Yes
+400	POS	QuickView Sequence	Fineline		Terminal	*Terminal	Yes
+420	POS	Print Cost & GP% on Store Copy of Invoice	No		Terminal	*Terminal	Yes
+430	POS	Print Lumber Type Totals on Invoice	No		Terminal	*Terminal	Yes
+500	SYSTEM	Terminal's Default User	DEFAULT		Terminal	*Terminal	Yes
+520	SYSTEM	Terminal's Special Security	O		Terminal	*Terminal	Yes
+900	POS	POS Display Price Code	No		Terminal	*Terminal	Yes
+910	POS	Show Job List at POS	Yes		Terminal	*Terminal	Yes
+2	SECURITY	Password	************		Store+User		Yes
+3	SECURITY	Check Password At P.O.S.?	Yes		Store+User		Yes
+4	SECURITY	Full Name	REED ANDERSON		Store+User		Yes
+5	SECURITY	Cash Drawer Number?	1		Store+User		Yes
+6	SECURITY	Default Salesperson			Store+User		Yes
+7	SECURITY	Employee Number			Store+User		Yes
+10	SECURITY	E-Contractor Customer Number			Store+User		Yes
+20	SECURITY	Department/Job Code			Store+User		Yes
+50	SECURITY	Last Signon Date	10/11/2011		Store+User		No
+60	SECURITY	Last Signoff Date	10/11/2011		Store+User		No
+70	SECURITY	Last Signon Time	124834		Store+User		No
+75	SECURITY	Last Signoff Time	124830		Store+User		No
+80	SECURITY	Period To Date Hours On Line	000102771		Store+User		No
+90	SECURITY	Year To Date Hours On Line	002408411		Store+User		No
+150	SECURITY	High-Security Passwords	No		Store+User		No
+155	SECURITY	Locked Out	No		Store+User		No
+10	POS	Print Invoices?	Yes		Store	*Store	Yes
+30	POS	Print Invoices with description?	Yes		Store	*Store	Yes
+50	POS	Print Invoice with Store Name (Y/N/E)	Yes		Store	*Store	Yes
+70	POS	Print Promo Message Lines on Invoice	Yes		Store	*Store	Yes
+90	POS	Print Invoices with Due Date?	No		Store	*Store	Yes
+110	POS	Print Invoices with Kits Expanded? (Y/N/U)	Y=The kit SKU and all the components print		Store	*Store	Yes
+120	POS	Alternate Journal Number Usage	Y=RDJ & RCK print by Terminal #		Store	*Store	No
+130	POS	Print Invoices with Phone Number?  (A/O/N)	All POS documents print phone number.		Store	*Store	Yes
+140	POS	Suggested Price to Print? (L/M/R/P/ )	"M=Retail price or blank price in ""SUGG PRICE"" column."		Store	*Store	Yes
+150	POS	Print Invoice Terms Discount Readable?	No		Store	*Store	Yes
+160	POS	Print Prices on Estimates? (Y/N/E)	Y=Print Prices.		Store	*Store	Yes
+170	POS	Print Invoices Invoice Spacing? (1-3)	1		Store	*Store	Yes
+180	POS	Print Invoices Promo / Discount Percent?	Yes		Store	*Store	Yes
+190	POS	Promo Message Line 1 (characters 1-32)			Store	*Store	Yes
+195	POS	Promo Message Line 1 (characters 33-40)			Store	*Store	Yes
+200	POS	Print Invoices Total Weight?	No		Store	*Store	Yes
+210	POS	Promo Message Line 2 (Characters 1-32)			Store	*Store	Yes
+215	POS	Promo Message Line 2 (Characters 33-40)			Store	*Store	Yes
+220	POS	Display Matrix Pricing? (Y/N/B)	"N=Retail prices display along with an ""R""."		Store	*Store	Yes
+230	POS	Customer Display Message line 1			Store	*Store	Yes
+240	POS	Use Order Number with Invoicing?	No		Store	*Store	Yes
+250	POS	Customer Display Message Line 2			Store	*Store	Yes
+260	POS	Search Catalog at POS? (Y/N/S)	Y=Search catalog for SKU at POS.		Store	*Store	Yes
+265	POS	Print Cash Tendered Line on Receipt Printer?	Yes		Store	*Store	Yes
+270	POS	Print Store Name Line on Receipt Printer?	Yes		Store	*Store	Yes
+280	POS	Print Change Line on Receipt Printer?	Yes		Store	*Store	Yes
+290	POS	Print Charge Customer on Receipt Printer?	Yes		Store	*Store	Yes
+300	POS	Print Audit Line on Receipt Printer?	Yes		Store	*Store	Yes
+310	POS	Print Promo Message Lines on Receipt	Yes		Store	*Store	Yes
+320	POS	Print Savings Line on Receipt Printer?	Yes		Store	*Store	Yes
+325	POS	Print Invoiced Order on Receipt Printer? (Y/N/P)	Y=Print Order Detail Lines		Store	*Store	Yes
+330	POS	Default Customer Number?	*1		Store	*Store	Yes
+340	POS	Return to Clerk? (Y/N/T )	T=After x seconds the cursor returns to the Clerk field.		Store	*Store	Yes
+350	POS	Preset Quantity to 1?	No		Store	*Store	Yes
+360	POS	Display Customer Balances? (Y/N/R)	N=Do not display customer account information at POS.		Store	*Store	Yes
+370	POS	Build Order Reference?	Yes		Store	*Store	Yes
+380	POS	Use Pricing Unit of Measure to Compute Price?	No		Store	*Store	Yes
+390	POS	Post SBC Rental as Taxable?	Yes		Store	*Store	Yes
+400	POS	Promo Prices in Estimates?	Yes		Store	*Store	Yes
+410	POS	Use Current Cost when Invoicing?	Y=The system uses the cost currently in the inventory record for each item.		Store	*Store	Yes
+420	POS	Display Past Due Warning?	N=Do not warn when past due		Store	*Store	Yes
+430	POS	Use Retail Price in Best Pricing?	Yes		Store	*Store	Yes
+440	POS	Cross Store Charges Allowed? (Y/N/W)	N=Cross store charges are not allowed for any customers.		Store	*Store	Yes
+445	POS	Sequence Estimates by? (L/U)	Line items are sequenced by line number.		Store	*Store	Yes
+450	POS	Default for Raincheck days?	20		Store	*Store	Yes
+460	POS	'Display' After Barcode Scan? (D/L/Y/N)	L=Display SKU description quantity price after UPC scan.		Store	*Store	Yes
+470	POS	Globally Assign Use Code?	No		Store	*Store	Yes
+480	POS	Assign Invoice/Journal number to ROA? (I/J)	J=Assign journal numbers to ROA's taken at POS.		Store	*Store	Yes
+490	POS	Access Order/Transaction Code? (Y/N)	N=You cannot access the Code field when you post or change an item on an order or transfer.		Store	*Store	Yes
+500	POS	Purge deleted Transaction immediately?	Yes		Store	*Store	Yes
+510	POS	Require Charge Authorization? (Y/N/S)	Y=The clerk is prompted to select a name from the authorized signature list for all transactions except ROA's.		Store	*Store	Yes
+520	POS	Require COD when Charge Not Allowed?	No		Store	*Store	Yes
+530	POS	On Transfers Update Committed Quantity?	Yes		Store	*Store	Yes
+540	POS	On Transfers Update Inventory Cost at To-Store?	B=Update Both Average Cost and Replacement Cost.		Store	*Store	Yes
+550	POS	On Transfers Update Quantity on Order?	Yes		Store	*Store	Yes
+560	POS	Update Purchase History at From-Store?	No		Store	*Store	Yes
+570	POS	Update Purchase History at To-Store?	Yes		Store	*Store	Yes
+580	POS	Update Inventory Sales History at From-Store? (Y/I/N/U)	N=Do not update any inventory sales history. QOH is updated.		Store	*Store	Yes
+590	POS	Update Date Last Receipt?	Yes		Store	*Store	Yes
+600	POS	Apply Terms Discount to Promotion Items? (Y/N)	No		Store	*Store	Yes
+610	POS	Apply Trade Discount to Promotion Items? (Y/N)	No		Store	*Store	Yes
+620	POS	Apply Terms Discount to Discounted Items? (Y/N)	No		Store	*Store	Yes
+630	POS	Apply Trade Discount to Discounted Items? (Y/N)	No		Store	*Store	Yes
+650	POS	Apply Terms Discount to Quantity Break Items? (Y/N)	No		Store	*Store	Yes
+660	POS	Apply Trade Discount to Quantity Break Items? (Y/N)	No		Store	*Store	Yes
+670	POS	Apply Terms Discount to Pricing Matrix Items? (Y/N)	No		Store	*Store	Yes
+680	POS	Apply Trade Discount to Pricing Matrix Items? (Y/N)	No		Store	*Store	Yes
+690	POS	Apply Terms Discount to Open Quote Items? (Y/N)	No		Store	*Store	Yes
+700	POS	Apply Trade Discount to Open Quote Items? (Y/N)	No		Store	*Store	Yes
+710	POS	Apply Discount to Tax Amount? (Y/N)	No		Store	*Store	Yes
+720	POS	Apply Discount to Non Discountable Items? (Y/N)	No		Store	*Store	Yes
+730	POS	Apply Discount to Give Immediate Discount? (Y/N)	No		Store	*Store	Yes
+740	POS	Apply Terms Discount to Millwork Assemblies? (Y/N)	No		Store	*Store	Yes
+750	POS	Apply Trade Discount to Millwork Assemblies? (Y/N)	No		Store	*Store	Yes
+760	POS	Mark <RUN> Priced Items as Discounted? (Y/N)	No		Store	*Store	Yes
+770	POS	Print 1st Customer Heading on line	11		Store	*Store	Yes
+780	POS	Print 1st Detail line on line	22		Store	*Store	Yes
+790	POS	Print 1st Total line on line	57		Store	*Store	Yes
+800	POS	Number of Detail lines to print	35		Store	*Store	Yes
+820	POS	Print Detail Line Column Header? (Y/N)	Yes		Store	*Store	Yes
+830	POS	Print Pricing Mil Digit? (Y/N)	Yes		Store	*Store	Yes
+990	POS	Valid Credit Cards Other Credit Cards	Yes		Store	*Store	Yes
+1000	POS	Valid Credit Cards Visa?	Yes		Store	*Store	Yes
+1010	POS	Valid Credit Cards Mastercard?	Yes		Store	*Store	Yes
+1015	POS	Valid Credit Cards American Express?	Yes		Store	*Store	Yes
+1020	POS	Valid Credit Cards Discover/Novus?	Yes		Store	*Store	Yes
+1030	POS	Valid Credit Cards Diners Club/Carte Blanche	Yes		Store	*Store	Yes
+1040	POS	Private Label Card Plan Code field1 (U/A/B/C/D/  )			Store	*Store	Yes
+1050	POS	Private Label Card Plan Code field2 (1/2/3/4/  )			Store	*Store	Yes
+1060	POS	Open Cash Drawer for Credit Cards?	No		Store	*Store	Yes
+1070	POS	Open Cash Drawer for Checks?	Yes		Store	*Store	Yes
+1080	POS	Warn on Force Transaction?	Yes		Store	*Store	Yes
+1090	POS	Default Check Guarantee? (A/D/N)	No prompt at POS.		Store	*Store	Yes
+1110	POS	Endorse Checks?	Yes		Store	*Store	Yes
+1120	POS	Print Store Receipt for Charge?	Yes		Store	*Store	Yes
+1130	POS	Endorse Bankcards?	No		Store	*Store	Yes
+1140	POS	Print full Credit Card Number/Exp Date on Store Receipt?	Both - Mask on store & customer receipt		Store	*Store	Yes
+1150	POS	Exchange Rate	7.6288		Store	*Store	Yes
+1160	POS	Credit Card Receipt Message Line 1			Store	*Store	Yes
+1165	POS	Credit Card Receipt Message Line 1a			Store	*Store	Yes
+1170	POS	Credit Card Receipt Message Line 2			Store	*Store	Yes
+1175	POS	Credit Card Receipt Message Line 2a			Store	*Store	Yes
+1180	POS	Credit Card Receipt Message Line 3			Store	*Store	Yes
+1185	POS	Credit Card Receipt Message Line 3a			Store	*Store	Yes
+2015	SYSTEM	Booking Open Quote	No		System	*System	Yes
+3020	SYSTEM	Update vendor records through EFM even if 'Name' does not match?	No		System	*System	Yes
+3025	SYSTEM	Post Tally G (gas) SKU with 'price per gallon' descriptor line?	N=Post without descriptor		System	*System	Yes
+1126	POS	Family Quantity Break	Yes		System	*System	Yes

@@ -1,0 +1,58 @@
+div.index-body-white
+{
+	padding: 1px 0px;
+	background-color: #FFFFFF;
+}
+div.index-body-ltblue
+{
+	padding: 1px 0px;
+	background-color: #A0D0FF;
+}
+
+div.generalList
+{
+	width: 100%;
+	margin: 0px;
+	background-color: #FFFFFF;
+}
+table.generalElement
+{
+	border-width: 0px;
+	border-spacing: 0px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+table.phoneList
+{
+	border-width: 0px;
+	border-spacing: 0px;
+	width: 100%;
+	margin: 0px;
+	background-color: #FFFFFF;
+}
+tr.phoneListHeader
+{
+	background-color: #909090;
+}
+tr.phoneListSubHeader
+{
+	background-color: #C0C0C0;
+}
+div.mailImage
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-radius: 10px;
+	margin: 5px;
+	-webkit-box-shadow: 1px 1px 3px #000000;
+}
+td.mailHeader
+{
+	font-weight: bold;
+	text-align: center;
+}
+td.mailSubHeader
+{
+	text-align: center;
+}

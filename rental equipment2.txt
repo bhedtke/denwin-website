@@ -1,0 +1,52 @@
+<html>
+<body>
+<table>
+<tr><td>Rental Item Name</td><td>SKU</td><td>Hourly Rate</td><td>Hour Minimum</td></tr>
+<tr><td>Lawn Roller #91</td><td>300391</td><td>$10 (4 Hr) $15 (Day)</td><td>4 Hr min.</td></tr>
+<tr><td>Lawn Roller #92</td><td>300392</td><td>$10 (4 Hr) $15 (day) </td><td>4 Hr min.</td></tr>
+<tr><td>Moen Stem Remover #1</td><td>100101</td><td>$5 Day</td><td>1 Day minimum</td></tr>
+<tr><td>Moen Stem Remover #2</td><td>100102</td><td>$5 Day</td><td>1 Day min.</td></tr>
+<tr><td>Paint Stripping Machine</td><td>100111</td><td>$15.00 day with Paint purchase</td><td>1 day min.</td></tr>
+<tr><td>Pipe Wrench</td><td>800012</td><td>$5.00 Day</td><td>1 Day min.</td></tr>
+<tr><td>Post Driver</td><td>No Number</td><td>$5 Day</td><td>1 Day min.</td></tr>
+<tr><td>Post Hole Digger Auger</td><td>800500</td><td>$10.00 Day</td><td>1 Day min.</td></tr>
+<tr><td>Post Hole Digger Spade</td><td>800501</td><td>$10.00 Day</td><td>1 Day min.</td></tr>
+<tr><td>Power Rake w/ Bag #259</td><td>200259</td><td>$20.00 Hr.</td><td>2 Hr min.</td></tr>
+<tr><td>Power Rake w/ bag #274</td><td>200274</td><td>$20.00 Hr.</td><td>2 Hr min.</td></tr>
+<tr><td>Power Rake w/ bag #277</td><td>772002</td><td>$20.00 Hr.</td><td>2 Hr min.</td></tr>
+<tr><td>Power Rake w/o bag #247</td><td>200247</td><td>$18.50 Hr.</td><td>2 Hr min.</td></tr>
+<tr><td>Power Rake w/o bag #250</td><td>200250</td><td>$18.50 hr</td><td>2 Hr min.</td></tr>
+<tr><td>Power Washer Electric</td><td>140002</td><td>$35 (4 hrs) $50 (8 hrs)</td><td>4 Hr min.</td></tr>
+<tr><td>Power Washer Gas</td><td>100004</td><td>$50.00 (4 hrs) $60 (8 hrs)</td><td>2 Hr min.</td></tr>
+<tr><td>Ramps</td><td>RE</td><td>$8 day</td><td>1 day min.</td></tr>
+<tr><td>Palm Sander</td><td>600100</td><td>$8 (4 hr) $15 (day)</td><td>4 Hr min.</td></tr>
+<tr><td>Sawzall</td><td>600101</td><td>$8 (4 hr) $15 (day)</td><td>4 Hr min.</td></tr>
+<tr><td>Seat Wrench</td><td>800322</td><td>$5.00 day</td><td>1 day min.</td></tr>
+<tr><td>Sewer Auger 25 Inch</td><td>800325</td><td>$5.00 Day</td><td>1 Day min.</td></tr>
+<tr><td>Sewer Auger 50 inch</td><td>800350</td><td>$10.00 Day</td><td>1 Day min.</td></tr>
+<tr><td>Sledge Hammer</td><td>800302</td><td>$5.00 Day</td><td>1 Day min.</td></tr>
+<tr><td>Slicer/Seeder #328</td><td>800328</td><td>$20.00 Hr.</td><td>2 Hr min.</td></tr>
+<tr><td>Slit Seeder</td><td>800328</td><td>$20.00 Hr.</td><td>2 Hr min.</td></tr>
+<tr><td>Sod Cutter #3</td><td>600003</td><td>$8 (4 hr) $15 (day)</td><td> 4 Hr min.</td></tr>
+<tr><td>Sod Cutter #6</td><td>600006</td><td>$8 (4 hr) $15 (day) </td><td>4 Hr min.</td></tr>
+<tr><td>Sod Roller</td><td>No Number</td><td>$8 (4hrs) $15 (day)</td><td>4 Hr min.</td></tr>
+<tr><td>Drop Spreader #432</td><td>800432</td><td>$5 (4 hrs) $8 (day)</td><td>4 Hr min.</td></tr>
+<tr><td>Drop Spreader #10</td><td>800010</td><td>$5 (4 hrs) $8 (day) </td><td>4 Hr min.</td></tr>
+<tr><td>Rotary Spreader #1</td><td>800101</td><td>$5 (4 hrs) $8 (day) </td><td>4 Hr min.</td></tr>
+<tr><td>Rotary Spreader #2</td><td>800102</td>$5 (4 hr) $8 (day) <td></td><td>4 Hr min.</td></tr>
+<tr><td>Tamper</td><td>800001</td><td>$10.00 Day</td><td>1 Day min.</td></tr>
+<tr><td>Tile Cutter</td><td>800110</td><td>$10.00 Day</td><td>1 Day min.</td></tr>
+<tr><td>Tiller #2</td><td>700002</td><td>$10.00 Hr.</td><td>2 Hr min.</td></tr>
+<tr><td>Tiller #3</td><td>700003</td><td>$10.00 Hr.</td><td>2 Hr min.</td></tr>
+<tr><td>Echo Q cycle Tiller</td><td>700006</td><td>$10.00 Hr.</td><td>2 Hr min.</td></tr>
+<tr><td>Large Rearline Tiller</td><td>700005</td><td>$15.00 Hr.</td><td>2 Hr min.</td></tr>
+<tr><td>Toilet Auger</td><td>800100</td><td>$8.00 Day</td><td>1 Day min.</td></tr>
+<tr><td>Large Live Trap</td><td>800505</td><td>$25.00</td><td>1 Week</td></tr>
+<tr><td>Small Live Trap</td><td>unknown</td><td>$25.00 week</td><td>1 week</td></tr>
+<tr><td>Tree Trimmer</td><td>800002</td><td>$10.00 Day</td><td>1 day</td></tr>
+<tr><td>Utility Pump</td><td>800502</td><td>$10.00 Day</td><td>1 Day</td></tr>
+<tr><td>Wall Paper Steamer</td><td>800013 (4Hr) 800014 (Day)</td><td>$15 (4Hr) $30 (Day)</td><td></td></tr>
+<tr><td>Plug Wrench</td><td>unknown</td><td>Price Unknown</td><td>2 Hr min.</td></tr>
+</table>
+</body>
+</html>

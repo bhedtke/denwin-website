@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+ 
+<head> 
+ 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<title>Screen Pricing</title> 
+<style type="text/css" media="screen"> 
+ 
+body {
+	margin:50px 0px; padding:0px; /* Need to set body margin and padding to get consistency between browsers. */
+	text-align:center; /* Hack for IE5/Win */
+	}
+	
+#Content {
+	width:800px;
+	margin:0px auto; /* Right and left margin widths set to "auto" */
+	text-align:left; /* Counteract to IE5/Win Hack */
+	padding:0px;
+	}
+ 
+</style> 
+ 
+<script type="text/javascript" src="jquery.min.js"></script> 
+<script type="text/javascript" src="animatedcollapse.js"></script> 
+ 
+ 
+<script type="text/javascript"> 
+ 
+//Link list higher-archy
+
+animatedcollapse.addDiv('valleycalculator', 'speed=400,group=screen, hide=1')
+animatedcollapse.addDiv('acecalculator', 'speed=400,group=screen, hide=1')
+animatedcollapse.addDiv('bythefoot', 'speed=400,group=screen, hide=1')
+ 
+//End of Links List
+ 
+animatedcollapse.ontoggle=function($, divobj, state){ //fires each time a DIV is expanded/contracted
+	//$: Access to jQuery
+	//divobj: DOM reference to DIV being expanded/ collapsed. Use "divobj.id" to get its ID
+	//state: "block" or "none", depending on state
+}
+ 
+animatedcollapse.init()
+ 
+</script> 
+</head> 
+<body> 
+<center><b><font size="24" color=#CC3300>Screen and glass pricing</font></b> 
+ 
+ 
+ 
+<!-- Level 1 Item 1 --> 
+ 
+<table style="width: 800px; background: #999999;"><tr><td align="left">Valley View special order estimator</td><td align="right"><a href="#" rel="toggle[valleycalculator]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="valleycalculator" style="width: 800px; background: #CCCCCC;"> 
+Work in Progress
+</div>
+<table style="width: 800px; background: #999999;"><tr><td align="left">Ace window and door estimator</td><td align="right"><a href="#" rel="toggle[acecalculator]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="acecalculator" style="width: 800px; background: #CCCCCC;"> 
+Work in Progress
+</div>
+<table style="width: 800px; background: #999999;"><tr><td align="left">Material Prices</td><td align="right"><a href="#" rel="toggle[bythefoot]" data-openimage="collapse.jpg" data-closedimage="expand.jpg"><img src="collapse.jpg" border="0" /></a></td></tr> 
+</table> 
+<div id="bythefoot" style="width: 800px; background: #CCCCCC;"> 
+<table border="2" cellpadding="3" style="width: 90%; background: #FFFFFF;">
+<tr bgcolor=#CC3300>
+<td>Bulk Screen</td>
+</tr>
+<tr bgcolor=#999999>
+<td>Material</td>
+<td>Color</td>
+<td>24"</td>
+<td>28"</td>
+<td>32"</td>
+<td>36"</td>
+<td>48"</td>
+<td>60"</td>
+</tr>
+<tr bgcolor=#FFFFFF>
+<td>Aluminum</td>
+<td>Charcoal</td>
+<td>5033956</td>
+<td>53929</td>
+<td>53932</td>
+<td>93943</td>
+<td>53948</td>
+<td>5033972</td>
+</tr>
+<tr bgcolor=#CCCCCC>
+<td>Aluminum</td>
+<td>Silver</td>
+<td>52345</td>
+<td>52347</td>
+<td>52349</td>
+<td>52350</td>
+<td>52352</td>
+<td>5033949</td>
+</tr>
+<tr bgcolor=#FFFFFF>
+<td>Fiberglass</td>
+<td>Charcoal</td>
+<td>52488</td>
+<td>52490</td>
+<td>52492</td>
+<td>52493</td>
+<td>52494</td>
+<td>55350</td>
+</tr>
+<tr bgcolor=#CCCCCC>
+<td>Fiberglass</td>
+<td>Grey</td>
+<td>57606</td>
+<td>5000047</td>
+<td>57608</td>
+<td>51958</td>
+<td>51959</td>
+<td>51962</td>
+</tr>
+<tr bgcolor=#FFFFFF>
+<td>Pet Proof</td>
+<td>Black</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>5172382</td>
+<td>5172424</td>
+<td>NA</td>
+</tr>
+</table>
+</div>
+</center> 
